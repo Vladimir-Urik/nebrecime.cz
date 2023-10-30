@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="cs">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>5. Římské antické umění</title>
+
+		<link rel="stylesheet" href="../main.css" />
+		<script src="../main.js" defer></script>
+	</head>
+	<body>
+		<div id="theme-switcher"></div>
+		<a id="scroll-up" href="#" class="hidden">
+			<svg
+				xmlns="http://www.w3.org/2000/svg"
+				width="24"
+				height="24"
+				viewBox="0 0 24 24"
+				fill="none"
+				stroke="currentColor"
+				stroke-width="2"
+				stroke-linecap="round"
+				stroke-linejoin="round"
+				class="feather feather-arrow-up"
+			>
+				<line x1="12" y1="19" x2="12" y2="5"></line>
+				<polyline points="5 12 12 5 19 12"></polyline>
+			</svg>
+		</a>
+
+		<nav>
+			<a href="../">Rozcestník</a>
+			<a href="#arch">Architektura</a>
+			<a href="#socha">Sochařství</a>
+			<a href="#malir">Malířství</a>
+			<a href="#audio-player">Audio</a>
+		</nav>
+
+		<main>
+			<h1>5. Římské antické umění</h1>
+			<h2>Důležitá data</h2>
+			<ul class="b">
+				<li>
+					<u>313 EDIKT MILÁNSKÝ</u>
+					<ul>
+						<li class="n">
+							legalizace křesťanství na území Římské říše
+						</li>
+					</ul>
+				</li>
+				<li class="u">476 ZÁNIK ZÁPADOŘÍMSKÉ ŘÍŠE</li>
+			</ul>
+
+			<h2>Geografie</h2>
+			<ul class="b">
+				<li>apeninský poloostrov</li>
+				<li>nejprve etruskové, řím byl království</li>
+				<li>poté republika (rés publika - věc veřejná)</li>
+			</ul>
+
+			<h2>Chronologie</h2>
+			<ul class="b">
+				<li>
+					UMĚNÍ POZDNÍ REPUBLIKY (TÉŽ ŘECKO-ŘÍMSKÉ UMĚNÍ) 100 - 30 př.
+					n. l.
+				</li>
+				<li>UMĚNÍ ZA CÍSAŘSTVÍ (30 př. n l. - 313 n. l.)</li>
+				<li>RANĚ KŘESŤANSKÉ UMĚNÍ (313 - 476)</li>
+			</ul>
+
+			<h2 id="arch">ARCHITEKTURA</h2>
+			<ul class="b">
+				<li>princip chrámu od řeků - příbytek boha</li>
+				<li>nově používán beton</li>
+				<li class="n">
+					výborní na inženýrské stavby
+					<ul>
+						<li>Akvadukt - most na vodu (“vodovodič”)</li>
+						<li>Viadukt - cesta</li>
+					</ul>
+				</li>
+
+				<li>
+					první baziliky, ovšem použití jako
+					<u>trhy nebo soudní síně</u>
+				</li>
+			</ul>
+
+			<h2 id="socha">Sochařství</h2>
+			<ul class="b">
+				<li>objevení portrétů</li>
+				<li>
+					kult předků
+					<ul>
+						<li>
+							když někdo umřel, odlili posmrtnou masku → první
+							busty
+						</li>
+						<li>veškeré vrásky, detaily</li>
+						<li>po vzniku císařství sloužil pro kult císařů</li>
+						<li>použití kontrapostu</li>
+						<li>vztyčená pravice → motiv hovoření k lidu</li>
+					</ul>
+				</li>
+
+				<li>vítězné <u>OBLOUKY</u> → <u>POZEMNÍ</u> bitvy</li>
+				<li>vítězné <u>SLOUPY </u> → <u>NÁMOŘNÍ</u> bitvy</li>
+				<li>
+					TOSKÁNSKÝ SLOUP
+					<ul>
+						<li>HLAVICE JAKO DÓRSKÝ</li>
+						<li>MÁ PATKU (OPROTI DÓRSKÉMU)</li>
+						<li>NEMÁ KANELURY (HLADKÝ)</li>
+					</ul>
+				</li>
+			</ul>
+
+			<img
+				src="img/5-toskansky-sloup.jpg"
+				alt="5-toskansky-sloup.jpg"
+				class="half invertable"
+				loading="lazy"
+			/>
+
+			<ul class="b">
+				<li>
+					KOMPOZITNÍ ŘÁD
+					<ul>
+						<li>IONSKÝ + KORINSKÝ (VOLUTY + AKANT)</li>
+					</ul>
+				</li>
+			</ul>
+			<img
+				src="img/5-kompozitni-sloup.jpg"
+				alt="5-kompozitni-sloup.jpg"
+				loading="lazy"
+				class="invertable"
+			/>
+
+			<h2 id="malir">Malířství</h2>
+			<ul class="b">
+				<li>zbytky z Pompejí po výbuchu sopky</li>
+				<li>
+					náznaky perspektivy, oproti Řekům není problém s ženskými
+					akty
+				</li>
+			</ul>
+			<h2>OBRÁZKY</h2>
+			<ul class="b">
+				<li>
+					jde mluvit o principu baziliky, ovšem bacha na současné
+					využití → zatím není sakrální
+				</li>
+			</ul>
+			<h2 id="audio-player">Audio</h2>
+			<br />
+			<div class="audio-div">
+				<audio controls>
+					<source src="audio/5.mp3" type="audio/mpeg" />
+					Tvůj prohlížeč nepodporuje přehrávání audia.
+				</audio>
+			</div>
+		</main>
+
+		<script src="../smooth-scroll.min.js"></script>
+		<script>
+			var scroll = new SmoothScroll('a[href*="#"]');
+		</script>
+	</body>
+</html>
