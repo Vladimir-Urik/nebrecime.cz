@@ -1,6 +1,6 @@
 # nebrecime.cz
 
-Studijní web pro studenty školy CreativeHill.CZ. Poznámky z maturitních předmětů — DVK, VMA, Čeština.
+Studijní web pro studenty školy CreativeHill.CZ. Poznámky z maturitních předmětů
 
 ## Struktura projektu
 
