@@ -1,0 +1,31 @@
+questions:
+  - q: "Který rok se považuje za datum korunovace Karla Velikého císařem?"
+    options: ["768", "800", "843", "962"]
+    answer: 1
+  - q: "Jak se nazývá výrazná dvěta věžová fasáda franckých klášterních kostelů?"
+    options: ["Westwerk", "Transept", "Apsida", "Atrium"]
+    answer: 0
+  - q: "Který text je nejznámějším příkladem irsko-skotského iluminátorství?"
+    options: ["Codex Vyšehradský", "Glagolice", "Kniha z Kellsu", "Bible Václava IV."]
+    answer: 2
+  - q: "V kterém roce přijeli Konstantin a Metoděj na Velkou Moravu?"
+    options: ["833", "863", "885", "906"]
+    answer: 1
+  - q: "Jak se nazývá okrouhlá stavba s apsidami typická pro Velkou Moravu?"
+    options: ["Bazilika", "Rotunda", "Martyrium", "Falc"]
+    answer: 1
+  - q: "Kde bylo vybudováno první benediktinské opatství (r. 529)?"
+    options: ["Cluny", "Monte Cassino", "Canterbury", "Saint-Denis"]
+    answer: 1
+  - q: "Jak se nazývalo opevněné císařské sídlo Karla Velikého?"
+    options: ["Falc", "Hrad", "Westwerk", "Ambit"]
+    answer: 0
+  - q: "Jaké je charakteristické zdobení irsko-skotského umění?"
+    options: ["Zlaté pozadí a ikony světců", "Pletence a spirály", "Perspektivní krajiny", "Realistické portréty"]
+    answer: 1
+  - q: "V Mikulčicích byly nalezeny příklady jakého druhu stavby z Velké Moravy?"
+    options: ["Románské baziliky", "Irské kříže", "Rotundy", "Gotické katedrály"]
+    answer: 2
+  - q: "Které písmo vytvořili Konstantin a Metoděj pro slovanský jazyk?"
+    options: ["Cyrilice", "Hlaholice", "Latinku", "Runové písmo"]
+    answer: 1

@@ -1,0 +1,31 @@
+questions:
+  - q: "Jaké jsou tři hlavní konstrukční znaky gotické katedrály?"
+    options: ["Valený oblouk, rotunda, apsida", "Lomený oblouk, opěrný systém, žebrové klenby", "Westwerk, ambit, falc", "Mandorla, nimbus, oranti"]
+    answer: 1
+  - q: "Kde byl postaven první gotický kostel s vitrážemi a rozetou (12. stol.)?"
+    options: ["Notre-Dame de Paris", "Reims", "Chartres", "Saint-Denis"]
+    answer: 3
+  - q: "V kterém gotickém chrámu byli korunováni francouzští králové?"
+    options: ["Sainte-Chapelle", "Notre-Dame de Paris", "Reims", "Chartres"]
+    answer: 2
+  - q: "Co charakterizuje cisterciácký gotický styl na rozdíl od katedrálního?"
+    options: ["Bohatá polychromie a vitráže", "Strohá jednoduchost, zákaz barev a věží", "Maximální výška a světlost", "Velké rozetové okno na průčelí"]
+    answer: 1
+  - q: "Kdo je autorem nejstarších sochařských portrétů v Čechách a dostavby katedrály sv. Víta?"
+    options: ["Matyáš z Arrasu", "Mistr Třeboňský", "Petr Parléř", "Mistr Vyšebrodský"]
+    answer: 2
+  - q: "Jak se nazývají svitky s textem v rukou světců na gotických obrazech?"
+    options: ["Nimby", "Fylatéria", "Mandorly", "Aureoly"]
+    answer: 1
+  - q: "Co vyjadřuje 'hieratická perspektiva' v gotickém malířství?"
+    options: ["Vše je namalováno stejně ostře", "Důležitější postavy jsou zobrazeny větší", "Obrazy mají zlaté pozadí", "Krajina je zobrazena z ptačí perspektivy"]
+    answer: 1
+  - q: "Proč gotické malby používaly zlaté pozadí?"
+    options: ["Bylo to nejlevnější dostupné barvivo", "Zlato nekoroduje — symbolizuje věčnost a bohatství", "Byl to odkaz na antickou tradici", "Zlaté pozadí bylo povinné dle církevních předpisů"]
+    answer: 1
+  - q: "Který z těchto malířů byl autorem deskovém obrazu 'Zachycení Krista' s výraznou diagonální kompozicí?"
+    options: ["Petr Parléř", "Mistr Vyšebrodský", "Mistr Třeboňského oltáře", "Teodoric"]
+    answer: 2
+  - q: "Jak se nazývá kruhové okno s dekorativní kružbou na průčelí gotické katedrály?"
+    options: ["Vitráž", "Rozeta", "Tympanon", "Ochoz"]
+    answer: 1

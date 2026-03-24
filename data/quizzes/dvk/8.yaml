@@ -1,0 +1,31 @@
+questions:
+  - q: "Od jakého slova je odvozen název 'románský sloh'?"
+    options: ["Romulus (zakladatel Říma)", "Roma (Řím)", "Romanos (řecky silný)", "Romania (středověký stát)"]
+    answer: 1
+  - q: "Jaké přibližné časové rozmezí pokrývá románský sloh?"
+    options: ["700–1000", "1000–1250", "1150–1400", "1300–1500"]
+    answer: 1
+  - q: "Kam míří nejznámější románská pouť — do hrobu sv. Jakuba?"
+    options: ["Cluny", "Pisa", "Santiago de Compostela", "Mont Saint-Michel"]
+    answer: 2
+  - q: "Jak se nazývá polookrouhlý oblouk typický pro románské stavby?"
+    options: ["Lomený oblouk", "Valený oblouk", "Ústupkový portál", "Žebrová klenba"]
+    answer: 1
+  - q: "Co zobrazuje typický románský tympanon nad portálem kostela?"
+    options: ["Klanění tří králů", "Posledí soud s Kristem v mandorle", "Zvěstování Panně Marii", "Výjev z Apokalypsy"]
+    answer: 1
+  - q: "Slavný komplex v Pise se skládá z baziliky, baptisteria a čeho?"
+    options: ["Opatství", "Šikmé campanily", "Pohřebního kostela", "Biskupského paláce"]
+    answer: 1
+  - q: "V románském slohu: sloup má okrouhlý průřez, pilíř má průřez..."
+    options: ["Trojúhelníkový", "Oválný", "Čtvercový", "Šestihranný"]
+    answer: 2
+  - q: "Kde stálo nejslavnější středověké benediktinské opatství, centrum románského slohu ve Francii?"
+    options: ["Reims", "Cluny", "Chartres", "Auxerre"]
+    answer: 1
+  - q: "Co je 'mandorla' v románském umění?"
+    options: ["Druh oblouku nad portálem", "Aureola obklopující celé tělo Krista", "Výzdoba kapitelu sloupu", "Typ mozaikové podlahy"]
+    answer: 1
+  - q: "Jaký výtvarný princip zdůrazňuje románská skulptura — konturuje figury pomocí..."
+    options: ["Plasticity (trojrozměrné vymodelování)", "Linearity (důraz na obrys)", "Perspektivy (zkracování)", "Zlatého pozadí (ikonografická tradice)"]
+    answer: 1

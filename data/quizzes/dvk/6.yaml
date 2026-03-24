@@ -1,0 +1,31 @@
+questions:
+  - q: "Který edikt z roku 313 legalizoval křesťanství v Římské říši?"
+    options: ["Edikt milánský", "Edikt thessalonický", "Edikt nikájský", "Edikt konstantinopolský"]
+    answer: 0
+  - q: "Co symbolizoval ryb (ichthys) v raně křesťanském umění?"
+    options: ["Křest vodou", "Ježíš Kristus, Syn Boží", "Večeře Páně", "Vzkříšení"]
+    answer: 1
+  - q: "Který evangelista je zobrazován se symbolem orla?"
+    options: ["Marek", "Lukáš", "Matouš", "Jan"]
+    answer: 3
+  - q: "Jak se nazývá část chrámu nad oltářem vyhrazená kněžím?"
+    options: ["Transept", "Baptisterium", "Presbyterium", "Martyrium"]
+    answer: 2
+  - q: "Proč se v raně křesťanském umění zobrazovaly velké oči?"
+    options: ["Byl to vliv egyptského umění", "Velké oči = velká duše", "Zobrazovaly vševidoucnost Boha", "Byl to technický limit mozaiky"]
+    answer: 1
+  - q: "Co jsou 'oranti' v raně křesťanské ikonografii?"
+    options: ["Poutníci směřující do Jeruzaléma", "Figury s rozpaženýma rukama v modlitební pozici", "Andělé strážní nad hrobem", "Mučedníci zobrazení ve zlatém nimbu"]
+    answer: 1
+  - q: "Jaká písmena symbolizuje Kristus jako 'začátek a konec'?"
+    options: ["Alfa a Beta", "Alfa a Omega", "Chi a Rho", "Iota a Eta"]
+    answer: 1
+  - q: "Kde se nachází Hagia Sophia, nejvýznamnější byzantský chrám?"
+    options: ["Řím", "Athény", "Istanbul", "Ravenna"]
+    answer: 2
+  - q: "Proč byzantské umění preferovalo mozaiku před malbou?"
+    options: ["Mozaika byla levnější než freska", "Mozaika se považovala za trvalejší a odolnější materiál", "Malba byla zakázána církví", "Mozaika se lépe hodila do klima Blízkého východu"]
+    answer: 1
+  - q: "Jak se nazývá aureola (svatozář) obklopující celé tělo v byzantském umění?"
+    options: ["Nimbus", "Mandorla", "Tympanum", "Apsida"]
+    answer: 1
