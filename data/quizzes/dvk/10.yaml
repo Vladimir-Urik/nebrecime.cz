@@ -1,0 +1,31 @@
+questions:
+  - q: "Co znamená italské slovo 'rinascimento', od nějž pochází název renesance?"
+    options: ["Znovuzrození", "Osvícení", "Reforma", "Revoluce"]
+    answer: 0
+  - q: "Kdo jako první popsal renesanci jako 'znovuzrození antiky'?"
+    options: ["Leonardo da Vinci", "Michelangelo", "Giorgio Vasari", "Filippo Brunelleschi"]
+    answer: 2
+  - q: "Jak se nazývá technika malby, kdy jsou objekty v popředí ostré a pozadí postupně mizí jako kouř?"
+    options: ["Contrapposto", "Sfumato", "Chiaroscuro", "Nonfinito"]
+    answer: 1
+  - q: "Kdo objevil lineární perspektivu s jedním úběžným bodem?"
+    options: ["Leonardo da Vinci", "Filippo Brunelleschi", "Leon Battista Alberti", "Donatello"]
+    answer: 1
+  - q: "Jak se nazývá typický postoj renesančních soch — S-prohnutí těla s přenesením váhy na jednu nohu?"
+    options: ["Sfumato", "Contrapposto", "Nonfinito", "Chiaroscuro"]
+    answer: 1
+  - q: "Co označuje Michelangelův pojem 'nonfinito'?"
+    options: ["Přílišná detailnost, která kazí dílo", "Figura zdánlivě uvězněná v kamenném bloku, nehotové dílo", "Nová technika malby olejovými barvami", "Zobrazení nahého lidského těla"]
+    answer: 1
+  - q: "Který vlámský malíř proslavil techniku olejové malby umožňující mimořádné detaily?"
+    options: ["Albrecht Dürer", "Hieronymus Bosch", "Jan van Eyck", "Hans Holbein"]
+    answer: 2
+  - q: "Jaký grafický cyklus vytvořil Albrecht Dürer na téma Zjevení sv. Jana?"
+    options: ["Vzpoura sedláků", "Apokalypsa", "Tanec smrti", "Čtyři temperamenty"]
+    answer: 1
+  - q: "Čím se vyznačuje malba El Greca v manýrismu?"
+    options: ["Realistické portréty s přírodním světlem", "Deformované, protáhlé figury a výrazné sytosti barev", "Geometrická přesnost a klidné kompozice", "Zlatá pozadí a byzantský způsob zobrazení"]
+    answer: 1
+  - q: "Na Leonardově 'Poslední večeři' — kdo z apoštolů jako jediný ví o zradě spolu s Kristem?"
+    options: ["Petr", "Tomáš", "Juda", "Jan"]
+    answer: 2
