@@ -1,0 +1,9 @@
+baseURL = "https://nebrecime.cz/"
+languageCode = "cs"
+title = "Maturita Formalita"
+uglyURLs = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

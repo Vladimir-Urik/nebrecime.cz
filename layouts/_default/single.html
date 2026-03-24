@@ -1,0 +1,12 @@
+{{ define "main" }}
+<nav>
+	<a href="{{ "/" | relURL }}">Rozcestník</a>
+	{{ range .Params.nav }}
+	<a href="#{{ .anchor }}">{{ .label }}</a>
+	{{ end }}
+</nav>
+<main>
+	<h1>{{ default .Title .Params.smallTitle | safeHTML }}</h1>
+	{{ .Content }}
+</main>
+{{ end }}

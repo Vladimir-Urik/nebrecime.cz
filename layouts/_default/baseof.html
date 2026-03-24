@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>{{ if .IsHome }}{{ .Site.Title }} | Rozcestník{{ else }}{{ default .Title .Params.smallTitle }} | {{ .Site.Title }}{{ end }}</title>
+	{{ block "head-extra" . }}{{ end }}
+	<link rel="stylesheet" href="{{ "/main.css" | relURL }}" />
+	<link rel="icon" type="image/jpeg" href="{{ "/img/favicon/favicon.jpg" | relURL }}" />
+	<link rel="icon" type="image/png" sizes="32x32" href="{{ "/img/favicon/favicon-32x32.png" | relURL }}" />
+	<link rel="icon" type="image/png" sizes="16x16" href="{{ "/img/favicon/favicon-16x16.png" | relURL }}" />
+	<script src="{{ "/main.js" | relURL }}" defer></script>
+</head>
+<body>
+	<div id="theme-switcher"></div>
+	<a id="scroll-up" href="#" class="hidden">
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			width="24"
+			height="24"
+			viewBox="0 0 24 24"
+			fill="none"
+			stroke="currentColor"
+			stroke-width="2"
+			stroke-linecap="round"
+			stroke-linejoin="round"
+			class="feather feather-arrow-up"
+		>
+			<line x1="12" y1="19" x2="12" y2="5"></line>
+			<polyline points="5 12 12 5 19 12"></polyline>
+		</svg>
+	</a>
+	{{ block "main" . }}{{ end }}
+	<script src="{{ "/smooth-scroll.min.js" | relURL }}"></script>
+	<script>var scroll = new SmoothScroll('a[href*="#"]');</script>
+</body>
+</html>
