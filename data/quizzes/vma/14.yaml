@@ -1,0 +1,31 @@
+questions:
+  - q: "Co je to výjimka (exception) v Javě?"
+    options: ["Typ proměnné", "Událost narušující normální běh programu", "Typ cyklu", "Způsob dědičnosti"]
+    answer: 1
+  - q: "Jaký blok kódu se provede vždy, bez ohledu na to, zda nastala výjimka?"
+    options: ["try", "catch", "finally", "throw"]
+    answer: 2
+  - q: "Co dělá příkaz `throw` v Javě?"
+    options: ["Zachytí výjimku", "Explicitně vyvolá výjimku", "Ignoruje výjimku", "Ukončí program"]
+    answer: 1
+  - q: "Co je vlákno (thread) v programování?"
+    options: ["Typ proměnné", "Samostatná sekvence instrukcí vykonávána v rámci procesu", "Typ výjimky", "Způsob přístupu k databázi"]
+    answer: 1
+  - q: "Co je to synchronizace vláken?"
+    options: ["Spuštění více vláken najednou", "Koordinace přístupu vláken ke sdíleným prostředkům", "Kopírování dat mezi vlákny", "Ukončení vlákna"]
+    answer: 1
+  - q: "Co je to Daemon vlákno v Javě?"
+    options: ["Hlavní vlákno programu", "Pomocné vlákno na pozadí, které se ukončí spolu s hlavním programem", "Vlákno s nejvyšší prioritou", "Vlákno pro zpracování výjimek"]
+    answer: 1
+  - q: "Co metoda `join()` zajistí při práci s vlákny?"
+    options: ["Spustí nové vlákno", "Počká na dokončení daného vlákna", "Zastaví vlákno", "Změní prioritu vlákna"]
+    answer: 1
+  - q: "Co je `RuntimeException` v Javě?"
+    options: ["Výjimka, která musí být vždy zachycena", "Nekontrolovaná výjimka za běhu programu", "Chyba kompilátoru", "Typ systémové chyby"]
+    answer: 1
+  - q: "Co dělá metoda `wait()` v kontextu vláken?"
+    options: ["Ukončí vlákno", "Pozastaví vlákno a čeká na notify()", "Spustí nové vlákno", "Zvýší prioritu vlákna"]
+    answer: 1
+  - q: "Jaký blok zachytí výjimku v Javě?"
+    options: ["try", "catch", "finally", "throws"]
+    answer: 1

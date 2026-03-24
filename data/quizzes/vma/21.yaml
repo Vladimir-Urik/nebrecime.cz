@@ -1,0 +1,31 @@
+questions:
+  - q: "Co znamená zkratka SQL?"
+    options: ["System Query Language", "Structured Query Language", "Simple Query Language", "Standard Question Language"]
+    answer: 1
+  - q: "Jaký SQL příkaz se používá pro výběr dat z tabulky?"
+    options: ["GET", "FETCH", "SELECT", "RETRIEVE"]
+    answer: 2
+  - q: "Jaký SQL příkaz vloží nový záznam do tabulky?"
+    options: ["ADD", "INSERT INTO", "CREATE", "PUT"]
+    answer: 1
+  - q: "Jaký SQL příkaz aktualizuje existující záznamy?"
+    options: ["MODIFY", "CHANGE", "UPDATE", "ALTER"]
+    answer: 2
+  - q: "Jaký SQL příkaz smaže záznamy z tabulky?"
+    options: ["REMOVE", "ERASE", "DROP", "DELETE"]
+    answer: 3
+  - q: "Co dělá klauzule WHERE v SQL?"
+    options: ["Třídí výsledky", "Filtruje záznamy podle podmínky", "Spojuje tabulky", "Omezuje počet výsledků"]
+    answer: 1
+  - q: "Jaká agregační funkce v SQL spočítá průměr?"
+    options: ["SUM()", "COUNT()", "AVG()", "MAX()"]
+    answer: 2
+  - q: "Co dělá SQL příkaz JOIN?"
+    options: ["Přidá nový sloupec", "Spojí záznamy ze dvou nebo více tabulek", "Smaže tabulku", "Vytvoří index"]
+    answer: 1
+  - q: "Jaký SQL příkaz vytvoří novou tabulku?"
+    options: ["NEW TABLE", "ADD TABLE", "CREATE TABLE", "MAKE TABLE"]
+    answer: 2
+  - q: "Co dělá klauzule ORDER BY v SQL?"
+    options: ["Filtruje záznamy", "Třídí výsledky podle zadaného sloupce", "Spojuje tabulky", "Seskupuje záznamy"]
+    answer: 1

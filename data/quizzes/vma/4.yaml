@@ -1,0 +1,31 @@
+questions:
+  - q: "Jaká je funkce procesoru (CPU)?"
+    options: ["Ukládání dat na disk", "Zobrazování obrazu na monitoru", "Provádění výpočtů a řízení ostatních komponent", "Napájení počítače"]
+    answer: 2
+  - q: "Co je to RAM?"
+    options: ["Pevný disk pro trvalé ukládání dat", "Operační paměť pro dočasné ukládání dat běžících programů", "Grafická karta", "Základní deska"]
+    answer: 1
+  - q: "Co je to northbridge?"
+    options: ["Typ síťového kabelu", "Čip základní desky propojující CPU s RAM a GPU", "Typ pevného disku", "Napájecí zdroj"]
+    answer: 1
+  - q: "Co je grafická karta (GPU)?"
+    options: ["Komponenta pro zpracování zvuku", "Komponenta pro ukládání dat", "Komponenta zodpovědná za generování obrazu", "Síťová karta"]
+    answer: 2
+  - q: "Co je to USB flash disk?"
+    options: ["Typ pevného disku", "Přenosné paměťové médium připojované přes USB", "Optická paměť", "Typ RAM"]
+    answer: 1
+  - q: "Jaká zkratka označuje pevný disk s pohyblivými magnetickými plotnami?"
+    options: ["SSD", "HDD", "RAM", "ROM"]
+    answer: 1
+  - q: "Co je to monitor?"
+    options: ["Vstupní zařízení pro zadávání textu", "Výstupní zařízení zobrazující obraz", "Komponenta pro zpracování dat", "Typ tiskárny"]
+    answer: 1
+  - q: "Jaký standard slouží k propojení komponent v počítači (základní deska, disky)?"
+    options: ["USB", "HDMI", "SATA", "Bluetooth"]
+    answer: 2
+  - q: "Co je to tiskárna?"
+    options: ["Vstupní zařízení", "Výstupní zařízení převádějící digitální data na fyzický tisk", "Typ paměti", "Síťové zařízení"]
+    answer: 1
+  - q: "Co je to optická paměť?"
+    options: ["Paměť pracující s magnetickým záznamem", "Paměť čtená laserem (CD, DVD, Blu-ray)", "Typ flash paměti", "Operační paměť"]
+    answer: 1

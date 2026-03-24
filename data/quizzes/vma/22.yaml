@@ -1,0 +1,31 @@
+questions:
+  - q: "Co je to softwarová krize?"
+    options: ["Typ počítačového viru", "Období v 60.-70. letech kdy software byl drahý, nespolehlivý a těžko udržovatelný", "Typ bezpečnostní chyby", "Způsob zálohování"]
+    answer: 1
+  - q: "Co je UML?"
+    options: ["Programovací jazyk", "Unified Modeling Language - jazyk pro vizuální modelování softwaru", "Typ databáze", "Síťový protokol"]
+    answer: 1
+  - q: "Co je to use case (případ užití)?",
+    options: ["Typ výjimky", "Popis interakce mezi uživatelem a systémem", "Způsob šifrování", "Typ databázového dotazu"]
+    answer: 1
+  - q: "Jaký vývojový model rozděluje vývoj na fáze: požadavky, návrh, implementace, testování, údržba?"
+    options: ["Agilní model", "Spirálový model", "Vodopádový model", "Inkrementální model"]
+    answer: 2
+  - q: "Co jsou funkční požadavky na software?"
+    options: ["Požadavky na výkon a bezpečnost", "Popis toho, co systém musí dělat (funkce a chování)", "Požadavky na hardware", "Finanční požadavky"]
+    answer: 1
+  - q: "Co je to etický kodex v softwarovém inženýrství?"
+    options: ["Programovací standard", "Souhrn etických zásad pro profesionální chování softwarových inženýrů", "Typ licence", "Způsob testování"]
+    answer: 1
+  - q: "Co je to softwarový proces?"
+    options: ["Způsob kompilace", "Souhrn aktivit a postupů vedoucích k vytvoření softwaru", "Typ databáze", "Síťový protokol"]
+    answer: 1
+  - q: "Co je diagram tříd (class diagram) v UML?"
+    options: ["Diagram průběhu programu", "Diagram znázorňující třídy, jejich atributy a vztahy", "Diagram síťové topologie", "Diagram databáze"]
+    answer: 1
+  - q: "Co je agilní metodika vývoje softwaru?"
+    options: ["Pevně plánovaný sekvenční přístup", "Iterativní přístup s důrazem na spolupráci a přizpůsobení změnám", "Způsob testování", "Typ vývojového prostředí"]
+    answer: 1
+  - q: "Co jsou nefunkční požadavky na software?"
+    options: ["Popis funkcí systému", "Požadavky na kvalitu jako výkon, bezpečnost, spolehlivost", "Seznam chyb", "Typ dokumentace"]
+    answer: 1

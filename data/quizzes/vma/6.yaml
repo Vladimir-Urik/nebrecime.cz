@@ -1,0 +1,31 @@
+questions:
+  - q: "Co je to herní engine?"
+    options: ["Typ herního ovladače", "Software poskytující nástroje pro vývoj her", "Grafická karta pro hraní her", "Online herní platforma"]
+    answer: 1
+  - q: "Kdo vyvinul herní engine Unity?"
+    options: ["Epic Games", "Unity Technologies", "Valve", "Microsoft"]
+    answer: 1
+  - q: "Jaký engine používá série her Fortnite a Unreal Tournament?"
+    options: ["Unity", "Godot", "Unreal Engine", "Source Engine"]
+    answer: 2
+  - q: "Co je to VR (Virtual Reality)?"
+    options: ["Typ grafické karty", "Počítačová simulace vytvářející virtuální 3D prostředí", "Online multiplayer platforma", "Herní ovladač"]
+    answer: 1
+  - q: "Co je to prefab v herním enginu Unity?"
+    options: ["Typ herního ovladače", "Znovupoužitelný herní objekt s přednastavenými vlastnostmi", "Grafický shader", "Zvukový soubor"]
+    answer: 1
+  - q: "Který herní žánr zahrnuje hry jako FIFA nebo NBA 2K?"
+    options: ["RPG (Role-Playing Game)", "FPS (First-Person Shooter)", "Sports (sportovní hry)", "RTS (Real-Time Strategy)"]
+    answer: 2
+  - q: "Co je to headset Oculus Rift?"
+    options: ["Herní klávesnice", "VR brýle pro virtuální realitu", "Herní mikrofon", "Typ herního ovladače"]
+    answer: 1
+  - q: "Co je to asset v herním vývoji?"
+    options: ["Chyba v kódu", "Herní resource (model, textura, zvuk, skript)", "Typ herního ovladače", "Síťový protokol pro online hry"]
+    answer: 1
+  - q: "Jaký je open-source herní engine napsaný v GDScriptu?"
+    options: ["Unity", "Unreal Engine", "CryEngine", "Godot"]
+    answer: 3
+  - q: "Co je to FPS jako herní žánr?"
+    options: ["Fantasy Playing Strategy", "First-Person Shooter (střílečka z pohledu první osoby)", "Fast Puzzle Simulation", "Future Platform Series"]
+    answer: 1

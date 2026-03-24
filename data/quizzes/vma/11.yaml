@@ -1,0 +1,31 @@
+questions:
+  - q: "Jaký je primitivní datový typ v Javě pro celá čísla?"
+    options: ["Integer", "int", "number", "whole"]
+    answer: 1
+  - q: "Co je to boolean v Javě?"
+    options: ["Typ pro čísla s desetinnou čárkou", "Typ pro znaky", "Typ pro pravdivostní hodnoty (true/false)", "Typ pro textové řetězce"]
+    answer: 2
+  - q: "Jaký příkaz v Javě slouží k výběru z více možností podle hodnoty proměnné?"
+    options: ["if-else", "switch", "for", "while"]
+    answer: 1
+  - q: "Co dělá příkaz `break` v Javě?"
+    options: ["Ukončí celý program", "Přeruší aktuální cyklus nebo switch", "Přeskočí na začátek cyklu", "Způsobí výjimku"]
+    answer: 1
+  - q: "Jaký cyklus v Javě se vždy provede alespoň jednou?"
+    options: ["for", "while", "do-while", "for-each"]
+    answer: 2
+  - q: "Co je to přetypování (casting) v Javě?"
+    options: ["Změna jména proměnné", "Konverze hodnoty z jednoho datového typu na jiný", "Deklarace nové proměnné", "Kopírování objektu"]
+    answer: 1
+  - q: "Jaký datový typ v Javě uchovává textové řetězce?"
+    options: ["char", "text", "String", "varchar"]
+    answer: 2
+  - q: "Co je výsledkem `10 % 3` v Javě?"
+    options: ["3", "1", "0", "3.33"]
+    answer: 1
+  - q: "Jaký operátor v Javě porovnává dvě hodnoty na rovnost?"
+    options: ["=", "==", "===", "equals"]
+    answer: 1
+  - q: "Co dělá příkaz `continue` v cyklu?"
+    options: ["Ukončí cyklus", "Přeskočí zbytek aktuální iterace a přejde na další", "Restartuje cyklus od začátku", "Způsobí výjimku"]
+    answer: 1

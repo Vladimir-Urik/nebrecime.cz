@@ -1,0 +1,31 @@
+questions:
+  - q: "Co je kompilace v C++?"
+    options: ["Spuštění programu", "Překlad zdrojového kódu do strojového jazyka", "Ladění chyb", "Psaní komentářů"]
+    answer: 1
+  - q: "Jaký datový typ v C++ ukládá čísla s desetinnou čárkou?"
+    options: ["int", "char", "bool", "float"]
+    answer: 3
+  - q: "Co dělá rekurze?"
+    options: ["Funkce volá jinou funkci", "Funkce volá sama sebe", "Cyklus bez podmínky ukončení", "Typ výjimky"]
+    answer: 1
+  - q: "Jaký příkaz v C++ čte vstup od uživatele?"
+    options: ["cout", "printf", "cin", "scanf"]
+    answer: 2
+  - q: "Jaký příkaz v C++ vypisuje výstup na obrazovku?"
+    options: ["cin", "printf", "input", "cout"]
+    answer: 3
+  - q: "Jak se generuje náhodné číslo v C++ (funkce ze stdlib.h)?"
+    options: ["random()", "rand()", "rnd()", "number()"]
+    answer: 1
+  - q: "Co je to funkce v C++?"
+    options: ["Typ proměnné", "Pojmenovaný blok kódu, který lze opakovaně volat", "Typ cyklu", "Operátor"]
+    answer: 1
+  - q: "Jak se pracuje se soubory v C++ pro čtení?"
+    options: ["ofstream", "ifstream", "fstream", "filestream"]
+    answer: 1
+  - q: "Co je návratový typ `void` u funkce?"
+    options: ["Funkce vrací nulu", "Funkce nevrací žádnou hodnotu", "Funkce vrací boolean", "Funkce vrací ukazatel"]
+    answer: 1
+  - q: "Jaký cyklus je vhodný, když znáte předem počet opakování?"
+    options: ["while", "do-while", "for", "switch"]
+    answer: 2

@@ -1,0 +1,31 @@
+questions:
+  - q: "Co je to ukazatel (pointer) v C++?"
+    options: ["Typ pole", "Proměnná uchovávající adresu v paměti", "Typ výčtu", "Způsob dědičnosti"]
+    answer: 1
+  - q: "Jaký operátor vrátí adresu proměnné v C++?"
+    options: ["*", "&", "->", "::"]
+    answer: 1
+  - q: "Jaký operátor dereferencuje ukazatel (přistoupí k hodnotě) v C++?"
+    options: ["&", "->", "*", "::"]
+    answer: 2
+  - q: "Co dělá operátor `new` v C++?"
+    options: ["Kopíruje objekt", "Alokuje paměť na haldě (heap) a vrátí ukazatel", "Smaže objekt", "Inicializuje proměnnou"]
+    answer: 1
+  - q: "Co dělá operátor `delete` v C++?"
+    options: ["Alokuje novou paměť", "Uvolní dynamicky alokovanou paměť", "Kopíruje paměť", "Inicializuje ukazatel"]
+    answer: 1
+  - q: "Co je to dangling pointer?"
+    options: ["Ukazatel na neplatnou nebo uvolněnou paměť", "Ukazatel na začátek pole", "Typ chytré paměti", "Ukazatel na funkci"]
+    answer: 0
+  - q: "Jak se přistupuje k členu struktury přes ukazatel v C++?"
+    options: ["ukaz.clen", "ukaz::clen", "ukaz->clen", "ukaz[clen]"]
+    answer: 2
+  - q: "Co je to aritmetika ukazatelů?"
+    options: ["Šifrování adres", "Posouvání ukazatele o určitý počet prvků v paměti", "Kopírování ukazatelů", "Porovnání dvou ukazatelů"]
+    answer: 1
+  - q: "Co je NULL pointer?"
+    options: ["Ukazatel na první prvek pole", "Ukazatel neukazující na žádné platné místo v paměti", "Ukazatel na funkci", "Typ chytré paměti"]
+    answer: 1
+  - q: "Jak se deklaruje ukazatel na celé číslo v C++?"
+    options: ["int& p;", "pointer<int> p;", "int* p;", "ref int p;"]
+    answer: 2

@@ -1,0 +1,31 @@
+questions:
+  - q: "Co je to kryptografie?"
+    options: ["Věda o síťových protokolech", "Věda o šifrování a ochraně informací", "Typ databázového systému", "Způsob zálohování dat"]
+    answer: 1
+  - q: "Co je to Caesarova šifra?"
+    options: ["Asymetrická šifra", "Substituční šifra posunující znaky o pevný počet pozic v abecedě", "Hashovací algoritmus", "Bloková šifra"]
+    answer: 1
+  - q: "Jaký je rozdíl mezi symetrickým a asymetrickým šifrováním?"
+    options: ["Symetrické je rychlejší, asymetrické bezpečnější", "Symetrické používá jeden klíč pro šifrování i dešifrování, asymetrické pár klíčů", "Žádný rozdíl", "Symetrické je jen pro text, asymetrické pro soubory"]
+    answer: 1
+  - q: "Co je to RSA?"
+    options: ["Symetrický šifrovací algoritmus", "Asymetrický šifrovací algoritmus založený na faktorizaci velkých čísel", "Hashovací funkce", "Steganografická metoda"]
+    answer: 1
+  - q: "Co je to hash?"
+    options: ["Typ šifrovacího klíče", "Jednosměrná funkce převádějící data na pevně dlouhý otisk", "Symetrická šifra", "Typ elektronického podpisu"]
+    answer: 1
+  - q: "Co je to steganografie?"
+    options: ["Věda o šifrování", "Skrývání zprávy do jiného média (obrázek, zvuk)", "Typ asymetrické šifry", "Způsob hašování"]
+    answer: 1
+  - q: "Co je to Enigma?"
+    options: ["Moderní šifrovací standard", "Elektromechanický šifrovací stroj používaný Německem za 2. světové války", "Typ hashovací funkce", "Asymetrická šifra"]
+    answer: 1
+  - q: "Co je AES?"
+    options: ["Asymetrická šifra", "Advanced Encryption Standard - symetrická bloková šifra", "Hashovací algoritmus", "Protokol pro elektronický podpis"]
+    answer: 1
+  - q: "Co je blockchain?"
+    options: ["Typ šifrování", "Distribuovaná decentralizovaná databáze propojených bloků dat", "Hashovací algoritmus", "Typ digitálního podpisu"]
+    answer: 1
+  - q: "Co je elektronický podpis?"
+    options: ["Naskenovaný vlastnoruční podpis", "Kryptografický mechanismus ověřující identitu autora a integritu dokumentu", "Typ hesla", "Symetrická šifra"]
+    answer: 1

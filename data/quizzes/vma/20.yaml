@@ -1,0 +1,31 @@
+questions:
+  - q: "Co je to databáze?"
+    options: ["Program pro editaci textu", "Organizovaná kolekce strukturovaných dat", "Typ operačního systému", "Síťový protokol"]
+    answer: 1
+  - q: "Co je to SŘBD (DBMS)?"
+    options: ["Programovací jazyk", "Software pro správu a přístup k databázi", "Typ databázového modelu", "Zálohovací systém"]
+    answer: 1
+  - q: "Jaký databázový model je dnes nejrozšířenější?"
+    options: ["Hierarchický", "Síťový", "Relační", "Objektový"]
+    answer: 2
+  - q: "Co je to entita v databázovém modelování?"
+    options: ["Typ databázového dotazu", "Objekt reálného světa, o kterém ukládáme data", "Vztah mezi tabulkami", "Typ indexu"]
+    answer: 1
+  - q: "Co jsou atributy entity?"
+    options: ["Vztahy mezi entitami", "Vlastnosti/charakteristiky entity", "Typy databázových dotazů", "Typy primárních klíčů"]
+    answer: 1
+  - q: "Co je to primární klíč v relační databázi?"
+    options: ["Šifrovací klíč", "Jedinečný identifikátor záznamu v tabulce", "Typ indexu", "Cizí klíč"]
+    answer: 1
+  - q: "Co je to cizí klíč (foreign key)?"
+    options: ["Šifrovací klíč databáze", "Atribut odkazující na primární klíč v jiné tabulce", "Záložní primární klíč", "Typ indexu"]
+    answer: 1
+  - q: "Co zajišťuje integrita dat v databázi?"
+    options: ["Šifrování dat", "Správnost, konzistenci a platnost uložených dat", "Rychlost přístupu", "Zálohu dat"]
+    answer: 1
+  - q: "Co je MySQL?"
+    options: ["Programovací jazyk", "Open-source relační databázový systém", "Typ NoSQL databáze", "Webový server"]
+    answer: 1
+  - q: "Co je to persistance dat?"
+    options: ["Šifrování dat", "Trvalé uchování dat i po ukončení aplikace", "Rychlost zpracování dat", "Způsob zálohy"]
+    answer: 1

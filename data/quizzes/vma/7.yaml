@@ -1,0 +1,31 @@
+questions:
+  - q: "Co je to HTML?"
+    options: ["Programovací jazyk pro tvorbu aplikací", "Značkovací jazyk pro strukturu webových stránek", "Databázový jazyk", "Šifrovací protokol"]
+    answer: 1
+  - q: "Jaký HTML tag se používá pro nadpis první úrovně?"
+    options: ["<title>", "<head>", "<h1>", "<p>"]
+    answer: 2
+  - q: "Co je to CSS?"
+    options: ["Programovací jazyk", "Jazyk pro popis vzhledu webových stránek", "Databázový jazyk", "Protokol pro přenos dat"]
+    answer: 1
+  - q: "Jaký CSS selektor vybírá elementy podle třídy?"
+    options: ["#nazev", ".nazev", "@nazev", "*nazev"]
+    answer: 1
+  - q: "Co je to flexbox v CSS?"
+    options: ["Typ animace", "Layout model pro jednorozměrné rozmístění prvků", "Typ písma", "Způsob šifrování"]
+    answer: 1
+  - q: "Jaký HTML element slouží pro vytvoření formuláře?"
+    options: ["<input>", "<form>", "<table>", "<div>"]
+    answer: 1
+  - q: "Co dělá CSS vlastnost `display: grid`?"
+    options: ["Skryje element", "Aktivuje dvourozměrný layout systém", "Přidá rámeček okolo elementu", "Zarovná text na střed"]
+    answer: 1
+  - q: "Jaká CSS vlastnost nastavuje barvu textu?"
+    options: ["background-color", "font-color", "color", "text-color"]
+    answer: 2
+  - q: "Co je to responzivní design?"
+    options: ["Design s animacemi", "Design přizpůsobující se různým velikostem obrazovky", "Design s tmavým tématem", "Design bez obrázků"]
+    answer: 1
+  - q: "Jaký HTML tag vytváří hypertextový odkaz?"
+    options: ["<link>", "<url>", "<href>", "<a>"]
+    answer: 3

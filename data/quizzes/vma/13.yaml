@@ -1,0 +1,31 @@
+questions:
+  - q: "Jaké klíčové slovo se v Javě používá pro dědičnost?"
+    options: ["inherits", "extends", "implements", "super"]
+    answer: 1
+  - q: "Co je to polymorfismus?"
+    options: ["Schopnost třídy mít více konstruktorů", "Schopnost objektu nabývat různých forem a reagovat různě na stejnou zprávu", "Způsob přístupu k privátním proměnným", "Typ výjimky"]
+    answer: 1
+  - q: "Co je to rozhraní (interface) v Javě?"
+    options: ["Třída s privátními metodami", "Kontrakt definující sadu metod, které musí implementující třída poskytnout", "Typ dědičnosti", "Statická třída"]
+    answer: 1
+  - q: "Jaké klíčové slovo se používá pro implementaci rozhraní?"
+    options: ["extends", "inherits", "implements", "uses"]
+    answer: 2
+  - q: "Co je abstraktní třída v Javě?"
+    options: ["Třída bez jakýchkoliv metod", "Třída, která nemůže být přímo instanciována a může obsahovat abstraktní metody", "Třída pouze se statickými metodami", "Rozhraní s implementací"]
+    answer: 1
+  - q: "Jak se v Javě volá konstruktor nadtřídy?"
+    options: ["parent()", "super()", "base()", "this()"]
+    answer: 1
+  - q: "Co dělá klíčové slovo `final` u třídy v Javě?"
+    options: ["Třída nemůže mít konstruktor", "Třída nemůže být zděděna", "Třída musí být implementována", "Třída je abstraktní"]
+    answer: 1
+  - q: "Co je to přepisování metod (overriding)?"
+    options: ["Definice metody se stejným názvem v té samé třídě", "Redefinice metody z nadtřídy v podtřídě", "Volání privátní metody", "Přetěžování konstruktoru"]
+    answer: 1
+  - q: "Co je balíček (package) v Javě?"
+    options: ["Typ výjimky", "Mechanismus pro organizaci tříd do logických skupin", "Typ datového typu", "Způsob kompilace"]
+    answer: 1
+  - q: "Jaká třída je nadtřídou všech tříd v Javě?"
+    options: ["Base", "Root", "Object", "Main"]
+    answer: 2

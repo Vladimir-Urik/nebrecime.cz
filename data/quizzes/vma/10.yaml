@@ -1,0 +1,31 @@
+questions:
+  - q: "Co znamená zkratka NoSQL?"
+    options: ["No Standard Query Language", "Not Only SQL", "New Object SQL", "Non-relational Open SQL"]
+    answer: 1
+  - q: "Která databáze je příkladem NoSQL dokumentové databáze?"
+    options: ["MySQL", "PostgreSQL", "MongoDB", "Oracle"]
+    answer: 2
+  - q: "Co jsou 3V Big Data?"
+    options: ["Volume, Velocity, Variety", "Value, Validity, Vision", "Verification, Volume, Value", "Variety, Visibility, Volume"]
+    answer: 0
+  - q: "Co je CRUD v kontextu databází?"
+    options: ["Create, Read, Update, Delete", "Copy, Retrieve, Use, Delete", "Create, Restore, Update, Deploy", "Command, Run, Use, Deploy"]
+    answer: 0
+  - q: "Jaký datový formát MongoDB primárně používá?"
+    options: ["XML", "CSV", "BSON (binární JSON)", "YAML"]
+    answer: 2
+  - q: "Jaká je hlavní výhoda NoSQL databází oproti relačním?"
+    options: ["Lepší podpora SQL jazyka", "Větší flexibilita schématu a horizontální škálování", "Vyšší bezpečnost", "Menší velikost dat"]
+    answer: 1
+  - q: "Co je to agregace v MongoDB?"
+    options: ["Způsob zálohování dat", "Zpracování dat v pipeline pro výpočet výsledků", "Typ indexu", "Způsob replikace"]
+    answer: 1
+  - q: "Jaký příkaz v MongoDB vloží nový dokument?"
+    options: ["db.collection.add()", "db.collection.insert()", "db.collection.create()", "db.collection.put()"]
+    answer: 1
+  - q: "Co je to MapReduce?"
+    options: ["Způsob šifrování dat", "Programovací model pro distribuované zpracování velkých dat", "Typ databázového indexu", "Zálohovací strategie"]
+    answer: 1
+  - q: "Který typ NoSQL databáze ukládá data jako páry klíč-hodnota?"
+    options: ["Dokumentová databáze", "Grafová databáze", "Sloupcová databáze", "Key-value store"]
+    answer: 3

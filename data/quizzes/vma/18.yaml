@@ -1,0 +1,31 @@
+questions:
+  - q: "Jaké jsou tři základní pilíře objektově orientovaného programování?"
+    options: ["Kompilace, linkování, spuštění", "Zapouzdření, dědičnost, polymorfismus", "Proměnné, funkce, třídy", "Alokace, inicializace, destrukce"]
+    answer: 1
+  - q: "Co je destruktor v C++?"
+    options: ["Speciální metoda volaná při vytvoření objektu", "Speciální metoda volaná při zániku objektu", "Metoda pro kopírování objektu", "Statická metoda třídy"]
+    answer: 1
+  - q: "Jak se v C++ deklaruje třída?"
+    options: ["struct MojeTrida {}", "object MojeTrida {}", "class MojeTrida {}", "type MojeTrida {}"]
+    answer: 2
+  - q: "Co je to `this` ukazatel v C++?"
+    options: ["Ukazatel na nadtřídu", "Ukazatel na aktuální instanci objektu", "Statická proměnná třídy", "Typ výjimky"]
+    answer: 1
+  - q: "Co jsou `const` metody v C++?"
+    options: ["Metody, které nelze volat", "Metody, které nemění stav objektu", "Statické metody", "Metody bez parametrů"]
+    answer: 1
+  - q: "Co je zapouzdření (encapsulation) v OOP?"
+    options: ["Dědění vlastností z nadtřídy", "Skrytí implementačních detailů a řízení přístupu k datům", "Polymorfismus", "Přetěžování operátorů"]
+    answer: 1
+  - q: "Jaký je rozdíl mezi `class` a `struct` v C++ z hlediska výchozí přístupnosti?"
+    options: ["Žádný rozdíl", "class má výchozí private, struct má výchozí public", "class má výchozí public, struct má výchozí private", "struct nepodporuje metody"]
+    answer: 1
+  - q: "Jak se přistupuje k členu objektu pomocí tečkové notace?"
+    options: ["objekt->clen", "objekt::clen", "objekt.clen", "objekt[clen]"]
+    answer: 2
+  - q: "Co se stane, když konstruktor není definován?"
+    options: ["Program se zkompiluje s chybou", "Kompilátor vygeneruje výchozí konstruktor bez parametrů", "Objekt nelze vytvořit", "Destruktor se nevolá"]
+    answer: 1
+  - q: "Proč vzniklo objektově orientované programování?"
+    options: ["Kvůli rychlejší kompilaci", "Kvůli potřebě lépe modelovat reálný svět a znovupoužitelnosti kódu", "Kvůli menší spotřebě paměti", "Kvůli jednodušší syntaxi"]
+    answer: 1

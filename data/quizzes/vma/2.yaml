@@ -1,0 +1,31 @@
+questions:
+  - q: "Který operační systém je open-source a zdarma?"
+    options: ["Windows", "macOS", "Linux", "Android"]
+    answer: 2
+  - q: "Kdo vyvinul operační systém Windows?"
+    options: ["Apple", "Google", "Microsoft", "IBM"]
+    answer: 2
+  - q: "Na jakém jádře je postaven operační systém macOS?"
+    options: ["Windows NT", "Linux", "Unix/BSD", "Android"]
+    answer: 2
+  - q: "Který mobilní operační systém vyvinul Google?"
+    options: ["iOS", "Android", "Windows Phone", "BlackBerry OS"]
+    answer: 1
+  - q: "Co je to operační systém?"
+    options: ["Program pro editaci textu", "Základní software zajišťující správu hardwaru a běh aplikací", "Antivirový program", "Webový prohlížeč"]
+    answer: 1
+  - q: "Která verze Windows jako první přinesla grafické rozhraní (GUI)?"
+    options: ["Windows 95", "Windows 3.1", "Windows XP", "Windows 1.0"]
+    answer: 3
+  - q: "Co je to mainframe?"
+    options: ["Přenosný počítač", "Tablet s dotykovým displejem", "Velký výkonný počítač pro hromadné zpracování dat", "Herní konzole"]
+    answer: 2
+  - q: "Jak se nazývá nejmenší přenosné zařízení s funkcemi PDA a telefonu?"
+    options: ["Notebook", "Tablet", "MDA (smartphone)", "Pracovní stanice"]
+    answer: 2
+  - q: "Který operační systém je nejrozšířenější na světě pro osobní počítače?"
+    options: ["Linux", "macOS", "Windows", "Chrome OS"]
+    answer: 2
+  - q: "Co je superpočítač?"
+    options: ["Herní PC s výkonnou grafickou kartou", "Extrémně výkonný počítač pro náročné vědecké výpočty", "Server pro webové stránky", "Přenosný počítač s dlouhou výdrží baterie"]
+    answer: 1

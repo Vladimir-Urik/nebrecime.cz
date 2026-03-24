@@ -1,0 +1,31 @@
+questions:
+  - q: "Co je to třída v objektovém programování?"
+    options: ["Proměnná uchovávající číslo", "Šablona/předpis pro vytváření objektů", "Typ cyklu", "Databázová tabulka"]
+    answer: 1
+  - q: "Co je to konstruktor v Javě?"
+    options: ["Metoda vracející hodnotu", "Speciální metoda volaná při vytvoření objektu", "Statická proměnná", "Typ výjimky"]
+    answer: 1
+  - q: "Co znamená klíčové slovo `static` v Javě?"
+    options: ["Metoda nebo proměnná patří třídě, ne instanci", "Metoda nemůže být přepsána", "Proměnná je neměnná", "Metoda je přístupná pouze v dané třídě"]
+    answer: 0
+  - q: "Co je to přetěžování metod (overloading) v Javě?"
+    options: ["Přepsání metody v podtřídě", "Definice více metod se stejným názvem, ale různými parametry", "Volání metody z jiné třídy", "Skrytí metody před jinými třídami"]
+    answer: 1
+  - q: "Na co odkazuje klíčové slovo `this` v Javě?"
+    options: ["Na nadřazenou třídu", "Na aktuální instanci objektu", "Na statickou proměnnou", "Na návratovou hodnotu metody"]
+    answer: 1
+  - q: "Jaký návratový typ má metoda, která nevrací žádnou hodnotu?"
+    options: ["null", "empty", "void", "none"]
+    answer: 2
+  - q: "Co je instance třídy?"
+    options: ["Kopie zdrojového kódu třídy", "Konkrétní objekt vytvořený podle šablony třídy", "Statická metoda třídy", "Podtřída"]
+    answer: 1
+  - q: "Jak se v Javě vytvoří nový objekt třídy `Auto`?"
+    options: ["Auto a = Auto()", "Auto a = create Auto()", "Auto a = new Auto()", "new Auto a = Auto()"]
+    answer: 2
+  - q: "Co je to zapouzdření (encapsulation)?"
+    options: ["Dědění vlastností z nadtřídy", "Skrytí vnitřního stavu objektu a přístup přes metody", "Přetěžování metod", "Polymorfismus"]
+    answer: 1
+  - q: "Jaký modifikátor přístupu omezuje přístup pouze na danou třídu?"
+    options: ["public", "protected", "private", "internal"]
+    answer: 2

@@ -1,0 +1,31 @@
+questions:
+  - q: "Co je to LAN?"
+    options: ["Globální počítačová síť", "Místní počítačová síť v rámci budovy nebo areálu", "Metropolitní síť pokrývající město", "Bezdrátová síť"]
+    answer: 1
+  - q: "Kolik vrstev má model ISO/OSI?"
+    options: ["4", "5", "7", "10"]
+    answer: 2
+  - q: "Co je to router?"
+    options: ["Zařízení pro zesílení signálu", "Zařízení propojující různé sítě a směrující provoz", "Typ přenosového média", "Bezdrátový přístupový bod"]
+    answer: 1
+  - q: "Co je topologie sítě?"
+    options: ["Způsob šifrování dat v síti", "Fyzické nebo logické uspořádání prvků v síti", "Typ síťového protokolu", "Rychlost datového přenosu"]
+    answer: 1
+  - q: "Jaký je rozdíl mezi hubem a switchem?"
+    options: ["Hub je rychlejší než switch", "Switch rozesílá data všem portům, hub jen cílovému zařízení", "Hub posílá data jen cílovému zařízení, switch všem", "Nejsou žádné rozdíly"]
+    answer: 2
+  - q: "Co je MAC adresa?"
+    options: ["IP adresa v lokální síti", "Jedinečná fyzická adresa síťové karty", "Typ šifrovacího klíče", "Protokol pro e-mail"]
+    answer: 1
+  - q: "Co je firewall?"
+    options: ["Typ antivirového programu", "Ochranný systém filtrující síťový provoz", "Zálohovací software", "Protokol pro přenos souborů"]
+    answer: 1
+  - q: "Jaké přenosové médium používá optická vlákna?"
+    options: ["Elektrický signál", "Světelný signál (laser/LED)", "Rádiové vlny", "Mikrovlnný signál"]
+    answer: 1
+  - q: "Co je to IP adresa?"
+    options: ["Název domény", "Číselná adresa identifikující zařízení v síti", "Typ síťového kabelu", "Šifrovací klíč"]
+    answer: 1
+  - q: "Jaká topologie sítě propojuje každé zařízení s centrálním uzlem?"
+    options: ["Sběrnicová (Bus)", "Kruhová (Ring)", "Hvězdicová (Star)", "Stromová (Tree)"]
+    answer: 2

@@ -1,0 +1,31 @@
+questions:
+  - q: "Co je to virtuální metoda v C++?"
+    options: ["Metoda bez implementace", "Metoda, která může být přepsána v podtřídě a používá pozdní vazbu", "Statická metoda", "Privátní metoda"]
+    answer: 1
+  - q: "Co je to čirá (pure) virtuální metoda v C++?"
+    options: ["Virtuální metoda s implementací", "Virtuální metoda bez implementace (= 0), která musí být implementována v podtřídě", "Statická virtuální metoda", "Metoda volána pouze jednou"]
+    answer: 1
+  - q: "Co je to abstraktní třída v C++?"
+    options: ["Třída bez konstruktoru", "Třída obsahující alespoň jednu čirou virtuální metodu", "Třída pouze se statickými metodami", "Třída bez destruktoru"]
+    answer: 1
+  - q: "Co je to přetěžování operátorů?"
+    options: ["Přetěžování metod", "Definice vlastního chování operátorů pro uživatelské typy", "Typ dědičnosti", "Způsob alokace paměti"]
+    answer: 1
+  - q: "Co je pozdní vazba (late binding) v C++?"
+    options: ["Rozhodnutí o volané metodě v době kompilace", "Rozhodnutí o volané metodě za běhu programu", "Typ statické metody", "Způsob alokace paměti"]
+    answer: 1
+  - q: "Jaký je rozdíl mezi jednoduchou a vícenásobnou dědičností?"
+    options: ["Jednoduchá dědí z více tříd, vícenásobná z jedné", "Jednoduchá dědí z jedné třídy, vícenásobná z více tříd najednou", "Žádný rozdíl", "Vícenásobná nepodporuje polymorfismus"]
+    answer: 1
+  - q: "Co je to agregace v OOP?"
+    options: ["Typ dědičnosti", "Vztah, kdy objekt obsahuje jiný objekt (HAS-A)", "Implementace rozhraní", "Přetěžování metod"]
+    answer: 1
+  - q: "Co jsou spřátelené funkce (friend functions) v C++?"
+    options: ["Funkce stejné třídy", "Funkce mimo třídu, které mají přístup k privátním členům třídy", "Virtuální funkce", "Statické funkce"]
+    answer: 1
+  - q: "V jakém pořadí se volají konstruktory při dědičnosti?"
+    options: ["Nejdříve podtřída, pak nadtřída", "Nejdříve nadtřída, pak podtřída", "Záleží na pořadí deklarace", "Konstruktory se nevolají"]
+    answer: 1
+  - q: "Co je časná vazba (early binding) v C++?"
+    options: ["Rozhodnutí o volané metodě za běhu", "Rozhodnutí o volané metodě v době kompilace", "Typ virtuální metody", "Pozdní inicializace"]
+    answer: 1

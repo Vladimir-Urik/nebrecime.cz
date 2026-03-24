@@ -1,0 +1,31 @@
+questions:
+  - q: "Co znamená zkratka CIA triáda v bezpečnosti IS?"
+    options: ["Control, Integrity, Access", "Confidentiality, Integrity, Availability", "Cybersecurity, Information, Authentication", "Control, Identification, Authorization"]
+    answer: 1
+  - q: "Co je to DoS útok?"
+    options: ["Útok krádeží dat", "Útok zahlcením serveru vedoucí k jeho nedostupnosti", "Typ phishingu", "Útok na hesla"]
+    answer: 1
+  - q: "Co je to ransomware?"
+    options: ["Typ spywaru", "Malware šifrující data a požadující výkupné", "Typ trojského koně", "Síťový červ"]
+    answer: 1
+  - q: "Co je to SQL injection?"
+    options: ["Typ počítačového viru", "Útok vkládající škodlivý SQL kód do vstupních polí aplikace", "Typ phishingu", "DoS útok"]
+    answer: 1
+  - q: "Co je to XSS (Cross-Site Scripting)?"
+    options: ["Typ SQL útoku", "Útok vkládající škodlivý skript do webové stránky", "Typ ransomwaru", "DDoS útok"]
+    answer: 1
+  - q: "Co je to Man-in-the-Middle útok?"
+    options: ["Útok hrubou silou", "Útok, kdy útočník odposlouchává komunikaci mezi dvěma stranami", "Typ phishingu", "SQL injection"]
+    answer: 1
+  - q: "Co je dvoufaktorová autentizace (2FA)?"
+    options: ["Použití dvou hesel", "Kombinace dvou různých způsobů ověření identity", "Typ šifrování", "Způsob zálohování"]
+    answer: 1
+  - q: "Co je to brute force útok?"
+    options: ["Útok phishingem", "Systematické zkoušení všech možných hesel nebo klíčů", "Typ SQL injection", "XSS útok"]
+    answer: 1
+  - q: "Co je trojský kůň (trojan) v kontextu malware?"
+    options: ["Počítačový červ šířící se sítí", "Škodlivý software maskující se jako legitimní program", "Typ ransomwaru", "DoS útok"]
+    answer: 1
+  - q: "Co je to zero-day zranitelnost?"
+    options: ["Chyba v nultém dni vývoje", "Bezpečnostní chyba, pro kterou dosud neexistuje záplata", "Typ brute force útoku", "Způsob šifrování"]
+    answer: 1

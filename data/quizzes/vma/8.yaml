@@ -1,0 +1,31 @@
+questions:
+  - q: "Co je PHP?"
+    options: ["Klientský skriptovací jazyk", "Serverový skriptovací jazyk pro tvorbu webových aplikací", "Databázový jazyk", "Typ webového serveru"]
+    answer: 1
+  - q: "Jak se v PHP označuje začátek PHP kódu?"
+    options: ["<php>", "<?php", "<script>", "<!--php"]
+    answer: 1
+  - q: "Co je to PDO v PHP?"
+    options: ["Typ webového serveru", "Rozhraní pro přístup k databázím", "Šablonovací systém", "Typ formuláře"]
+    answer: 1
+  - q: "Co jsou to sessions v PHP?"
+    options: ["Typ databázového dotazu", "Mechanismus pro uchovávání dat uživatele mezi požadavky", "Způsob formátování HTML", "Typ šifrování"]
+    answer: 1
+  - q: "Co jsou cookies?"
+    options: ["Typ databáze", "Malé soubory dat ukládané v prohlížeči uživatele", "PHP funkce pro šifrování", "Typ HTTP požadavku"]
+    answer: 1
+  - q: "Jaká metoda HTTP se používá pro odesílání formulářových dat (skrytě v těle požadavku)?"
+    options: ["GET", "POST", "PUT", "DELETE"]
+    answer: 1
+  - q: "Co je výhodou webové aplikace oproti desktopové?"
+    options: ["Rychlejší výkon", "Dostupnost odkudkoliv bez instalace", "Lepší grafika", "Nižší spotřeba paměti"]
+    answer: 1
+  - q: "Jak PHP typicky zpracovává databázové dotazy?"
+    options: ["Přímo v HTML", "Přes SQL dotazy pomocí připojení k databázi", "Přes JavaScript", "Přes CSS"]
+    answer: 1
+  - q: "Co vrátí PHP funkce `count($pole)`?"
+    options: ["Součet prvků pole", "Počet prvků pole", "První prvek pole", "Poslední prvek pole"]
+    answer: 1
+  - q: "Která superglobální proměnná v PHP uchovává data odeslaná metodou GET?"
+    options: ["$_POST", "$_SESSION", "$_GET", "$_COOKIE"]
+    answer: 2

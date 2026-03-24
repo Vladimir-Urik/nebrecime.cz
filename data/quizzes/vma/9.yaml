@@ -1,0 +1,31 @@
+questions:
+  - q: "Kde se JavaScript primárně spouští?"
+    options: ["Na databázovém serveru", "V prohlížeči na straně klienta", "Na webovém serveru", "V operačním systému"]
+    answer: 1
+  - q: "Jaký příkaz v JavaScriptu deklaruje proměnnou s blokovou platností?"
+    options: ["var", "let", "const", "int"]
+    answer: 1
+  - q: "Co je to DOM?"
+    options: ["Typ databáze", "Objektová reprezentace HTML dokumentu", "Způsob šifrování", "Síťový protokol"]
+    answer: 1
+  - q: "Co dělá `document.getElementById('id')`?"
+    options: ["Vytvoří nový HTML element", "Vrátí HTML element s daným id", "Smaže HTML element", "Změní styl elementu"]
+    answer: 1
+  - q: "Co je to JSON?"
+    options: ["Typ databáze", "Formát pro výměnu dat (JavaScript Object Notation)", "Programovací jazyk", "Webový framework"]
+    answer: 1
+  - q: "Co je to async/await v JavaScriptu?"
+    options: ["Typ cyklu", "Syntaxe pro práci s asynchronními operacemi", "Způsob deklarace proměnných", "Typ výjimky"]
+    answer: 1
+  - q: "Co je Node.js?"
+    options: ["Webový prohlížeč", "JavaScript runtime prostředí na straně serveru", "Databázový systém", "CSS framework"]
+    answer: 1
+  - q: "Jaká metoda Fetch API slouží k získání dat ze serveru?"
+    options: ["fetch().send()", "fetch().get()", "fetch(url).then()", "request(url)"]
+    answer: 2
+  - q: "Co je to Canvas v HTML/JavaScript?"
+    options: ["Typ formuláře", "Element pro kreslení 2D/3D grafiky pomocí JavaScriptu", "CSS animace", "Typ databáze"]
+    answer: 1
+  - q: "Jak se označuje funkce v JavaScriptu?"
+    options: ["def nazev()", "func nazev()", "function nazev()", "method nazev()"]
+    answer: 2

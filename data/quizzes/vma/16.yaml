@@ -1,0 +1,31 @@
+questions:
+  - q: "Co je to pole (array) v C++?"
+    options: ["Proměnná pro jeden znak", "Kolekce prvků stejného datového typu", "Ukazatel na paměť", "Typ výčtu"]
+    answer: 1
+  - q: "Jaký datový typ v C++ ukládá jeden znak?"
+    options: ["string", "char", "text", "letter"]
+    answer: 1
+  - q: "Co je to `struct` v C++?"
+    options: ["Typ cyklu", "Uživatelsky definovaný datový typ sdružující různé proměnné", "Typ výjimky", "Způsob dědičnosti"]
+    answer: 1
+  - q: "Co je to `enum` v C++?"
+    options: ["Typ pole", "Výčtový typ definující pojmenované celočíselné konstanty", "Typ struktury", "Ukazatel"]
+    answer: 1
+  - q: "Jak se zjistí délka C-řetězce (pole znaků) v C++?"
+    options: ["length(str)", "size(str)", "strlen(str)", "str.size()"]
+    answer: 2
+  - q: "Co je to `union` v C++?"
+    options: ["Způsob dědičnosti", "Datová struktura, kde všechny členy sdílejí stejnou paměť", "Typ cyklu", "Typ výjimky"]
+    answer: 1
+  - q: "Jak se přistupuje k prvku pole na indexu 0 v C++?"
+    options: ["pole(0)", "pole[1]", "pole[0]", "pole.get(0)"]
+    answer: 2
+  - q: "Jak se konkatenuje (spojuje) dva std::string objekty v C++?"
+    options: ["str1.append(str2)", "str1 + str2", "str1.concat(str2)", "concat(str1, str2)"]
+    answer: 1
+  - q: "Co se stane při přístupu mimo hranice pole v C++?"
+    options: ["Automatické rozšíření pole", "Výjimka ArrayIndexOutOfBounds", "Nedefinované chování (undefined behavior)", "Vrácení nuly"]
+    answer: 2
+  - q: "Jakou hodnotu má první prvek výčtu `enum` v C++, pokud není explicitně nastavena?"
+    options: ["1", "-1", "0", "null"]
+    answer: 2

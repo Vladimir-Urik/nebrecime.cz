@@ -1,0 +1,31 @@
+questions:
+  - q: "V jakém roce vznikla experimentální síť ARPANET?"
+    options: ["1962", "1969", "1972", "1983"]
+    answer: 1
+  - q: "Co je to phishing?"
+    options: ["Typ počítačového viru", "Podvodná technika k získání citlivých údajů", "Způsob šifrování dat", "Protokol pro přenos souborů"]
+    answer: 1
+  - q: "Co znamená zkratka DNS?"
+    options: ["Data Network System", "Domain Name System", "Digital Network Service", "Dynamic Network Security"]
+    answer: 1
+  - q: "Jaký protokol se používá pro odesílání e-mailů?"
+    options: ["POP3", "IMAP", "SMTP", "FTP"]
+    answer: 2
+  - q: "Co je to spam?"
+    options: ["Šifrovaná zpráva", "Nevyžádaná reklamní pošta", "Typ počítačového viru", "Protokol pro přenos dat"]
+    answer: 1
+  - q: "Kdo vynalezl první e-mailový program v roce 1972?"
+    options: ["Tim Berners-Lee", "Bill Gates", "Ray Tomlinson", "Marc Andreessen"]
+    answer: 2
+  - q: "Co je to netiketa?"
+    options: ["Typ síťového protokolu", "Antivirový program", "Souhrn pravidel slušného chování na Internetu", "Způsob šifrování e-mailů"]
+    answer: 2
+  - q: "Jaký typ komunikace probíhá v reálném čase (chat, Skype)?"
+    options: ["Asynchronní komunikace", "Synchronní komunikace", "Jednosměrná komunikace", "Offline komunikace"]
+    answer: 1
+  - q: "Co je kyberšikana?"
+    options: ["Typ počítačového viru", "Agresivní poškozování uživatelů prostřednictvím elektronických médií", "Způsob hackování sítí", "Nelegální stahování souborů"]
+    answer: 1
+  - q: "Kdo vyvinul první webový prohlížeč Mosaic v roce 1993?"
+    options: ["Bill Gates", "Steve Jobs", "Tim Berners-Lee", "Marc Andreessen"]
+    answer: 3

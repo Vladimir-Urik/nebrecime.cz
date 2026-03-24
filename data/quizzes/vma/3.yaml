@@ -1,0 +1,31 @@
+questions:
+  - q: "Kolik bitů tvoří jeden byte?"
+    options: ["4", "8", "16", "32"]
+    answer: 1
+  - q: "Jaká je hodnota čísla 1010 v dvojkové soustavě převedená do desítkové?"
+    options: ["8", "9", "10", "12"]
+    answer: 2
+  - q: "Kdo navrhl von Neumannovo schéma počítače?"
+    options: ["Alan Turing", "John von Neumann", "Charles Babbage", "Konrad Zuse"]
+    answer: 1
+  - q: "Co je to BIOS?"
+    options: ["Operační systém", "Základní vstupně-výstupní systém počítače uložený v ROM", "Antivirový program", "Grafický ovladač"]
+    answer: 1
+  - q: "Jaká soustava používá číslice 0-9 a písmena A-F?"
+    options: ["Binární soustava", "Oktalová soustava", "Hexadecimální soustava", "Desítková soustava"]
+    answer: 2
+  - q: "Co vynalezl Charles Babbage?"
+    options: ["Elektronkový počítač ENIAC", "Mechanický diferenciální stroj", "Jazyk FORTRAN", "Tranzistorový počítač"]
+    answer: 1
+  - q: "K čemu sloužily děrné štítky?"
+    options: ["K zobrazení grafiky", "K ukládání a přenosu dat v raných počítačích", "K tisku dokumentů", "K přenosu zvuku"]
+    answer: 1
+  - q: "Co je strojový kód?"
+    options: ["Programovací jazyk jako C++", "Instrukce přímo srozumitelné procesoru v binární podobě", "Šifrovací algoritmus", "Typ databáze"]
+    answer: 1
+  - q: "Jaká číselná soustava je základem moderních počítačů?"
+    options: ["Desítková", "Šestnáctková", "Osmičková", "Dvojková (binární)"]
+    answer: 3
+  - q: "Kolik bajtů je 1 kilobajt (KB)?"
+    options: ["100", "512", "1024", "2048"]
+    answer: 2

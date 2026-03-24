@@ -15,9 +15,16 @@
 {{ end }}
 
 {{ define "main" }}
+<nav>
+	<a href="#cestina">Čeština</a>
+	<a href="#dvk">DVK</a>
+	<a href="#vma">VMA</a>
+	<a href="#uzitecne-odkazy">Užitečné odkazy</a>
+	<a href="#soubory">Soubory</a>
+</nav>
 <main>
 
-	<div class="heading-flex">
+	<div class="heading-flex" id="cestina">
 		<h1>Čeština</h1>
 		<span class="heading-label">čeština za free by Dany Machy</span>
 	</div>
@@ -28,7 +35,7 @@
 		</a>
 	</nav>
 
-	<div class="heading-flex">
+	<div class="heading-flex" id="dvk">
 		<h1>DVK</h1>
 		<span class="heading-label">by Dominik &amp; audio by Libor</span>
 		<span class="heading-label">upravil Dany Machy</span>
@@ -61,7 +68,7 @@
 		</a>
 	</nav>
 
-	<div class="heading-flex">
+	<div class="heading-flex" id="vma">
 		<h1>VMA</h1>
 		<span class="heading-label">Dejvi &amp; Hora Kubáček</span>
 	</div>
@@ -70,9 +77,11 @@
 		{{ $num := . }}
 		{{ $page := site.GetPage (printf "/vma/%d" $num) }}
 		{{ if $page }}
+		{{ $hasQuiz := index (index site.Data.quizzes "vma") (string $num) }}
 		<a href="{{ $page.RelPermalink }}">
 			<span class="num">{{ printf "%02d" $num }}</span>
 			{{ (default $page.Title $page.Params.smallTitle) | safeHTML }}
+			{{ if $hasQuiz }}<span class="quiz-tag">Quiz</span>{{ end }}
 		</a>
 		{{ end }}
 		{{ end }}
@@ -83,7 +92,7 @@
 		</a>
 	</nav>
 
-	<div class="heading-flex" style="margin-top: 3.5em;">
+	<div class="heading-flex" id="uzitecne-odkazy" style="margin-top: 3.5em;">
 		<h1>Užitečné odkazy</h1>
 	</div>
 
@@ -106,7 +115,7 @@
 	<h3>Básnické prostředky</h3>
 	<a href="https://www.studentmag.cz/basnicke-prostredky-zopakujte-si-pred-maturitou-9-nejcastejsich-figur/" target="_blank">studentmag.cz — 9 nejčastějších figur</a>
 
-	<div class="heading-flex" style="margin-top: 3.5em;">
+	<div class="heading-flex" id="soubory" style="margin-top: 3.5em;">
 		<h1>Soubory ke stažení</h1>
 	</div>
 	<nav>
@@ -125,6 +134,7 @@
 	<footer>
 		<p>&copy; 2026 Nebrecime.cz</p>
 		<p class="small">Tvůrce: <span>Daniel Machalicek</span> &nbsp;·&nbsp; Správce: <span>Vladimír Urík</span></p>
+		<p class="small"><a href="https://github.com/Vladimir-Urik/nebrecime.cz" target="_blank">GitHub</a></p>
 	</footer>
 </main>
 {{ end }}
