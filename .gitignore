@@ -1,2 +1,15 @@
-.idea
+# Hugo build output
+public/
+resources/
+.hugo_build.lock
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Assets (large binaries tracked separately)
 *.pdf

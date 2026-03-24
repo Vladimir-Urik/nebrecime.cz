@@ -1,0 +1,130 @@
+{{ define "head-extra" }}
+<meta name="description" content="">
+<meta property="og:url" content="https://nebrecime.cz">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Maturita Formalita | Rozcestník">
+<meta property="og:description" content="">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:domain" content="nebrecime.cz">
+<meta property="twitter:url" content="https://nebrecime.cz">
+<meta name="twitter:title" content="Maturita Formalita | Rozcestník">
+<meta name="twitter:description" content="">
+<style>
+	main { max-width: 88ch; }
+</style>
+{{ end }}
+
+{{ define "main" }}
+<main>
+
+	<div class="heading-flex">
+		<h1>Čeština</h1>
+		<span class="heading-label">čeština za free by Dany Machy</span>
+	</div>
+	<nav>
+		<a href="https://drive.google.com/drive/folders/1G8q1SVbVnIAXvOIBS4BuIrVN8ppk9QRn?usp=sharing" target="_blank">
+			<span class="num">77</span>
+			Google Drive
+		</a>
+	</nav>
+
+	<div class="heading-flex">
+		<h1>DVK</h1>
+		<span class="heading-label">by Dominik &amp; audio by Libor</span>
+		<span class="heading-label">upravil Dany Machy</span>
+	</div>
+	<nav>
+		<a href="https://docs.google.com/document/d/1KUpn0QarhoeIg8gkC5Fr3FgO_D-l7UKb1fckFN2ubp4/edit?usp=sharing" target="_blank">
+			<span class="num">00</span>
+			Všechny zpracované otázky — Google Docs
+		</a>
+		{{ range seq 1 20 }}
+		{{ $num := . }}
+		{{ $page := site.GetPage (printf "/dvk/%d" $num) }}
+		{{ if $page }}
+		{{ $hasQuiz := index (index site.Data.quizzes "dvk") (string $num) }}
+		<a href="{{ $page.RelPermalink }}">
+			<span class="num">{{ printf "%02d" $num }}</span>
+			{{ (default $page.Title $page.Params.smallTitle) | safeHTML }}
+			{{ if $hasQuiz }}<span class="quiz-tag">Quiz</span>{{ end }}
+		</a>
+		{{ end }}
+		{{ end }}
+		<a href="{{ "/dvk/chronologie.html" | relURL }}">
+			<span class="num">—</span>
+			Chronologie
+		</a>
+		<a href="{{ "/dvk/DVK Obrazové přílohy.pdf" | relURL }}" target="_blank">
+			<span class="num">—</span>
+			Obrazové přílohy
+			<img class="file-icon" src="{{ "/img/icons/file-text.svg" | relURL }}" alt="" />
+		</a>
+	</nav>
+
+	<div class="heading-flex">
+		<h1>VMA</h1>
+		<span class="heading-label">Dejvi &amp; Hora Kubáček</span>
+	</div>
+	<nav>
+		{{ range seq 1 25 }}
+		{{ $num := . }}
+		{{ $page := site.GetPage (printf "/vma/%d" $num) }}
+		{{ if $page }}
+		<a href="{{ $page.RelPermalink }}">
+			<span class="num">{{ printf "%02d" $num }}</span>
+			{{ (default $page.Title $page.Params.smallTitle) | safeHTML }}
+		</a>
+		{{ end }}
+		{{ end }}
+		<a href="https://creativehill.cz/data/VMA-maturitní-otázky-oboru-VMA-pro-rok-2025-2026.pdf" target="_blank">
+			<span class="num">—</span>
+			Oborové otázky
+			<img class="file-icon" src="{{ "/img/icons/file-text.svg" | relURL }}" alt="" />
+		</a>
+	</nav>
+
+	<div class="heading-flex" style="margin-top: 3.5em;">
+		<h1>Užitečné odkazy</h1>
+	</div>
+
+	<h2>Výukové materiály</h2>
+	<h3>Materiály pána Vráblika</h3>
+	<a href="https://bit.ly/vyukoveMaterialy" target="_blank">bit.ly/vyukoveMaterialy</a>
+
+	<h2>DVK</h2>
+	<h3>History of Art</h3>
+	<a href="https://dejinyumeni.blogspot.com/" target="_blank">dejinyumeni.blogspot.com</a>
+
+	<h3>Web Gallery of Art</h3>
+	<a href="https://www.wga.hu/" target="_blank">wga.hu</a>
+
+	<h2>Čeština</h2>
+
+	<h3>Teorie literatury</h3>
+	<a href="http://www.imaturita.cz/maturitni-otazky/cesky-jazyk/teorie-literatury/512/" target="_blank">imaturita.cz — Teorie literatury</a>
+
+	<h3>Básnické prostředky</h3>
+	<a href="https://www.studentmag.cz/basnicke-prostredky-zopakujte-si-pred-maturitou-9-nejcastejsich-figur/" target="_blank">studentmag.cz — 9 nejčastějších figur</a>
+
+	<div class="heading-flex" style="margin-top: 3.5em;">
+		<h1>Soubory ke stažení</h1>
+	</div>
+	<nav>
+		<a href="{{ "/dvk/DVK Obrazové přílohy.pdf" | relURL }}" download>
+			<span class="num">—</span>
+			DVK Obrazové přílohy
+			<img class="file-icon" src="{{ "/img/icons/download.svg" | relURL }}" alt="" />
+		</a>
+		<a href="https://creativehill.cz/data/VMA-maturitní-otázky-oboru-VMA-pro-rok-2025-2026.pdf" download>
+			<span class="num">—</span>
+			VMA Oborové otázky
+			<img class="file-icon" src="{{ "/img/icons/download.svg" | relURL }}" alt="" />
+		</a>
+	</nav>
+
+	<footer>
+		<p>&copy; 2026 Nebrecime.cz</p>
+		<p class="small">Tvůrce: <span>Daniel Machalicek</span> &nbsp;·&nbsp; Správce: <span>Vladimír Urík</span></p>
+	</footer>
+</main>
+{{ end }}

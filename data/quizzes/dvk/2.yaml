@@ -1,0 +1,31 @@
+questions:
+  - q: "Jak se nazývají egyptské hieroglyfické texty pohřbívané s mumií?"
+    options: ["Epos o Gilgamešovi", "Kniha mrtvých", "Papyrus Anastasi", "Kánon krásy"]
+    answer: 1
+  - q: "Který faraon nechal postavit největší pyramidu v Gíze?"
+    options: ["Chefrén", "Menkaure", "Ramses II.", "Cheops (Chufu)"]
+    answer: 3
+  - q: "Co charakterizuje egyptský 'zákon čelnosti' (hieratická zkratka) v malbě?"
+    options: ["Realistická perspektiva", "Hlava z profilu, tělo zepředu", "Tmavé pozadí", "Pouze siluety"]
+    answer: 1
+  - q: "Kdo nechal postavit Velkou sfingu v Gíze?"
+    options: ["Cheops", "Ramses II.", "Chefrén", "Thutmose III."]
+    answer: 2
+  - q: "Jak se nazývají nádoby na uchovávání vnitřních orgánů mumie?"
+    options: ["Amfory", "Kanopy", "Urnae", "Sarkofágy"]
+    answer: 1
+  - q: "Která egyptská královna je zobrazena v proslulé bustě uložené v Berlíně?"
+    options: ["Kleopatra", "Hatšepsut", "Nefertari", "Nefertiti"]
+    answer: 3
+  - q: "Kde se nachází Údolí králů s pohřebními komorami faraonů?"
+    options: ["U Alexandrie", "U Káhiry", "U Luxoru", "U Asuánu"]
+    answer: 2
+  - q: "Který faraon je znám náboženskou reformou zavádějící monoteistický kult Atona?"
+    options: ["Ramses II.", "Tutanchamon", "Achnaton", "Thutmose III."]
+    answer: 2
+  - q: "Jaký materiál Egypťané používali jako podložku pro psaní?"
+    options: ["Pergamen", "Papyrus", "Hliněné tabulky", "Kůže"]
+    answer: 1
+  - q: "Co je egyptský obelisk symbolicky spojen?"
+    options: ["S podsvětím", "Se slunečním kultem", "S Nilem", "S válečnými vítězstvími"]
+    answer: 1
