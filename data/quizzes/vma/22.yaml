@@ -5,7 +5,7 @@ questions:
   - q: "Co je UML?"
     options: ["Programovací jazyk", "Unified Modeling Language - jazyk pro vizuální modelování softwaru", "Typ databáze", "Síťový protokol"]
     answer: 1
-  - q: "Co je to use case (případ užití)?",
+  - q: "Co je to use case (případ užití)?"
     options: ["Typ výjimky", "Popis interakce mezi uživatelem a systémem", "Způsob šifrování", "Typ databázového dotazu"]
     answer: 1
   - q: "Jaký vývojový model rozděluje vývoj na fáze: požadavky, návrh, implementace, testování, údržba?"
