@@ -522,6 +522,7 @@ footer > p > span { font-weight: 600; color: var(--accent); }
 	background: linear-gradient(135deg, #f59e0b, #d97706);
 	padding: 3px 7px;
 	border-radius: 4px;
+	margin-top: 0;
 	flex-shrink: 0;
 }
 
@@ -729,4 +730,13 @@ html.is-animating .transition-fade {
 	.img-card .img-card-text { padding: 1em; }
 	table  { font-size: 0.72em; display: block; overflow-x: auto; }
 	code, .code { font-size: 0.8em; }
+}
+
+.quiz-nav {
+	background: var(--accent);
+	color: black;
+}
+
+.file-icon {
+	margin: 0;
 }
