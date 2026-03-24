@@ -10,34 +10,7 @@
 <meta name="twitter:title" content="Maturita Formalita | Rozcestník">
 <meta name="twitter:description" content="">
 <style>
-	main {
-		max-width: 90ch;
-	}
-	h1,
-	h3 {
-		text-transform: none;
-	}
-	h2 {
-		margin-top: 2em;
-	}
-	.heading-flex {
-		margin-top: 2em;
-		display: inline-flex;
-		align-items: center;
-		line-height: 1;
-	}
-	.heading-flex > * {
-		margin-top: 0;
-	}
-	.heading-label {
-		margin: 0;
-		margin-left: 8px;
-		background-color: rgba(110, 110, 110, 0.2);
-		font-size: 14px;
-		line-height: 1.2;
-		padding: 6px 16px;
-		border-radius: 50vh;
-	}
+	main { max-width: 88ch; }
 </style>
 {{ end }}
 
@@ -50,8 +23,8 @@
 	</div>
 	<nav>
 		<a href="https://drive.google.com/drive/folders/1G8q1SVbVnIAXvOIBS4BuIrVN8ppk9QRn?usp=sharing" target="_blank">
-			<div class="num">77</div>
-			GOOGLE DRIVE
+			<span class="num">77</span>
+			Google Drive
 		</a>
 	</nav>
 
@@ -60,22 +33,28 @@
 		<span class="heading-label">by Dominik &amp; audio by Libor</span>
 		<span class="heading-label">upravil Dany Machy</span>
 	</div>
-
 	<nav>
 		<a href="https://docs.google.com/document/d/1KUpn0QarhoeIg8gkC5Fr3FgO_D-l7UKb1fckFN2ubp4/edit?usp=sharing" target="_blank">
-			<div class="num">0</div>
-			VŠECHNY ZPRACOVANÉ OTÁZKY V GOOGLE DOCS
+			<span class="num">00</span>
+			Všechny zpracované otázky — Google Docs
 		</a>
 		{{ range seq 1 20 }}
 		{{ $page := site.GetPage (printf "/dvk/%d" .) }}
 		{{ if $page }}
-		<a href="{{ $page.Permalink }}"><div class="num">{{ . }}</div>{{ (default $page.Title $page.Params.smallTitle) | safeHTML }}</a>
+		<a href="{{ $page.Permalink }}">
+			<span class="num">{{ printf "%02d" . }}</span>
+			{{ (default $page.Title $page.Params.smallTitle) | safeHTML }}
+		</a>
 		{{ end }}
 		{{ end }}
-		<a href="{{ "/dvk/chronologie.html" | relURL }}">Chronologie</a>
+		<a href="{{ "/dvk/chronologie.html" | relURL }}">
+			<span class="num">—</span>
+			Chronologie
+		</a>
 		<a href="{{ "/dvk/DVK Obrazové přílohy.pdf" | relURL }}" target="_blank">
+			<span class="num">—</span>
 			Obrazové přílohy
-			<img src="{{ "/img/icons/file-text.svg" | relURL }}" alt="file-text" />
+			<img src="{{ "/img/icons/file-text.svg" | relURL }}" alt="" />
 		</a>
 	</nav>
 
@@ -83,59 +62,68 @@
 		<h1>VMA</h1>
 		<span class="heading-label">Dejvi &amp; Hora Kubáček</span>
 	</div>
-
 	<nav>
 		{{ range seq 1 25 }}
 		{{ $num := . }}
 		{{ $page := site.GetPage (printf "/vma/%d" $num) }}
 		{{ if $page }}
-		<a href="{{ $page.Permalink }}"><div class="num">{{ $num }}</div>{{ (default $page.Title $page.Params.smallTitle) | safeHTML }}</a>
+		<a href="{{ $page.Permalink }}">
+			<span class="num">{{ printf "%02d" $num }}</span>
+			{{ (default $page.Title $page.Params.smallTitle) | safeHTML }}
+		</a>
 		{{ else if eq $num 8 }}
 		<a href="{{ "/vma/8 HTML.pdf" | relURL }}" target="_blank">
-			<div class="num">8</div>HTML a CSS
-			<img src="{{ "/img/icons/file-text.svg" | relURL }}" alt="file-text" />
+			<span class="num">08</span>
+			HTML a CSS
+			<img src="{{ "/img/icons/file-text.svg" | relURL }}" alt="" />
 		</a>
 		{{ end }}
 		{{ end }}
-		<br />
 		<a href="{{ "/vma/Maturitni-otazky-oboru-VMA-pro-rok-2019-2020.pdf" | relURL }}" target="_blank">
+			<span class="num">—</span>
 			Oborové otázky
-			<img src="{{ "/img/icons/file-text.svg" | relURL }}" alt="file-text" />
+			<img src="{{ "/img/icons/file-text.svg" | relURL }}" alt="" />
 		</a>
 	</nav>
 
-	<h1 style="margin-top: 2em">UŽITEČNÉ ODKAZY</h1>
+	<div class="heading-flex" style="margin-top: 3.5em;">
+		<h1>Užitečné odkazy</h1>
+	</div>
 
 	<h2>DVK</h2>
 	<h3>History of Art</h3>
-	<a href="https://dejinyumeni.blogspot.com/" target="_blank">https://dejinyumeni.blogspot.com/</a>
+	<a href="https://dejinyumeni.blogspot.com/" target="_blank">dejinyumeni.blogspot.com</a>
 
 	<h3>Web Gallery of Art</h3>
-	<a href="https://www.wga.hu/" target="_blank">https://www.wga.hu/</a>
+	<a href="https://www.wga.hu/" target="_blank">wga.hu</a>
 
 	<h2>Čeština</h2>
 
 	<h3>Teorie literatury</h3>
-	<a href="http://www.imaturita.cz/maturitni-otazky/cesky-jazyk/teorie-literatury/512/" target="_blank">http://www.imaturita.cz/maturitni-otazky/cesky-jazyk/teorie-literatury/512/</a>
+	<a href="http://www.imaturita.cz/maturitni-otazky/cesky-jazyk/teorie-literatury/512/" target="_blank">imaturita.cz — Teorie literatury</a>
 
-	<h3>Básnické prostředky: 9 nejčastějších figur k maturitě</h3>
-	<a href="https://www.studentmag.cz/basnicke-prostredky-zopakujte-si-pred-maturitou-9-nejcastejsich-figur/" target="_blank">https://www.studentmag.cz/basnicke-prostredky-zopakujte-si-pred-maturitou-9-nejcastejsich-figur/</a>
+	<h3>Básnické prostředky</h3>
+	<a href="https://www.studentmag.cz/basnicke-prostredky-zopakujte-si-pred-maturitou-9-nejcastejsich-figur/" target="_blank">studentmag.cz — 9 nejčastějších figur</a>
 
-	<h1 style="margin-top: 2em">SOUBORY KE STAŽENÍ</h1>
+	<div class="heading-flex" style="margin-top: 3.5em;">
+		<h1>Soubory ke stažení</h1>
+	</div>
 	<nav>
 		<a href="{{ "/dvk/DVK Obrazové přílohy.pdf" | relURL }}" download>
+			<span class="num">—</span>
 			DVK Obrazové přílohy
-			<img src="{{ "/img/icons/download.svg" | relURL }}" alt="download" />
+			<img src="{{ "/img/icons/download.svg" | relURL }}" alt="" />
 		</a>
 		<a href="{{ "/vma/Maturitni-otazky-oboru-VMA-pro-rok-2019-2020.pdf" | relURL }}" download>
+			<span class="num">—</span>
 			VMA Oborové otázky
-			<img src="{{ "/img/icons/download.svg" | relURL }}" alt="download" />
+			<img src="{{ "/img/icons/download.svg" | relURL }}" alt="" />
 		</a>
 	</nav>
 
 	<footer>
 		<p>&copy; 2026 Nebrecime.cz</p>
-		<p class="small">Tvůrce: <span>Daniel Machalicek</span><br />Správce: <span>Vladimír Urík</span></p>
+		<p class="small">Tvůrce: <span>Daniel Machalicek</span> &nbsp;·&nbsp; Správce: <span>Vladimír Urík</span></p>
 	</footer>
 </main>
 {{ end }}

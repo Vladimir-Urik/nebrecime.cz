@@ -1,52 +1,30 @@
-// THEME VARIABLES
 const body = document.body;
-const themeSwitcher = document.getElementById("theme-switcher");
-// SCROLLUP VARIABLES
-const scrollUp = document.getElementById("scroll-up");
-var hideScrollUp;
+const themeSwitcher = document.getElementById('theme-switcher');
+const scrollUp = document.getElementById('scroll-up');
 
-const updateScrollUpBtn = () => {
-	if (document.documentElement.scrollTop > 200 || body.scrollTop > 200) {
-		clearTimeout(hideScrollUp);
-		scrollUp.style.display = "grid";
-		scrollUp.classList.remove("hidden");
-	} else {
-		//scrollUp.style.display = "none";
-		scrollUp.classList.add("hidden");
-		hideScrollUp = setTimeout(() => {
-			if (scrollUp.classList.contains("hidden"))
-				scrollUp.style.display = "none";
-		}, 300);
-	}
-};
-
-// CHECK FOR STORED THEME
-const theme = localStorage.getItem("theme");
-if (theme) {
-	body.classList.add(theme);
-} else {
-	localStorage.setItem("theme", "light");
-	body.classList.add("light");
-}
-// SET TRANSITION AFTER THEME IS SET
-setTimeout(() => {
-	body.style.transition = "300ms ease-in-out";
-}, 100);
-
-// EVENT LISTENERS
+// Téma
 themeSwitcher.onclick = () => {
-	if (body.classList.contains("light")) {
-		body.classList.add("dark");
-		body.classList.remove("light");
-		localStorage.setItem("theme", "dark");
-	} else {
-		body.classList.add("light");
-		body.classList.remove("dark");
-		localStorage.setItem("theme", "light");
-	}
+	const next = body.classList.contains('light') ? 'dark' : 'light';
+	body.className = next;
+	localStorage.setItem('theme', next);
 };
 
-if (scrollUp != null) {
-	updateScrollUpBtn();
-	window.onscroll = () => updateScrollUpBtn();
-}
+// Scroll-up
+const updateScrollUp = () => {
+	if (window.scrollY > 200) {
+		scrollUp.classList.remove('hidden');
+	} else {
+		scrollUp.classList.add('hidden');
+	}
+};
+window.addEventListener('scroll', updateScrollUp, { passive: true });
+updateScrollUp();
+
+// Swup – SPA přechody
+const swup = new Swup({ containers: ['#swup'] });
+
+swup.hooks.on('page:view', () => {
+	// Po přechodu znovu inicializuj smooth scroll
+	new SmoothScroll('a[href*="#"]');
+	updateScrollUp();
+});
