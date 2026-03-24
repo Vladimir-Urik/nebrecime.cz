@@ -571,7 +571,14 @@ footer > p > span { font-weight: 600; color: var(--accent); }
 }
 
 .quiz-opt {
-	all: unset;
+	appearance: none;
+	-webkit-appearance: none;
+	background: none;
+	border: none;
+	padding: 0;
+	margin: 0;
+	font: inherit;
+	outline: none;
 	box-sizing: border-box;
 	display: block;
 	width: 100%;
@@ -643,7 +650,14 @@ footer > p > span { font-weight: 600; color: var(--accent); }
 }
 
 .quiz-reset {
-	all: unset;
+	appearance: none;
+	-webkit-appearance: none;
+	background: none;
+	border: none;
+	padding: 0;
+	margin: 0;
+	font: inherit;
+	outline: none;
 	box-sizing: border-box;
 	cursor: pointer;
 	pointer-events: auto;

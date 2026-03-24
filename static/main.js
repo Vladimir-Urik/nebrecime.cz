@@ -21,8 +21,8 @@ updateScrollUp();
 // ── Quiz ──
 function initQuiz() {
 	const root = document.getElementById('quiz-root');
-	if (!root || root.dataset.init) return;
-	root.dataset.init = '1';
+	if (!root || root._quizInit) return;
+	root._quizInit = true;
 
 	const items = Array.from(root.querySelectorAll('.quiz-item'));
 	const counter = root.querySelector('.quiz-counter');
