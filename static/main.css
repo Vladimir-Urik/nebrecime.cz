@@ -300,17 +300,17 @@ main {
 	max-width: 70ch;
 }
 
-main > img {
-	width: 100%;
+main > img,
+main img {
 	display: block;
-	margin: 1.5em auto 2em;
-	border-radius: var(--border-radius);
-	box-shadow: var(--shadow-img);
+	max-width: 100%;
+	margin: 1.5em auto;
+	border-radius: 6px;
+	cursor: zoom-in;
 }
 
 main img.half {
 	width: 50%;
-	margin: 1em auto;
 }
 
 .dark img.invertable { filter: invert(0.88) brightness(0.88); }
@@ -475,6 +475,29 @@ footer > p > span { font-weight: 600; color: var(--accent); }
 	border: 1px solid var(--border);
 	padding: 4px 10px;
 	border-radius: var(--border-radius-pill);
+}
+
+/* ─── LIGHTBOX ─── */
+#lightbox {
+	display: none;
+	position: fixed;
+	inset: 0;
+	z-index: 9999;
+	background: rgba(0, 0, 0, 0.88);
+	align-items: center;
+	justify-content: center;
+	cursor: zoom-out;
+	padding: 2em;
+}
+#lightbox.open {
+	display: flex;
+}
+#lightbox img {
+	max-width: 100%;
+	max-height: 90vh;
+	border-radius: 6px;
+	cursor: default;
+	margin: 0;
 }
 
 /* ─── SWUP PAGE TRANSITIONS ─── */
