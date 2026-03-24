@@ -21,7 +21,8 @@ updateScrollUp();
 // ── Quiz ──
 function initQuiz() {
 	const root = document.getElementById('quiz-root');
-	if (!root) return;
+	if (!root || root.dataset.init) return;
+	root.dataset.init = '1';
 
 	const items = Array.from(root.querySelectorAll('.quiz-item'));
 	const counter = root.querySelector('.quiz-counter');
@@ -29,6 +30,7 @@ function initQuiz() {
 	const resultDiv = root.querySelector('.quiz-result');
 	const scoreText = root.querySelector('.quiz-score-text');
 	const resetBtn = root.querySelector('.quiz-reset');
+	const questionsEl = root.querySelector('.quiz-questions');
 	const total = items.length;
 
 	let current = 0;
@@ -50,40 +52,41 @@ function initQuiz() {
 		counter.textContent = `Hotovo!`;
 	}
 
-	items.forEach((item) => {
-		item.querySelectorAll('.quiz-opt').forEach(btn => {
-			btn.addEventListener('click', () => {
-				if (btn.disabled) return;
-				const correctIdx = parseInt(item.dataset.correct);
-				const chosenIdx = parseInt(btn.dataset.idx);
-				const feedback = item.querySelector('.quiz-feedback');
-				const isCorrect = chosenIdx === correctIdx;
+	// Event delegation — catches bubbled clicks from any button inside
+	questionsEl.addEventListener('click', e => {
+		const btn = e.target.closest('.quiz-opt');
+		if (!btn) return;
+		const item = btn.closest('.quiz-item');
+		if (!item || !item.classList.contains('active') || item.dataset.answered) return;
+		item.dataset.answered = '1';
 
-				// Disable all options and mark correct/wrong
-				item.querySelectorAll('.quiz-opt').forEach(b => {
-					b.disabled = true;
-					if (parseInt(b.dataset.idx) === correctIdx) b.classList.add('correct');
-					else if (b === btn && !isCorrect) b.classList.add('wrong');
-				});
+		const correctIdx = parseInt(item.dataset.correct);
+		const chosenIdx = parseInt(btn.dataset.idx);
+		const feedback = item.querySelector('.quiz-feedback');
+		const isCorrect = chosenIdx === correctIdx;
 
-				if (isCorrect) correct++;
-				feedback.textContent = isCorrect ? '✓ Správně!' : '✗ Špatně';
-				feedback.className = 'quiz-feedback ' + (isCorrect ? 'ok' : 'err');
-
-				// Advance after short delay
-				setTimeout(() => {
-					current++;
-					if (current < total) showItem(current);
-					else finish();
-				}, 900);
-			});
+		item.querySelectorAll('.quiz-opt').forEach(b => {
+			b.disabled = true;
+			if (parseInt(b.dataset.idx) === correctIdx) b.classList.add('correct');
+			else if (b === btn && !isCorrect) b.classList.add('wrong');
 		});
+
+		if (isCorrect) correct++;
+		feedback.textContent = isCorrect ? '✓ Správně!' : '✗ Špatně';
+		feedback.className = 'quiz-feedback ' + (isCorrect ? 'ok' : 'err');
+
+		setTimeout(() => {
+			current++;
+			if (current < total) showItem(current);
+			else finish();
+		}, 900);
 	});
 
 	resetBtn.addEventListener('click', () => {
 		current = 0;
 		correct = 0;
 		items.forEach(item => {
+			delete item.dataset.answered;
 			item.querySelectorAll('.quiz-opt').forEach(b => {
 				b.disabled = false;
 				b.classList.remove('correct', 'wrong');

@@ -1,9 +1,12 @@
 {{ define "main" }}
+{{ $sectionQuizzes := index site.Data.quizzes .Section }}
+{{ $hasQuiz := and $sectionQuizzes (index $sectionQuizzes .File.ContentBaseName) }}
 <nav>
 	<a href="{{ "/" | relURL }}">Rozcestník</a>
 	{{ range .Params.nav }}
 	<a href="#{{ .anchor }}">{{ .label }}</a>
 	{{ end }}
+	{{ if $hasQuiz }}<a href="#quiz-root">Kvíz</a>{{ end }}
 </nav>
 <main>
 	<h1>{{ default .Title .Params.smallTitle | safeHTML }}</h1>
