@@ -39,11 +39,14 @@
 			Všechny zpracované otázky — Google Docs
 		</a>
 		{{ range seq 1 20 }}
-		{{ $page := site.GetPage (printf "/dvk/%d" .) }}
+		{{ $num := . }}
+		{{ $page := site.GetPage (printf "/dvk/%d" $num) }}
 		{{ if $page }}
-		<a href="{{ $page.Permalink }}">
-			<span class="num">{{ printf "%02d" . }}</span>
+		{{ $hasQuiz := index (index site.Data.quizzes "dvk") (string $num) }}
+		<a href="{{ $page.RelPermalink }}">
+			<span class="num">{{ printf "%02d" $num }}</span>
 			{{ (default $page.Title $page.Params.smallTitle) | safeHTML }}
+			{{ if $hasQuiz }}<span class="quiz-tag">Quiz</span>{{ end }}
 		</a>
 		{{ end }}
 		{{ end }}
@@ -67,15 +70,9 @@
 		{{ $num := . }}
 		{{ $page := site.GetPage (printf "/vma/%d" $num) }}
 		{{ if $page }}
-		<a href="{{ $page.Permalink }}">
+		<a href="{{ $page.RelPermalink }}">
 			<span class="num">{{ printf "%02d" $num }}</span>
 			{{ (default $page.Title $page.Params.smallTitle) | safeHTML }}
-		</a>
-		{{ else if eq $num 8 }}
-		<a href="{{ "/vma/8 HTML.pdf" | relURL }}" target="_blank">
-			<span class="num">08</span>
-			HTML a CSS
-			<img src="{{ "/img/icons/file-text.svg" | relURL }}" alt="" />
 		</a>
 		{{ end }}
 		{{ end }}
@@ -89,6 +86,10 @@
 	<div class="heading-flex" style="margin-top: 3.5em;">
 		<h1>Užitečné odkazy</h1>
 	</div>
+
+	<h2>Výukové materiály</h2>
+	<h3>Materiály pána Vráblika</h3>
+	<a href="https://bit.ly/vyukoveMaterialy" target="_blank">bit.ly/vyukoveMaterialy</a>
 
 	<h2>DVK</h2>
 	<h3>History of Art</h3>

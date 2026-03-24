@@ -1,0 +1,31 @@
+questions:
+  - q: "Jaký stavební prvek Římané zdokonalili a masivně využívali oproti Řekům?"
+    options: ["Sloupy", "Oblouk a klenbu", "Pyramidy", "Obelisky"]
+    answer: 1
+  - q: "Jak se nazývá slavné římské amfiteátrum postavené v 1. stol. n.l.?"
+    options: ["Pantheon", "Circus Maximus", "Koloseum", "Forum Romanum"]
+    answer: 2
+  - q: "Co je římský Pantheon?"
+    options: ["Amfiteátr pro gladiátory", "Chrám zasvěcený všem bohům", "Triumfální oblouk", "Lázně"]
+    answer: 1
+  - q: "Slavné Trajánovy lázně, Trajánský sloup a fórum nechal postavit který císař?"
+    options: ["Augustus", "Nero", "Trajanus", "Hadrianus"]
+    answer: 2
+  - q: "Co zobrazuje reliéfní výzdoba Trajánova sloupu?"
+    options: ["Boje s Germány", "Stavbu Říma", "Vítězná tažení proti Dákům", "Mythologické scény"]
+    answer: 2
+  - q: "Jakou techniku podlahové výzdoby Římané hojně využívali?"
+    options: ["Freska", "Enkaustika", "Mozaika", "Secco"]
+    answer: 2
+  - q: "Ve kterém roce erupce Vesuvu pohřbila Pompeje?"
+    options: ["45 n.l.", "63 n.l.", "79 n.l.", "100 n.l."]
+    answer: 2
+  - q: "Jaké dva řády přidali Římané ke třem řeckým?"
+    options: ["Helénský a orientální", "Toskánský a kompozitní", "Alexandrijský a egyptský", "Syrský a perský"]
+    answer: 1
+  - q: "Jak se nazývá stavba postavená na počest vojenského vítězství s průchozím obloukem?"
+    options: ["Aquadukt", "Amfiteátr", "Triumfální oblouk", "Bazilika"]
+    answer: 2
+  - q: "Jak Římané nazývali techniku nástěnné malby nanášené na čerstvou omítku?"
+    options: ["Enkaustika", "Freska", "Tempera", "Secco"]
+    answer: 1

@@ -1,0 +1,31 @@
+questions:
+  - q: "Který řecký chrámový řád má nejjednodušší sloupy bez ornamentu na hlavici?"
+    options: ["Iónský", "Korintský", "Dórský", "Kompozitní"]
+    answer: 2
+  - q: "Na jakém kopci v Athénách stojí Parthenón?"
+    options: ["Olympu", "Akropoli", "Parnasu", "Hymetu"]
+    answer: 1
+  - q: "Kdo vytvořil slavnou sochu Diskobola (házejícího diskem)?"
+    options: ["Feidias", "Praxiteles", "Myrón", "Lysippos"]
+    answer: 2
+  - q: "Který řád má hlavice sloupů zdobené volutami (spirálami)?"
+    options: ["Dórský", "Iónský", "Korintský", "Toskánský"]
+    answer: 1
+  - q: "Jak se nazývají stojící mužské archaické sochy s charakteristickým 'archaickým úsměvem'?"
+    options: ["Koré", "Kurós", "Atlant", "Hermés"]
+    answer: 1
+  - q: "Z jakého materiálu byla obří socha Athény uvnitř Parthenónu?"
+    options: ["Mramor", "Bronz", "Zlato a slonovina", "Terakota"]
+    answer: 2
+  - q: "Co je to 'kontrapost' v řeckém sochařství?"
+    options: ["Symetrické strnulé postavení", "Uvolněné postavení s váhou přesunutou na jednu nohu", "Sedící postava boha", "Skupina soubojících vojáků"]
+    answer: 1
+  - q: "Který sochař klasického období vytvořil sochu Hermés s malým Dionýsem?"
+    options: ["Myrón", "Feidias", "Skopás", "Praxiteles"]
+    answer: 3
+  - q: "Jak se nazývají řecké malované nádoby s černými figurami na červeném pozadí?"
+    options: ["Červenofigurové", "Černofigurové", "Bílé lekythos", "Amfory geometrického stylu"]
+    answer: 1
+  - q: "Který řád má hlavice sloupů bohatě zdobené akantovými listy?"
+    options: ["Dórský", "Iónský", "Korintský", "Toskánský"]
+    answer: 2

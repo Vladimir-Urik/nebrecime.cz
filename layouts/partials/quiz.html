@@ -1,0 +1,37 @@
+{{ $sectionQuizzes := index site.Data.quizzes .Section }}
+{{ $quiz := index $sectionQuizzes .File.ContentBaseName }}
+{{ with $quiz }}
+{{ $total := len .questions }}
+<div class="quiz" id="quiz-root">
+	<div class="quiz-header">
+		<div class="quiz-header-left">
+			<h2 class="quiz-title">Kvíz</h2>
+			<span class="badge-beta">BETA</span>
+		</div>
+		<span class="quiz-counter">1 / {{ $total }}</span>
+	</div>
+
+	<div class="quiz-progress-wrap">
+		<div class="quiz-progress-bar" style="width: calc(100% / {{ $total }})"></div>
+	</div>
+
+	<div class="quiz-questions">
+		{{ range $i, $q := .questions }}
+		<div class="quiz-item{{ if eq $i 0 }} active{{ end }}" data-correct="{{ $q.answer }}" data-index="{{ $i }}">
+			<p class="quiz-q-text">{{ $q.q }}</p>
+			<div class="quiz-options">
+				{{ range $j, $opt := $q.options }}
+				<button class="quiz-opt" type="button" data-idx="{{ $j }}">{{ $opt }}</button>
+				{{ end }}
+			</div>
+			<p class="quiz-feedback" aria-live="polite"></p>
+		</div>
+		{{ end }}
+	</div>
+
+	<div class="quiz-result" hidden>
+		<p class="quiz-score-text"></p>
+		<button class="quiz-reset" type="button">Zkusit znovu</button>
+	</div>
+</div>
+{{ end }}

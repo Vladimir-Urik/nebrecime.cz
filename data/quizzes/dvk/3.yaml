@@ -1,0 +1,31 @@
+questions:
+  - q: "Jak se nazývají stupňovité chrámové věže Mezopotámie?"
+    options: ["Pyramidy", "Obelisky", "Zikkuraty", "Mastapy"]
+    answer: 2
+  - q: "Jaká civilizace jako první vyvinula písmo v Mezopotámii?"
+    options: ["Babylónci", "Asyřané", "Sumerové", "Peršané"]
+    answer: 2
+  - q: "Jak se nazývá mezopotámské písmo vytvářené klínovitými vrypy do hliněných tabulek?"
+    options: ["Hieroglyfy", "Klínové písmo", "Démotické písmo", "Fénická abeceda"]
+    answer: 1
+  - q: "Slavná Ištařina brána patřila ke kterému starověkému městu?"
+    options: ["Niniwa", "Ur", "Babylon", "Lagaš"]
+    answer: 2
+  - q: "Na jakém ostrově se rozkládala Mínojská civilizace?"
+    options: ["Sicílie", "Kypr", "Kréta", "Rhodos"]
+    answer: 2
+  - q: "Co je typické pro mínojské umění?"
+    options: ["Strohé geometrické vzory", "Živé zobrazení přírody, zvířat a pohybu", "Gigantické sochy vládců", "Temné podzemní kompozice"]
+    answer: 1
+  - q: "Jak se nazývá slavný mínojský palác na Krétě?"
+    options: ["Mykény", "Knóssos", "Tiryns", "Olympie"]
+    answer: 1
+  - q: "Jaké zvíře hrálo klíčovou roli v mínojském náboženství a umění?"
+    options: ["Kůň", "Krokodýl", "Orel", "Býk"]
+    answer: 3
+  - q: "Čím se vyznačuje mykénská architektura na rozdíl od mínojské?"
+    options: ["Otevřenými paláci bez opevnění", "Masivními cyklopskými hradbami", "Jemnými freskami bez pevností", "Dřevěnými stavbami"]
+    answer: 1
+  - q: "Zlatá pohřební maska nalezená v Mykénách je označována jako 'Maska ...'?"
+    options: ["Dia", "Apollóna", "Agamemnóna", "Achilla"]
+    answer: 2

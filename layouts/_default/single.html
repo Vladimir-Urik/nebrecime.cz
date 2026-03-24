@@ -8,5 +8,6 @@
 <main>
 	<h1>{{ default .Title .Params.smallTitle | safeHTML }}</h1>
 	{{ .Content }}
+	{{ partial "quiz.html" . }}
 </main>
 {{ end }}

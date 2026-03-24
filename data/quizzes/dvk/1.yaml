@@ -1,0 +1,31 @@
+questions:
+  - q: "Z jakého materiálu je vyrobena Věstonická venuše?"
+    options: ["Kámen", "Bronz", "Vypálená hlína", "Kost"]
+    answer: 2
+  - q: "Ve které zemi se nachází jeskyně Altamira se slavnými pravěkými malbami?"
+    options: ["Francie", "Itálie", "Německo", "Španělsko"]
+    answer: 3
+  - q: "Jak se nazývají velké vzpřímené kamenné bloky stojící samostatně?"
+    options: ["Dolmen", "Menhir", "Cromlech", "Tumulus"]
+    answer: 1
+  - q: "Jakou funkci pravděpodobně plnily pravěké venuše (sošky žen)?"
+    options: ["Hračky pro děti", "Kultovní předměty plodnosti", "Lovecké amulety", "Nástroje na vaření"]
+    answer: 1
+  - q: "Co nejčastěji zobrazují paleolitické jeskynní malby?"
+    options: ["Lidské tváře", "Abstraktní symboly", "Zvířata", "Krajiny a stromy"]
+    answer: 2
+  - q: "Jak se nazývá kruhové uspořádání menhirů?"
+    options: ["Dolmen", "Tumulus", "Menhir", "Cromlech"]
+    answer: 3
+  - q: "Ve které jeskyni se nacházejí slavné malby bizonů a koní ve Francii?"
+    options: ["Altamira", "Lascaux", "Chauvet", "Font-de-Gaume"]
+    answer: 1
+  - q: "Kde bylo nalezeno největší soustředění megalitů — Stonehenge?"
+    options: ["Irsko", "Francie", "Anglie", "Skotsko"]
+    answer: 2
+  - q: "Jak se nazývá pohřební mohyla z pravěku?"
+    options: ["Cromlech", "Menhir", "Dolmen", "Tumulus"]
+    answer: 3
+  - q: "Které pravěké období je charakterizováno broušenými kamennými nástroji a zemědělstvím?"
+    options: ["Paleolit", "Mezolit", "Neolit", "Eneolit"]
+    answer: 2
