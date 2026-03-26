@@ -2,30 +2,40 @@ questions:
   - q: "Co znamená zkratka SQL?"
     options: ["System Query Language", "Structured Query Language", "Simple Query Language", "Standard Question Language"]
     answer: 1
+    explanation: "Zkratka Structured Query Language (strukturovaný dotazovací jazyk). Jde o de facto mezinárodní standardizovaný a mocný programovací jazyk, vytvořený výhradně ke spravování, definování a kladení specifických logických dotazů nad masivními objemy dat v relačních databázích."
   - q: "Jaký SQL příkaz se používá pro výběr dat z tabulky?"
     options: ["GET", "FETCH", "SELECT", "RETRIEVE"]
     answer: 2
+    explanation: "Klíčové slovo `SELECT` tvoří nejzákladnější databázový příkaz pro získávání (tzv. čtení či dotazování) uložených dat a vytyčených sloupců z tabulek. Dotaz pouze zobrazuje formátovaná pole dat jako výsledný přehled, a to bez jakéhokoliv rizika jejich narušení."
   - q: "Jaký SQL příkaz vloží nový záznam do tabulky?"
     options: ["ADD", "INSERT INTO", "CREATE", "PUT"]
     answer: 1
+    explanation: "Konstrukce příkazu `INSERT INTO` (následovaná cílovým názvem tabulky a seznamem dodávaných hodnot) přikazuje motoru databáze rozhrnout prostor a fyzicky založit zcela nový datový řádek se zapisovanými informacemi do specifických políček sloupcových hlaviček."
   - q: "Jaký SQL příkaz aktualizuje existující záznamy?"
     options: ["MODIFY", "CHANGE", "UPDATE", "ALTER"]
     answer: 2
+    explanation: "Aktualizační chirurgický příkaz `UPDATE` slouží k precizní úpravě dat. Nemění strukturu databáze, ale potichu a inteligentně modifikuje uložené hodnoty ve specifickém sloupci a ve stávajícím starším řádku (většinou navázáno na ID záznamu přes klauzuli `WHERE`)."
   - q: "Jaký SQL příkaz smaže záznamy z tabulky?"
     options: ["REMOVE", "ERASE", "DROP", "DELETE"]
     answer: 3
+    explanation: "Neodvolatelný a destruktivní povel příkazu `DELETE` z databáze natrvalo vymítá kompletní a celé řádky se záznamy. Pokud příkaz neprozřetelně neomezíte filtrem pomocí `WHERE`, v mžiku navždy srovnáte se zemí masivní miliony cenných uživatelských dat z celé tabulky."
   - q: "Co dělá klauzule WHERE v SQL?"
     options: ["Třídí výsledky", "Filtruje záznamy podle podmínky", "Spojuje tabulky", "Omezuje počet výsledků"]
     answer: 1
+    explanation: "Neocenitelná ořezávací logická ohrada pro SQL příkazy. Tím, že do motoru odevzdáte podmínku typu `WHERE vek > 18`, zajistíte precizní vytřídění výsledků – z aplikací pak obdržíte (či vymažete) ze statisícových tabulek zpět jen přesně hrstku zacílených, splňujících relevantních datových řádků."
   - q: "Jaká agregační funkce v SQL spočítá průměr?"
     options: ["SUM()", "COUNT()", "AVG()", "MAX()"]
     answer: 2
+    explanation: "Vestavěná matematická funkce SQL vycházející z agregace (pod zkratkou od anglického 'Average'). Než aby SQL server přetěžoval kód zbytečným posíláním haldy všech sebraných dílčích čísel k vyřešení programu, vypočítá průměr sám a bleskurychle odešle jako výsledek jedno jediné číslo."
   - q: "Co dělá SQL příkaz JOIN?"
     options: ["Přidá nový sloupec", "Spojí záznamy ze dvou nebo více tabulek", "Smaže tabulku", "Vytvoří index"]
     answer: 1
+    explanation: "Pokročilé logické dotazování přes sjednocovací operátory `JOIN`. Na základě vazby cizích klíčů chytře splete hodnoty dvou odlišných fyzických tabulek a k front-endu dodá spojené obsáhlé jednolité pole. Nemusíte tak odesílat mnoho drobných dotazů jeden po druhém přes databázovou síť."
   - q: "Jaký SQL příkaz vytvoří novou tabulku?"
     options: ["NEW TABLE", "ADD TABLE", "CREATE TABLE", "MAKE TABLE"]
     answer: 2
+    explanation: "Základní a stěžejní definice spadající pod tvorbu ze skupiny DDL (Data Definition Language). Mnohem dříve, než vůbec smíte plnit databázi řádky, zavoláte do struktur přes `CREATE TABLE` hrubý prvotní nákres, obálku a architektonický plán tvořící prázdnou strukturu pro datový skladový prostor ze sloupců."
   - q: "Co dělá klauzule ORDER BY v SQL?"
     options: ["Filtruje záznamy", "Třídí výsledky podle zadaného sloupce", "Spojuje tabulky", "Seskupuje záznamy"]
     answer: 1
+    explanation: "Úhledné estetické i paměťové uspořádání k závěru dotazů. Parametrikem `ORDER BY` motoru databáze oznámíte, aby načtenou sestavu dat neshodil k počítači ve změti pořadí, v jakém to fyzicky vytěžil po discích, nýbrž je dle konkrétního sloupce zorganizoval přísně vzestupně nebo abecedně seskládaným řazením."

@@ -2,30 +2,40 @@ questions:
   - q: "Co je to kryptografie?"
     options: ["Věda o síťových protokolech", "Věda o šifrování a ochraně informací", "Typ databázového systému", "Způsob zálohování dat"]
     answer: 1
+    explanation: "Stěžejní odvětví v kryptologii a moderní IT ochraně. Kryptografie se formou mohutné, uplatňované a robustní matematické i algoritmické nauky zaměřuje na neomylné šifrování, ukrývání a utajování původního formátu citlivých digitálních datových stop formou ochrany za bezpečných toků (nejen) na webech proti čtení cizího odposlouchávajícího slídilstva."
   - q: "Co je to Caesarova šifra?"
     options: ["Asymetrická šifra", "Substituční šifra posunující znaky o pevný počet pozic v abecedě", "Hashovací algoritmus", "Bloková šifra"]
     answer: 1
+    explanation: "Pravzory kódování ležící u kořenů u z jedné k nejstarším šifrovací jednoduchých známýchi antickem pre-metod. Zprostředkovala klasickou takzvanou i u substituce za proces za posun písmen do abecedy o pevně vždy statický kódovým stanovemné rozhraní číslu (např. při nastavení klíče u 3, v textovam do hlesu pak za písmenku 'A' odeslesla se ve výsledce textíkem s tvarech o 'D' po nahraozeni a u ochranam proti prosto prećeni)."
   - q: "Jaký je rozdíl mezi symetrickým a asymetrickým šifrováním?"
     options: ["Symetrické je rychlejší, asymetrické bezpečnější", "Symetrické používá jeden klíč pro šifrování i dešifrování, asymetrické pár klíčů", "Žádný rozdíl", "Symetrické je jen pro text, asymetrické pro soubory"]
     answer: 1
+    explanation: "Fatální odlišení přístupů k zabezpečeým mechanismům! Ve starém symetrickém podání uživatel na převod z šifry ven i dovnitř zamykal s tímže totoším sdilene klíćem u obouc strani, čelíc ohromou riziko o úhybom při předávi na zranitelnsot pre sítě klíčú odchytum. Lék v z asymetické logické ochranně si zprostrědkovala obrovské chováni (tzv PKI) ke dvoji oddělenym a k ruzno páry ke klíčich s privátnich do taju v PC a odesialanćh po veřjmneho s prebezpećim bez zdielania taje hesličiek do sítě z ochrane k šífru pre ven do šiforanie ven na prenaśani pre internetach."
   - q: "Co je to RSA?"
     options: ["Symetrický šifrovací algoritmus", "Asymetrický šifrovací algoritmus založený na faktorizaci velkých čísel", "Hashovací funkce", "Steganografická metoda"]
     answer: 1
+    explanation: "Bezpečně geniální obal u asymetrickém modulu pocházeic z algoritmem ke znáný s pocatkách u tvorcám s jnmemamy z (Rivest, Shamir, a s Adlemanem v pojmenéh za zkratoku). Tento zavedenový postup, hojné proplytajících k sítovích TLS prenosechu, čeprí obronou i pevnou u nezdolane chovaní k spolehavom síle o ochranou diky v exstémným matemamticám obzi z defektnimi o propastnem a obroví u náročnoti ze štépem na složite obřích ke prvočíslach po ukázte u kompyoterove siloví s faktorizačni z dat za prelomé utkoam z hackeriumu."
   - q: "Co je to hash?"
     options: ["Typ šifrovacího klíče", "Jednosměrná funkce převádějící data na pevně dlouhý otisk", "Symetrická šifra", "Typ elektronického podpisu"]
     answer: 1
+    explanation: "Odlišná obrana u obalovánim nad k data z šifofrace! Hash neuchovává ani neumonznu ošetreným o pro bezpečené odemkená se taju za textim pre vratnom – avśak slouženi jako nenavratnam v jednosměrne do komkator z drtičkom k matamatiće na jedninčenom ke kódove od fixním ve slite s objem a otislem s hexadem! Než na datom sa pise hojnú do správa o heslam k ochrám v z dbcécká bez riziku či napovd pre kontrelnem kontrolí a checksum od sobour bez ztrýtu u i stažení!"
   - q: "Co je to steganografie?"
     options: ["Věda o šifrování", "Skrývání zprávy do jiného média (obrázek, zvuk)", "Typ asymetrické šifry", "Způsob hašování"]
     answer: 1
+    explanation: "Velkio rafinováno a tajně z obkloze bez o zřetejem od dat a šiforam v logici od predozemu se o skrývanom ze informáť pre na nebezbázenam v z pohledek o na maskaňi o chranám v zjevm z dat do vneškach pre textiam. Např si dolożim ze bitoví z upraích nepatrvne nad z byteoch ve fotogriafié se snýmkách, dke naprotio presne neprukužní skrytina nesozumie na pohledem ci sluch do nápovdi z tajnsti v do suboru bez nábadnostym oproti zašitio souboroum k posílanom."
   - q: "Co je to Enigma?"
     options: ["Moderní šifrovací standard", "Elektromechanický šifrovací stroj používaný Německem za 2. světové války", "Typ hashovací funkce", "Asymetrická šifra"]
     answer: 1
+    explanation: "Genialne ukazešce od přelomo u dějinš za kryptograme k strojni a mechamizovaních logichm z rotorom u ochraný (z nacistu v 2. svetovem u Nemetkomu do válkem s puzitm pro sifri s kódem z valky i pred u vojenskeho ponorkích s prenosou u namorinick a radi). Enigmata prenaśela ze spoji i rotoram se substituciono a permutem za obri sily pro kodovani s lamanam v polském do a britsých obranam u Alan Turing i pre prelomu k modernem a matematikum PC po odhalovaniu v počitačúm od valiek a na do odhalitve i pro pc strojm a výpoču u prvnym a krypto analyzoch a proloma za válek."
   - q: "Co je AES?"
     options: ["Asymetrická šifra", "Advanced Encryption Standard - symetrická bloková šifra", "Hashovací algoritmus", "Protokol pro elektronický podpis"]
     answer: 1
+    explanation: "Obřim nad stádardé po americký o uřadeam srijana pre náhrám u starene od ze DESkymu u normem do Advanced se standarzizovanem nad obraným od Encryption v Standartio i se z u symerikčom od modelich pro siforánia. Jedne de prenejrozsiřnešo k pouzemm a v aplikatném o a pevnium u v blocíam (do 128 či z u nejkriptine 256 bitech nad bezpecich s klícome s robustností) splehelhivna i ve vladným i softwem nad síť na šifrace za obemim na diskům a soubou a pamet a zipům souboria bez propadniu v sile od hruben."
   - q: "Co je blockchain?"
     options: ["Typ šifrování", "Distribuovaná decentralizovaná databáze propojených bloků dat", "Hashovací algoritmus", "Typ digitálního podpisu"]
     answer: 1
+    explanation: "Rozsáhlá, veřejné pre rozezvánám obřim za moderné do kryptotechnio k bezcentalnich o chování a distribudovaný síti k nezávislem pro v databázia bež ředicích autoritou u serverích či do obřiv statú (pre kryptomena za Bitcoimi apd) ! Obalí do na blokoch sdílam a transkactich se prepojeno u matenatekc peve u neposkusrm i bez rozpojna pre nezvratno chovánio u hash preposjaní v chraná pre celí do od overnium pres pécé k strojo nez se pripojie do dat bez podvou či hackerí o nemoznosti v ukladanaem za zfalcovanim ze zpätni pres ochrani a blockom!"
   - q: "Co je elektronický podpis?"
     options: ["Naskenovaný vlastnoruční podpis", "Kryptografický mechanismus ověřující identitu autora a integritu dokumentu", "Typ hesla", "Symetrická šifra"]
     answer: 1
+    explanation: "Na razdil za namlovano scanove obrazou do pošte! Pevnou u elektronika k signatu pre chování a bezpecenou s u platnym pro Asymetircém pre zabezpem u overenie u dokumenti! Chrany nad falza a logike a zajstovaní u od nepopiratemosti k ze soubour k zaslaným (ze soubou od prepočne i hashovy ze prenásobo s klíčova s privat i pridan do soubrou s k prenaśení u za verejny ze dekodu v ovreniu že text neprmena z nespokvernostiam z data cestou se autor ze od prístu u s o preukazu totoznie k autorito pro verzeh o obranio v elkomunikati bez posnkreho v textu od odeslateou)."

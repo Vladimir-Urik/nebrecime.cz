@@ -2,40 +2,40 @@ questions:
   - q: "Co je to ukazatel (pointer) v C++?"
     options: ["Typ pole", "Proměnná uchovávající adresu v paměti", "Typ výčtu", "Způsob dědičnosti"]
     answer: 1
-    explanation: "Kouzelná a v céčku klíčová zbraň neuchovává zapsanou vlastní konkrétní hodnotu jako číslo 10,  nybrž je směrovací cedulka naskrz pamětí fyzické RAM - pouhá adresa na místo, kde daná desitka až bydlí."
+    explanation: "Ukazatel (pointer) v jazyce C/C++ je speciální proměnná. Na rozdíl od klasických proměnných neuchovává aktuální datovou hodnotu (např. číslo 10), nýbrž slouží jako směrovací logická cedulka – je to prostá hexadecimální adresa ukazující do operační paměti RAM na místo, kde příslušná data aktuálně sídlí."
   - q: "Jaký operátor vrátí adresu proměnné v C++?"
     options: ["*", "&", "->", "::"]
     answer: 1
-    explanation: "Prefixní Ampersand (zkroucené &) funguje pro referenční mapy u pointerů jako zjišťovač pošťácka polohy. Když do kódu napíšete `&pocet`, nevypíše vám, co číslo nese obsáh, jen lokalizuje šestnáctkový HEX kód pozice ve vašich tranzistorech (např. 0x00A)."
+    explanation: "Prefixní operátor ampersand (znak `&`) plní v C++ roli referenční mapy u adres paměti. Zápisem operátoru před proměnnou, například napojením z příkazu `&pocet`, nezjistíte obsah čísla v proměnné počtu, avšak neomylně lokalizujete její skryté šestnáctkové hardwarové umístění v paměťovém sektoru (např. 0x0A)."
   - q: "Jaký operátor dereferencuje ukazatel (přistoupí k hodnotě) v C++?"
     options: ["&", "->", "*", "::"]
     answer: 2
-    explanation: "Zatímco bez hvězdičky si pracujeme len s oním nudným mapovým adresátem (0x0A2B), operací přes předřazenou hvězdičku `*ukazatel` interpret odcestuje za adresu rovnou si vytáhnout nebo změnit ono měřítko a obsah skrývaného čísla."
+    explanation: "Zatímco s prázdnou adresní hodnotou (např. 0x0A2B) se operuje v logické paměti a bez dat, skrze operátor obyčejné prefixové hvězdičky provedete takzvanou dereferenci. Příkazem typu `*ukazatel` donutíte program navštívit schovanou paměťovou dálku adresy a vytáhnout anebo upravit přímo samotný její stíněný a hlídaný vnitřní zapsaný číselný i znakový obsah."
   - q: "Co dělá operátor `new` v C++?"
     options: ["Kopíruje objekt", "Alokuje paměť na haldě (heap) a vrátí ukazatel", "Smaže objekt", "Inicializuje proměnnou"]
     answer: 1
-    explanation: "Požaduje ze strany operačního softwaru počítače k vyhrazení nového bloku za chodu na nesymetrický větší volný paměti dynamických dat. A jako navrátnu stvrzenku do jazyka posílá rovnou pointer z umístění v hromadé (Heapu)."
+    explanation: "Příkazově volaný operátor `new` vysílá během chodu běhu na softwaru pécéček systémový rozkaz o okamžité uvolněné datové přídavky. Přiděluje rozšiřitelnou paměť pro variabilní data uvnitř dlouhodobější svobodné tzv. haldy (Heap). A místo dat do zdrojů vaší C++ operace hned pošle jako potvrzení pouze čitý ukazatel na přidělenou zónu RAM pamětí."
   - q: "Co dělá operátor `delete` v C++?"
     options: ["Alokuje novou paměť", "Uvolní dynamicky alokovanou paměť", "Kopíruje paměť", "Inicializuje ukazatel"]
     answer: 1
-    explanation: "Křehké nebezpečí pro zahození alokací od příkazu `new`. Na rozdíl od Javy obsluhovanou automatem si v surovém C/C++ uvolňuje pamět vždy len manuálně skrze slovo  `delete`. (U polích i `delete[]`)."
+    explanation: "U C/C++ absence vnitřního automatizovaného chytrého drtiče a úklidáře objektů a smetí napřímo vyžaduje nesmírnou zodpovědnost a uvolňování v logice zdrojů na ruční bázi manuálně. Pokud tak před datovou smrtí a ukočením softwérového i objektového zniku nezrušíte napojený paměťový most vytvoření k heapu (halda z opráce od povele z new) přes destruktivní příkaz slovům `delete`, navždy utratíte nevrácením dat u ram cely prostor operačnich limitů počítače systémem (tzn Memory Leak poruchou)."
   - q: "Co je to dangling pointer?"
     options: ["Ukazatel na neplatnou nebo uvolněnou paměť", "Ukazatel na začátek pole", "Typ chytré paměti", "Ukazatel na funkci"]
     answer: 0
-    explanation: "Smutné torzo visícího neověřeného nebezpečného ukazatele co mířil v kódu donedávna na cíl adresy - nicméně zrovna jeho cíl ze spoda kód někdo cizej už uvolnil/smazal přes delete. On tak sebedestrukční sahá po zakázané odjištěně vyhlazených starých sektorech oken pamětí."
+    explanation: "Dangling pointer (takzvaný visící ukazatel) označuje utržené obávané poškozené torzo pro pointer. Zástupce už veškerým svým vlivem dál odkazuje nesmyslnou chybou ukazatele přímo ke zcela zakázané konkrétní i uvolněné fyzicke adrese (kterou dřív dříve systém už nebezpečně a legálně zahladil i vypustil příkazem delete). Pokus z takové datové zrušené pasti RAM cokoly ještě tahat znamená obratem závažné i nevratně kritické sebedestruktivní spadnutí celé bezesporu kódové softwarovém struktuoře."
   - q: "Jak se přistupuje k členu struktury přes ukazatel v C++?"
     options: ["ukaz.clen", "ukaz::clen", "ukaz->clen", "ukaz[clen]"]
     answer: 2
-    explanation: "Klasická obyčejná struktura objektu používá puntiku (`.`). Avšak pokud v rutine nese do dlaně jen ukazovatel a musí přes dohlednout přes referenc na skok, používá slavný odkazový syntaktický klacík ze šipky `->` ."
+    explanation: "U práce v bezprostředně běžné a bezdálkových lokálních i normálních zvednutých klasického vnitřních z objektu instance spoléhá program a my logicky k volení prvku puntíky (tzv tečkování). Avšak pro dálkovém ukazatelském drženi po logických a prenášenem pointerech za pomoci přes RAM se logicky pro hmatání z volením ke člence instane i funkcim v c++ objevila výlůčná syntaxice z logická textová operátoru jako klasické sipky `->`."
   - q: "Co je to aritmetika ukazatelů?"
     options: ["Šifrování adres", "Posouvání ukazatele o určitý počet prvků v paměti", "Kopírování ukazatelů", "Porovnání dvou ukazatelů"]
     answer: 1
-    explanation: "Aplikováním sečítání o 1 k pointeru (třeba u integer dat z 4 Bytů obsahu) neprovedu operace matematickou do jedničky na adresu, ale přesně ho to poskočí o přesné hraničící čtyř-bytové posuny od typu až na tělo následijícho dalšího objektku v obřím políčkách."
+    explanation: "Aplikováním obyčejného matematického přečtěni ve stylu iterátoru jedniček `+ 1` bezprostředně přímo k datovým paměťovým adresím (pointeru) nenavýší pointerovou adresu bliknutí do uloznu formou jednoho byta. Překladač je tak dalece sofistikovány, ožežen že na mapam se ukázatlem přesně v objemu dohodným u váhy zadaným adresovích celů typové paměti odskce dopředy i s presným krokum az do novy prvko ve svazku z poli ve staviam ram."
   - q: "Co je NULL pointer?"
     options: ["Ukazatel na první prvek pole", "Ukazatel neukazující na žádné platné místo v paměti", "Ukazatel na funkci", "Typ chytré paměti"]
     answer: 1
-    explanation: "V dřívější dobe deklarovano čistou prázdnou 0 přes znak `NULL` (Dnes v C++11 lépe obsluhovaní silnějśím prvkem typovanou nulu klíčovým sloven `nullptr`), symbolitzujic mrtvej odkaz co mírí absolutně legálně 'do bezpečně bezcestného prázdna'."
+    explanation: "Obyčejně, pokud paměť neukazují u ukazatele vůbec nikam, obsahue nezaplnená u proměnke nebezpecné defacto náhový balat z pameti tzv garbage na adrese. V Cčkú proto na reset poslouží od odkazování k 0 makro znacká NULL udaním že bezcílem propadá pointer, zatímce u chytřejší s C++11 formo vložilem a lepša bezpectnoť slovesi rovnítku od `nullptr` čimi logickým cesty bezpochbý naprístuju napovedú pointer do uplně čiriej ničeho a tmy z okne pro odmitáiu pamäticích cíhloh s chovo z prechodom z bezpečny stavam prazdna z ukazately RAM."
   - q: "Jak se deklaruje ukazatel na celé číslo v C++?"
     options: ["int& p;", "pointer<int> p;", "int* p;", "ref int p;"]
     answer: 2
-    explanation: "Datový příznak s postranně odrazenou za hvězdičkou určuje, že nepůjde přímo o hodnotove naplěnné uložky ve vlastnění proměnnce. Definice logiky `int *` označí že pointer očekává odkazovát se jen čisté obvody s celými inty čislicí."
+    explanation: "Speciální příznak a deklační ozdůba navíc pro určení na tvoření vkládanim do ram, hveždickou na definování parametrú v C++ přes `int *p;` či s priřadenym nad typu od `int* p;` neslouži kompilátoru a kódku na postavením opravdných bloký od matematicko čislem po zástup a celých `int` po date! Jasným výkzem a určenom oznamije jen, je se postavim budočí pre referencemi čistým ukázatelom i bez datch na pointer s výhledam a s cilím zaméřena a pouhé napojena za z vnezsku pametia z v jínśich proménne do odkazum. "

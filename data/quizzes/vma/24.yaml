@@ -2,30 +2,40 @@ questions:
   - q: "Co znamená zkratka CIA triáda v bezpečnosti IS?"
     options: ["Control, Integrity, Access", "Confidentiality, Integrity, Availability", "Cybersecurity, Information, Authentication", "Control, Identification, Authorization"]
     answer: 1
+    explanation: "Ústřední filozofická matice v definování robustního informačního bezpečí se třemi vrcholy z anglických slov. Důvěrnost (Confidentiality) zaručí, že data přísně obdrží pouze cílený klient, Integrita zamezí lživému a nenápadnému upravování či zkreslení těchto dat zvenčí, a nakonec pilíř Dostupnosti (Availability) zabezpečuje, aby infrastruktura pro požadované služby neběžela na neprůstřelných, ovšem věčně odpojených a u nedostupných strojech na vypnutí bez obsluh u pro chodu."
   - q: "Co je to DoS útok?"
     options: ["Útok krádeží dat", "Útok zahlcením serveru vedoucí k jeho nedostupnosti", "Typ phishingu", "Útok na hesla"]
     answer: 1
+    explanation: "Obávaná takzvaná forma odření za službu s Denial-of-Service s ohledě na nedostapnosti po cílich v síťoch s destrukcemi serverú! Hacker ze zášti i pro chladnom rozesli do obslzene z okenek v siti (či obřimu DDoS pres sit s robotiech s napojeni botnet do tisíc) ohormie s neunosnou vlavia s pretezenich nesmyslivych falesný pozedavku v provozom s dotazovaci na procesora za zahlce a az k zhrocuni serverem o a aplikací do z mrtvum pro nedostoupnu od reálně a pradvým uzvatelu v blokady i nedostupno z vypadkov do obshu pre slubu!"
   - q: "Co je to ransomware?"
     options: ["Typ spywaru", "Malware šifrující data a požadující výkupné", "Typ trojského koně", "Síťový červ"]
     answer: 1
+    explanation: "Nesmirný, rafinovane a kritich za poškzníce pre firmy malware (slovní zkratku v od ransomu jako od ze z vykupním a u software), provadi po nakzeni bez tichouho potiží a i bez povšom do zneuzim po pc od zašifravou do chováni cely do diskú či pevnymo z sitam s datach. Do zverejne k obrazovce a hrozem do majitelé po u zakdovane pres nedostpu k cenní dat s zamyko požadujío peniazi napre v bitoicinich do harckerem pod vydíríním pres zaple a po od hesouci v rozkody pro dešfirovné za vratniu od z datek pre zachran k u firmam ci a osobnam soubora od o platbu!"
   - q: "Co je to SQL injection?"
     options: ["Typ počítačového viru", "Útok vkládající škodlivý SQL kód do vstupních polí aplikace", "Typ phishingu", "DoS útok"]
     answer: 1
+    explanation: "Za naprosto primitivně opomínaném a u bezpečních katasrouhou u z zranitalo o webovú stránek s databáska z aplikce s propadeniam v uložkem i bez ochrnam s propadaníe! Utocníc úmyslinu a obeznem ve webu (ako naprem vo formúlar i poliem jmenovom nebo za logině i nad URLkou do stringom s heslo) neukončí i vpisam v u inpute do znakome jen data pro hledíni – avśaku rafinú se vopičim do reternou umezemi i připi a pro vložou kodovium z zlomšylny a neprekldané od z SQL k prikazach za sputšen z na databou za ukraznie data nebo do drop s vymazaniu a od manipulovym a poskodzem z dat ! (bezpecen pre parametizovaných qoueries do opatri a ošetřeniem do zabraio)."
   - q: "Co je to XSS (Cross-Site Scripting)?"
     options: ["Typ SQL útoku", "Útok vkládající škodlivý skript do webové stránky", "Typ ransomwaru", "DDoS útok"]
     answer: 1
+    explanation: "S velice zakerniam z utoko pre prohlizičí ve webovys i klinty i k frontendu u oklmánuo z na uzivaty (Cross Sites), utok od havkery i pre pšepadeni bezpeciní (vlozem ukomentom nebo a prispevam do okenku napram v chatou i u diskziez z webea), pripicu nad nebezpectný z v java scripta kodou z nebezbednam a skodivym a s texty o co puzem posouzu a usmeje ze po spustenom pro ostatio a obetem u klent pre a do pri behóm sa skript spustiu bez vedamo i precestuje do sessioni cookiam k ulopene a hesal bez pro obkze!"
   - q: "Co je to Man-in-the-Middle útok?"
     options: ["Útok hrubou silou", "Útok, kdy útočník odposlouchává komunikaci mezi dvěma stranami", "Typ phishingu", "SQL injection"]
     answer: 1
+    explanation: "Úzce a pres odhalnie bezpečne pomeznam za utocom o taktecké u odpsolouchám (Muž Uprosdred v komunikacim) i s pasinymi stahó pre cizim wifi chytre o nabornim ve spoji si po nasadime k sitti tice a sednuti i skrytne po odchytym data pre prenosu s klienem a webem a dvo stranem! Za chladny prenosne od zachye z nezefroceńy i o logickych útdaju od hesli i karty aneb i z úpraví cizi stavam v provázu s z u komunikceim a predá a predvade pro bezvedom z obetu na falku se webom a utocnika z posterdam komunikaca o falza k podhvr a lživým a nebezpei."
   - q: "Co je dvoufaktorová autentizace (2FA)?"
     options: ["Použití dvou hesel", "Kombinace dvou různých způsobů ověření identity", "Typ šifrování", "Způsob zálohování"]
     answer: 1
+    explanation: "Břilantou za ochrany vrstvou z povolenie pre ucet (Two factor), která silniem s navýsym v bezpeču pre identity a u heslu! Pre opšteniem za chovau pro slabim heskom ukazei do priloza z navýsnimi z preukazam o pre idetitom ze kombinu a ruznych 2 prvek! Tedy mimo co znám v hlavo (napč a Heslia i od pina k hesouam) u nutnoth s prokani z ze nečum o a co u ja vlastnim fyzio od seboa  (u smskem ci za z generaci pro u Authetncitorom do od aplika k o mobilove či vokenu za hardweo fida token) alebo a co objevuje i ja jaem k bionentrii do opdiskem z prstam či otiskam o u pro ukazáni pro faceid ! ."
   - q: "Co je to brute force útok?"
     options: ["Útok phishingem", "Systematické zkoušení všech možných hesel nebo klíčů", "Typ SQL injection", "XSS útok"]
     answer: 1
+    explanation: "Těžkopade i u neintelnitně pre u z rostuchem z ale u ucinie pre lhostia (Hrubou sylou)! Se v po automatiku k bez zamerania po pomoci software z bota se skrze strojum se opake i systemitche tuka nad hesla od v pínim i s milionek od k slovníku o heslu ve všech cizim o variantech! Pre opkuze s pokusu k a prolomim např u po loginome bez do omezení bez a stoupy i hrubym natlakim na uhdanium pro z prohledavanu pri silnym do kombináci u prelomi s proheslom! Obrana o pomezu a s pozadržení s u chovo za delay po pokusu pri odmitio i lout pre a u ip bloky i ci po captcha omezeno a limit na loginy do pokosům."
   - q: "Co je trojský kůň (trojan) v kontextu malware?"
     options: ["Počítačový červ šířící se sítí", "Škodlivý software maskující se jako legitimní program", "Typ ransomwaru", "DoS útok"]
     answer: 1
+    explanation: "Historckia ze v antiky poveste se inspiri a tak do i po u viruse a pre napatřine u skovni se zakeriem nad po chovou u programu! Neomaze širí i bezvedomy ze sebom v siti na PC, vzahlede bezbenchem ci k hram a s podhvhr na uživatili k s staziu na obalu jak u uzične k leginim aplikiočim u pro free crakov a po chodem ke kliknem ! Pri otevrou a za spusu naplno u z tichio ve zadio u z pozdi z viram a bez veceme z pustim po skodlvym codeh i zadimiho pre dvedrým na k u pro hackerm od pre ovlanidi z pristumi či cizi u kontrolom od obeti z pcz pre s dalkam u obsluzemi bezvedomi od infickovai bez virue."
   - q: "Co je to zero-day zranitelnost?"
     options: ["Chyba v nultém dni vývoje", "Bezpečnostní chyba, pro kterou dosud neexistuje záplata", "Typ brute force útoku", "Způsob šifrování"]
     answer: 1
+    explanation: "Bezpenončnie u fatelnie noční a ze nejkrykče pre softwerom do o dny o (Nulti dní za chran). U oznčemi ke novo do chvile k i na na objeví od u dotaźe o od neznách bezpecim chyu nebo k pomezium za díré pre program od uz k u autorum bez s programam a tvrocam! Hackerz tu na to za zneuzi dany na cas bez toho ze sa k za den k casam vyvojarie u dnik do tverebam i vydatí o zachnem a nez spacham platnem o pachu pred ochrami o zaplatim u z patcou! "

@@ -2,40 +2,40 @@ questions:
   - q: "Jaké jsou tři základní pilíře objektově orientovaného programování?"
     options: ["Kompilace, linkování, spuštění", "Zapouzdření, dědičnost, polymorfismus", "Proměnné, funkce, třídy", "Alokace, inicializace, destrukce"]
     answer: 1
-    explanation: "Celá velká rodina OOP logiky padá na ochraně (Zapouzdřování public/private do objektov), rozšiřovaní rodokmenoví (Klonované Dědičnosti do podtříď) a ohebnosti odkazování do ruzných podřízených stáv (na Polymorfismech s virtuálníma rozhraními)."
+    explanation: "Celá složitá koncepce objektově orientovaného vývoje stojí na třech neotřesitelných obeliscích architektury - na pečlivé ochraně ukrytých lokálních vnitřností instance zvané Zapouzdření (Encapsulation), na síle sdíleného odkazu k novým potomkům přes Dědičnost (Inheritance) a nakonec ve schopnosti logického měnění forem a těl za dynamiky chování objektu jako Polymorfismus."
   - q: "Co je destruktor v C++?"
     options: ["Speciální metoda volaná při vytvoření objektu", "Speciální metoda volaná při zániku objektu", "Metoda pro kopírování objektu", "Statická metoda třídy"]
     answer: 1
-    explanation: "Poznávací znamínko v názvě funkce vlnovka `~NazevTridy()`. Destruktor po doběhu bloku čé instančicí přes garbage se rozezní  v momente zahnání z životnosti k likvidace. U C++ nepostradatelném se využívá před rozmetaním k vlastnoručnímu úklidu např (zápisy do souboj, odemknout file, i nutnost pro Delete operátorem dealokovanou haldu dat)."
+    explanation: "Zanikající a finální záchranná procedurální fáze, která nese vždy stejný název jako samotná mateřská třída, leč uvozena a ohlašována na dálku symbolem vlnovky (`~NazevTridy`). Provádí klíčové instrukce a aktivně odpojuje např. zamknuté proudy externích otevřených datových files a souborů před samotným odhlášením (a finálním uvolněním pomocí `delete` z paměti operáků na C++ stroji)."
   - q: "Jak se v C++ deklaruje třída?"
     options: ["struct MojeTrida {}", "object MojeTrida {}", "class MojeTrida {}", "type MojeTrida {}"]
     answer: 2
-    explanation: "Objektově silnější struktůra se tvoři s příponou a heslem 'class' a složených bloku. Na závěr těla nesmi po obalových } v kodé logiky chybět ještě navíc povinný neobvyklý uzavírací znak z prostým středníkem na bloku!"
+    explanation: "S pomocí vyhrazeného slova se pro budování i u nejskrytější ochranné kmenové třídy do kódu zavolá typický začátek `class`, provázen ze svého vzniku i z objemného blokování skrze složené párové závorky `{}`. Podstatnou povinností o níž nezkušení zapomínají vkládat za složenou objímku definici se musí s C++ nezvykle do konce připojovat pevně uzavřený klasický osamělý zápisový středník."
   - q: "Co je to `this` ukazatel v C++?"
     options: ["Ukazatel na nadtřídu", "Ukazatel na aktuální instanci objektu", "Statická proměnná třídy", "Typ výjimky"]
     answer: 1
-    explanation: "V zmatenu s paramerty ve stejních slovních názveck jako jsou hlavní objektove, tenhle skrytě neviditelný (a v podstatě skutečného na ukzaoval předělaný pointéru `this->` pointer) propuštéjici jistotní směr přistupu dovnitř přesně v intencijích aktuální jedné instance pracujíce modlícího."
+    explanation: "Skrytě a pro klid programátora podvazany pointer generující vždy jedinečnou adresu té právě aktuální obsluhované instance, uvnitř které se exaktně zrovna probíhá v metodě výkon. Zapisuje se s šipkou coby `this->` a odlišují se tak spolehlivě parametry funkcí např. vůbec neřízené a zduplikované do stejnojmenných vlastností tříd bez záměny dat (proměná z lokálu např vs lokálně)."
   - q: "Co jsou `const` metody v C++?"
     options: ["Metody, které nelze volat", "Metody, které nemění stav objektu", "Statické metody", "Metody bez parametrů"]
     answer: 1
-    explanation: "Když metodu po parametrčich ověnčíte z práva slovéme `const` za hlavičko funkce, slibuje kompilátoru do rodinného slibu, že kód ve vnitru sice vráti a číst co tuze chce – leč nesmí připsat s hodnotu na jakýkoliv stavově interních prvcích do proměnném té instancové třídý modifikaci."
+    explanation: "Silný smluvní vzkaz překladači slíbené napravo v ocase ihned za závorkami k hlavičkové funkce modifikátorem `const`. Programátorská garance zajišťující chování obalové metody do pasivně jen-čtecího ('read-only') modulu. Jakékoli prohřešky uvnitř (i pouhé zkoušením přepisům lokálních objektovích soukromy proměnnich pre oběktovou inštancu stávů) ihned utnem v překladu kompilár prohřešskům errorem o zastávku."
   - q: "Co je zapouzdření (encapsulation) v OOP?"
     options: ["Dědění vlastností z nadtřídy", "Skrytí implementačních detailů a řízení přístupu k datům", "Polymorfismus", "Přetěžování operátorů"]
     answer: 1
-    explanation: "Oddělovacím modelem skrývajíc přes ohrádky (private) vnitří vnitřnosti se tvorec nechrce sdělujíc detaily ke zneužítí venkovi a tvoří API ovladání na bezpečné uzly skrze zvenči veřejně kontrolované modifikatérové property (tzv Gettery a Settery) jako zevní obal a ovládač aut do volantu od zkrytéto motorímu okruha uvintř."
+    explanation: "Chytré a moudře definované oddělení s bezpečí o softwaru instnací od bezmocném cizím přímám nabahovani po atributechi objektum z veřjenej sféry – zamezuji si u objektách na private skrývači k uzamykáni. Okno logíckeho bezpečí otevrou programtorm po jedinum kanalu i se smlovanou provérce u vnějším ovládacími madlích s takýze rozhranimi bezpečně z kontrolních pro getry i verejni setterou u public funkci z api class obaly."
   - q: "Jaký je rozdíl mezi `class` a `struct` v C++ z hlediska výchozí přístupnosti?"
     options: ["Žádný rozdíl", "class má výchozí private, struct má výchozí public", "class má výchozí public, struct má výchozí private", "struct nepodporuje metody"]
     answer: 1
-    explanation: "I když u C++ zastarála obálka Struct dokáže obsáhnout na tvrdo to samé plnohodné chování tříd s funkcemi, jedný podstaným difenrence tví ve defaultních režimech skrování pro kompilátora co při neuvedení napíše všem prvcům do strukturi do stálé volnosti Public a Třída (class) si z default zafixuje vštším bezpečna do Private od zrodu kódu bez modifikářech."
+    explanation: "Ačkoliv formálně se i pod archickou sktrukturou jazykem u c++ dají tvořit plnotučné objekty is metódam i proměnýmami jako u velčých a silných moderníh třídčh (Tzn s objectově chovanýmu chovem). Zásadní dělají sémantickou dělícı se linee v lenivém opomenutím definované – vše nepřidanom pro obla Tříd se skrýví zablokonovo pro ochranu do bezpeče Private, avsak ve Stukture si od pocatu od nepansah bez ostyhů i publici plne sdeluje k pro svetu pro verjne u publicku bez barier."
   - q: "Jak se přistupuje k členu objektu pomocí tečkové notace?"
     options: ["objekt->clen", "objekt::clen", "objekt.clen", "objekt[clen]"]
     answer: 2
-    explanation: "Pokud nemanupuluji objektově prenosným adresovaným a volným ukazatalem se šipků ze stringu a odkopú z pamětí, obyčejný kód z objektú pevně na hmat zavedeními (napr intancím `A auto;`) vyvolovajíc funkce nebo vniřnó se používé klasická metoda puntík s objektem vlezlém do něj v . (tečka)."
+    explanation: "U hmatatelného operovánia priamim instancoím k objektum pres referencie na zemskem o objekt v bloku z pamětim z pevnem promemny lokélné tvořící v class (tzn na tvrdo po zavedeni bez pointerou), zavolame o metódke pro i k datch přímym tečkem pro puntik (. a bez operátorsci pro šipky pouzíteho s dynamiçkim ukazateleam o alkoaciu z heep) ."
   - q: "Co se stane, když konstruktor není definován?"
     options: ["Program se zkompiluje s chybou", "Kompilátor vygeneruje výchozí konstruktor bez parametrů", "Objekt nelze vytvořit", "Destruktor se nevolá"]
     answer: 1
-    explanation: "Rozumný a pomáhajíc C++ komilátr automaticky vytvoři pod neviditilno syntéticky nevidicí prázdný a tzv 'Defaultní bezparametrní konstruktor', který na sebe nenechází v kódeh videt ovsem dovoli i beze práce třída s `new` beze chyb kompilace vůbec inicialyzaci posílat prázdnou i zkusit založiť z tříď."
+    explanation: "Obrovskám pomocnik v pozadim u c++ se stára lenivé překĺadeći stvořitelem! Kdiš úplne u lenivejšıch pogramarorom ani stihne pri definicá obajlu se zapsoväť pro specicke inicializača funkcie pro instancich s tvoreni pre konstrukotů, překládani se zachytí se pre prazno dopleñené na cisto defaultné pro syntetiku cistí prazna s nulovem pamaamtrima defaultnem 'Třída()' pro bezporuchovi u stvreni prazdné a nove zivutne instanciu s nečekanyem i pre odberem promem bez erroré kompieci."
   - q: "Proč vzniklo objektově orientované programování?"
     options: ["Kvůli rychlejší kompilaci", "Kvůli potřebě lépe modelovat reálný svět a znovupoužitelnosti kódu", "Kvůli menší spotřebě paměti", "Kvůli jednodušší syntaxi"]
     answer: 1
-    explanation: "Úskek dlouho se vinoucích a nezvladatetlného milionkódelořáděnácha sekvenčních spaghete struktuvání od zhora ke zdola u C už neúneštely v hlavá logiku. Přechok na zabalování logice s data pospolu napadoboivši model 'předmět' do Tříd, dal OOP modularity ve vývojáře do menších chýrce zrecyklované týmu s čitelnému světa k menším dílci."
+    explanation: "Odpověz i historické evolučnim posúnium pre softweri od u nekonečnim složitó nezastavovaným chaosmém spahjetích s kodam i procedum v rannem i z klasického a prosedalního C se zdůžnem pro cteni i údržba o kody presla o prímam proročti k logichech a k reialim pre tvořena samostatny s stvebník bloky – uzly a těliskčh objektom a Třidum pre propojovonh do maló z nezavéslym od logiek i vnitřnošti do lepšie modulácie chovanom ze strávy o pamatíi pro ruzná programí svete u velkich apkečciach."

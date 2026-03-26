@@ -2,30 +2,40 @@ questions:
   - q: "Co je to softwarová krize?"
     options: ["Typ počítačového viru", "Období v 60.-70. letech kdy software byl drahý, nespolehlivý a těžko udržovatelný", "Typ bezpečnostní chyby", "Způsob zálohování"]
     answer: 1
+    explanation: "Do historie výpočetních technologií vepsané obtížné historické období oboru (naplno probíhající v 60. a 70. letech). Masivní rapidní narůstající výkon hardwaru tehdy zcela předběhl amatérské schopnosti inženýrů psát organizovaný a velký stabilní kód. Vedlo to k předraženým, dlouhým a katastrofálně selhávajícím softwarovým vládním projektům."
   - q: "Co je UML?"
     options: ["Programovací jazyk", "Unified Modeling Language - jazyk pro vizuální modelování softwaru", "Typ databáze", "Síťový protokol"]
     answer: 1
+    explanation: "Vypracovaný standard Unified Modeling Language. Funguje a poskytuje širokou normovanou sadu návrhových diagramových nákresů (třídy, vztahy i aktivity), díky nimž si vývojářský tým chování a systémovou architekturu bezpečně vymodeluje nanečisto v teoretické rovině s dokumentací na papíře dlouho před samotným začátkem zdlouhavého programování."
   - q: "Co je to use case (případ užití)?"
     options: ["Typ výjimky", "Popis interakce mezi uživatelem a systémem", "Způsob šifrování", "Typ databázového dotazu"]
     answer: 1
+    explanation: "Významný diagram a textový přehled u UML modelů. Důvěrně a prakticky popisuje z vnějšího očním pohledu kroky sledující způsob chování samotného aktéra (Actor), jenž provádí určitý jasně ohraničený izolovaný úkol nad aplikací i samotným sledem programového systému např. z kroků (Přihlášení uživatele nebo Odhlášení košíku)."
   - q: "Jaký vývojový model rozděluje vývoj na fáze: požadavky, návrh, implementace, testování, údržba?"
     options: ["Agilní model", "Spirálový model", "Vodopádový model", "Inkrementální model"]
     answer: 2
+    explanation: "Postarší rigorózní struktura vývoje tzv. Waterfall (vodopádový model). Typická pro tuhé inženýrské obory jako stavitelství – celý softwarový vývoj probíhá naráz jako monolit v pomalu padající logické souslednosti nezvratných sekvencí po velkých kusech, obvykle tak bez pozdější schopnosti bezbolestně měnit předchozí fáze v projektu."
   - q: "Co jsou funkční požadavky na software?"
     options: ["Požadavky na výkon a bezpečnost", "Popis toho, co systém musí dělat (funkce a chování)", "Požadavky na hardware", "Finanční požadavky"]
     answer: 1
+    explanation: "Aktivní požadavky na zadávání logiky. Doslovně a zcela přesně v dokumentaci pro vývojáře popisují interakce či požadovanou reakci dané komponenty, a co specificky musí software jako funkční část konkrétně plnit pro řešení cílů (příkladem: 'Systém musí do e-mailu zákazníkovi vždy zaslat generované a potvrzené pdf shrnutí po platbě z účtu')."
   - q: "Co je to etický kodex v softwarovém inženýrství?"
     options: ["Programovací standard", "Souhrn etických zásad pro profesionální chování softwarových inženýrů", "Typ licence", "Způsob testování"]
     answer: 1
+    explanation: "Nejen medicína či právo, i profesní tělesa v kódování drží morální kompas s etickými rámci vývojáře (např. spravovaný z IEEE a sdruženími). Inženýr vyvíjející software do aut s obřím lidským dosahem je tak zavázán ke zodpovědností i kodexy pro ochranu klienta, osobnostního utajení ohledně dat uživatel a s bezpečím systémem nad rámec kšeftu."
   - q: "Co je to softwarový proces?"
     options: ["Způsob kompilace", "Souhrn aktivit a postupů vedoucích k vytvoření softwaru", "Typ databáze", "Síťový protokol"]
     answer: 1
+    explanation: "Strukturované zosnování celého chovného a vývojového cyklu a to s ohledem o řízení v inženýrském podání v kódovacím oboru. Tento nadřazený proces se nestará tak jen o ryzí čmárání kódu do obydlí IDEčka s editory, avšak obří metodou sdružuje i mapuje s organizací od prvotních sepsaní i k nasazovacích na postupy celkovéh managemente na aplikovaní i testovací s testami a distribucích produktu do produkce."
   - q: "Co je diagram tříd (class diagram) v UML?"
     options: ["Diagram průběhu programu", "Diagram znázorňující třídy, jejich atributy a vztahy", "Diagram síťové topologie", "Diagram databáze"]
     answer: 1
+    explanation: "Ústřední statický nákres v architektuře od návrhu programu v UML pro celý OOP softwarový model. Poskytuje ohromnou vizi statického mapovaní s obřimi obdélníky přes sebe a se strukturálních odrazů u obsažených funkcí do definice dat od Tříd; vše dál vizuálně s propleteném ukázaním čepelí (vztahy z dědičnosti anebo spojováni ke sdrží mezi agregací) ve spletite pavučiny projektového vizualní k vhledů."
   - q: "Co je agilní metodika vývoje softwaru?"
     options: ["Pevně plánovaný sekvenční přístup", "Iterativní přístup s důrazem na spolupráci a přizpůsobení změnám", "Způsob testování", "Typ vývojového prostředí"]
     answer: 1
+    explanation: "Konečně přizpůsobivý průlom a naprostý nevídaný hit po 90. letech nad moderních týmových pracovním pro oboru. Zrušil se v něm statický dlouhý pětitelý neomylný monolyticky vývoj s jedním vysledeck s výsadbou o častější v menšich interatích u tzv. oběhu ze Sprints a tak dovoluje neustále za ohybem preprogramovaním i plikacem u zákazníkú plynulė reagovat k změny z venčí, co i na u programy pre trhu upravejí a s častym releasama updatům a komunikacu ze zastoupených firem do vyvoju."
   - q: "Co jsou nefunkční požadavky na software?"
     options: ["Popis funkcí systému", "Požadavky na kvalitu jako výkon, bezpečnost, spolehlivost", "Seznam chyb", "Typ dokumentace"]
     answer: 1
+    explanation: "Důležitý zadávací rozměr mimo programovou operativní specifikaci – nedefinijí chování algoritmu a chodu nýbrz obecně kladené nároky o charakteristických atributech od aplikace z pomezí od architektury. Odpovídají za nároky po softweriam nad chodu i plynulosti od optimalizaci servera k bezpečí, ohromních odezev systemu za běhu i na robustni peneznostech od celích dat za programů k chodu od testovacem (např.: aplikace by se musí načitat max do 2 milisekund aneb i zvlada napor se 100 uzivetelo ve stávú) atp."
