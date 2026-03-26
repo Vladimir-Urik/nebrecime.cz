@@ -212,4 +212,76 @@ swup.hooks.on('page:view', () => {
 	updateScrollUp();
 	initLightbox();
 	initQuiz();
+	initSearch();
 });
+
+swup.hooks.on('visit:start', () => {
+	const modal = document.getElementById('search-modal');
+	if (modal && !modal.hidden) {
+		modal.classList.remove('open');
+		modal.hidden = true;
+	}
+});
+
+// ── Search Modal ──
+function initSearch() {
+	const trigger = document.getElementById('search-trigger');
+	if (!trigger) return;
+
+	const modal = document.getElementById('search-modal');
+	const backdrop = modal.querySelector('.search-backdrop');
+	const input = document.getElementById('topic-search');
+	const resultsList = document.getElementById('search-results');
+	const noResults = document.getElementById('search-no-results');
+	const allLinks = Array.from(document.querySelectorAll('main nav a[data-search]'));
+
+	function openModal() {
+		modal.hidden = false;
+		requestAnimationFrame(() => modal.classList.add('open'));
+		input.focus();
+		input.value = '';
+		renderResults('');
+	}
+
+	function closeModal() {
+		modal.classList.remove('open');
+		modal.addEventListener('transitionend', () => { modal.hidden = true; }, { once: true });
+	}
+
+	function renderResults(q) {
+		const filtered = q
+			? allLinks.filter(a => a.dataset.search.includes(q))
+			: allLinks;
+
+		resultsList.innerHTML = '';
+		filtered.forEach(a => {
+			const clone = a.cloneNode(true);
+			clone.removeAttribute('hidden');
+			clone.style.removeProperty('display');
+			resultsList.appendChild(clone);
+		});
+
+		noResults.hidden = filtered.length > 0;
+	}
+
+	trigger.addEventListener('click', e => { e.preventDefault(); openModal(); });
+	backdrop.addEventListener('click', closeModal);
+
+	input.addEventListener('input', () => {
+		renderResults(input.value.trim().toLowerCase());
+	});
+
+	resultsList.addEventListener('click', e => {
+		if (e.target.closest('a')) closeModal();
+	});
+
+	document.addEventListener('keydown', e => {
+		if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
+			e.preventDefault();
+			modal.hidden ? openModal() : closeModal();
+		}
+		if (e.key === 'Escape' && !modal.hidden) closeModal();
+	});
+}
+
+initSearch();
