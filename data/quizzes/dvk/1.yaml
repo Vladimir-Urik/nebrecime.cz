@@ -2,30 +2,40 @@ questions:
   - q: "Z jakého materiálu je vyrobena Věstonická venuše?"
     options: ["Kámen", "Bronz", "Vypálená hlína", "Kost"]
     answer: 2
+    explanation: "Věstonická venuše je světovým unikátem, protože jde o nejstarší známou keramickou sošku. Byla vyrobena ze směsi pálené hlíny a drcených mamutích klů."
   - q: "Ve které zemi se nachází jeskyně Altamira se slavnými pravěkými malbami?"
     options: ["Francie", "Itálie", "Německo", "Španělsko"]
     answer: 3
+    explanation: "Jeskyně Altamira leží v severním Španělsku a její rozsáhlé, mistrně stínované malby zvířat (především bizonů) patří k nejvýznamnějším projevům paleolitického umění."
   - q: "Jak se nazývají velké vzpřímené kamenné bloky stojící samostatně?"
     options: ["Dolmen", "Menhir", "Cromlech", "Tumulus"]
     answer: 1
+    explanation: "Menhiry jsou jednotlivě stojící, hrubě opracované kamenné bloky zasazené svisle do země. Plnily pravděpodobně kultovní nebo astronomický účel."
   - q: "Jakou funkci pravděpodobně plnily pravěké venuše (sošky žen)?"
     options: ["Hračky pro děti", "Kultovní předměty plodnosti", "Lovecké amulety", "Nástroje na vaření"]
     answer: 1
+    explanation: "Jejich záměrně zvýrazněné ženské tvary naznačují, že sloužily jako kultovní symboly plodnosti, spojené s magií zachování rodu a oslavou mateřství."
   - q: "Co nejčastěji zobrazují paleolitické jeskynní malby?"
     options: ["Lidské tváře", "Abstraktní symboly", "Zvířata", "Krajiny a stromy"]
     answer: 2
+    explanation: "Hlavním motivem pravěkých maleb jsou tajuplná lovecká zvířata, jako bizoni, koně a mamuti. Lidé nebo příroda se zobrazovali jen velmi vzácně a spíše schématicky."
   - q: "Jak se nazývá kruhové uspořádání menhirů?"
     options: ["Dolmen", "Tumulus", "Menhir", "Cromlech"]
     answer: 3
+    explanation: "Cromlech (kromlech) je pravěká památka tvořená menhiry rozestavěnými do kruhu. Nejznámějším příkladem tohoto architektonického uspořádání je britské Stonehenge."
   - q: "Ve které jeskyni se nacházejí slavné malby bizonů a koní ve Francii?"
     options: ["Altamira", "Lascaux", "Chauvet", "Font-de-Gaume"]
     answer: 1
+    explanation: "Jeskyně Lascaux v jihozápadní Francii je proslulá neuvěřitelně dynamickým a obdivuhodným ztvárněním stád divokých zvířat rozprostřených po jejích stěnách."
   - q: "Kde bylo nalezeno největší soustředění megalitů — Stonehenge?"
     options: ["Irsko", "Francie", "Anglie", "Skotsko"]
     answer: 2
+    explanation: "Tento pravěký monument z ohromných vztyčených kamenů uspořádaných do vzájemných kruhů se majestátně tyčí na Salisburské pláni v jižní Anglii."
   - q: "Jak se nazývá pohřební mohyla z pravěku?"
     options: ["Cromlech", "Menhir", "Dolmen", "Tumulus"]
     answer: 3
+    explanation: "Tumulus neboli kurgan je navršená umělá mohyla z hlíny nebo kamení, která uvnitř obvykle ukrývá jednu nebo více pohřebních komor významných jedinců."
   - q: "Které pravěké období je charakterizováno broušenými kamennými nástroji a zemědělstvím?"
     options: ["Paleolit", "Mezolit", "Neolit", "Eneolit"]
     answer: 2
+    explanation: "Neolit (mladší doba kamenná) přinesl takzvanou neolitickou revoluci a změnu životního stylu. Lidé začali trvale pěstovat plodiny, chovat dobytek a vyrábět keramiku."

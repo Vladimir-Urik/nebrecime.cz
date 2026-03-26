@@ -2,30 +2,40 @@ questions:
   - q: "Co znamená italské slovo 'rinascimento', od nějž pochází název renesance?"
     options: ["Znovuzrození", "Osvícení", "Reforma", "Revoluce"]
     answer: 0
+    explanation: "Italské slovo 'rinascimento' (renesance) znamená znovuzrození. Historicky odkazuje na zásadní přelom plný opouštění strnulé gotiky a oslavný vědomý návrat ke klasické harmonii z objevených a zapomenutých spisů antiky Říma z obdivu pozemskému bytí."
   - q: "Kdo jako první popsal renesanci jako 'znovuzrození antiky'?"
     options: ["Leonardo da Vinci", "Michelangelo", "Giorgio Vasari", "Filippo Brunelleschi"]
     answer: 2
+    explanation: "Giorgio Vasari, významný a první skutečný umělecký historik a malíř 16. století, sepsal slavné životopisy umělců a definoval tak jako jeden z prvých etapu vlastního velkého 'znovuzrození' kultury toskánských italských předchůdců a oslavu tvůrčího pokroku města Florencie."
   - q: "Jak se nazývá technika malby, kdy jsou objekty v popředí ostré a pozadí postupně mizí jako kouř?"
     options: ["Contrapposto", "Sfumato", "Chiaroscuro", "Nonfinito"]
     answer: 1
+    explanation: "Leonardo da Vinci zavedl novátorskou techniku sfumata (odvozující z výrazu odkouřit). Odrážela se nepozorovatelným a pomalu průhledným stínováním od tónu k tónům vytrácenevým k zamlženému zadnímu hlubokému prostoru tajemné dálky přírodního zátylku, čímž vznikly i hluboké měkké koutky záhadných úsměvů v plátnách a v tajemstvích slavné Mona Lisy."
   - q: "Kdo objevil lineární perspektivu s jedním úběžným bodem?"
     options: ["Leonardo da Vinci", "Filippo Brunelleschi", "Leon Battista Alberti", "Donatello"]
     answer: 1
+    explanation: "Filippo Brunelleschi ztvárňující a promýšlející architektonický klenot z červených klenutých italských dlažb kopule ve Florentském stavitelském chrámu (Duomo), navrhnul přesné racionální uspořádání prostorové opticky tak, že se soustředil s mizejícíma průsečnicemi sbíhající formátu očí do matematickým ucelovaným a dokázáným ohniským bodam s jediným zrakovým cípem."
   - q: "Jak se nazývá typický postoj renesančních soch — S-prohnutí těla s přenesením váhy na jednu nohu?"
     options: ["Sfumato", "Contrapposto", "Nonfinito", "Chiaroscuro"]
     answer: 1
+    explanation: "Termínem kontrapost (protiklad) označují mistrně odpozorovaný re-objevený klasický antický uvolněný ráz postoje sochařství, kdy figura se nenuceně prohýbá nesením odlehčující a napínajicé asymetrické rovnováhy na pevnou ukotvenou svalovou nosnici končetiny, jež narušila strnulá gotická stativa z uvolnosti bokového stočení mramoru k životu odlehčení hrudi zad i ruky."
   - q: "Co označuje Michelangelův pojem 'nonfinito'?"
     options: ["Přílišná detailnost, která kazí dílo", "Figura zdánlivě uvězněná v kamenném bloku, nehotové dílo", "Nová technika malby olejovými barvami", "Zobrazení nahého lidského těla"]
     answer: 1
+    explanation: "Koncept z latinského slova 'nedokončené' zanechal sám nejdramatičtější tvůrce Michelangelo vytesané hrubě silné nahrubilé socho obkrouhlaných bludištek pro hrobky silných 'Otroků'. Tím vyjadřoval bojující tvář stlačující svou vnitřní duchovní i pohnutou moc na snahu lidským odbojem ze surové temné masy příšerně tísnivého mramorového záhmatného žaláče kamenom do hrubot v detailech drsnů obklopeného vyhlazeného svalu s vědomím k dokonalosti zkázi ve smrtném světě."
   - q: "Který vlámský malíř proslavil techniku olejové malby umožňující mimořádné detaily?"
     options: ["Albrecht Dürer", "Hieronymus Bosch", "Jan van Eyck", "Hans Holbein"]
     answer: 2
+    explanation: "Vrcholem revolučních hmatatelných požitků a objevním vizuálním skoků zářivosti a hlubokých koutových miniatůry ze chladu Severských provincije – s proslulým Janem van Eyckem přešli nizozemci o krůček od hrubých temper k vyhlazeným schnoucím lesklým olověným odstínem plném a prozařujicím oleje skrze plátna jako pro tvoření iluzivních kapkek očí u podrobnách srstích psíčků, vzori šatů od klenotnicky detailních bohatách Arnolfiniových svatebního zrcadlovém v obrazku na truhle domov."
   - q: "Jaký grafický cyklus vytvořil Albrecht Dürer na téma Zjevení sv. Jana?"
     options: ["Vzpoura sedláků", "Apokalypsa", "Tanec smrti", "Čtyři temperamenty"]
     answer: 1
+    explanation: "Ohromujícím temným i virtuzním počinem z Norimberka o zkoumané dokonalé rytbě z prkén a dlát, německá reformně hrozebná vize i střízlivost úzkosci Albrechta strčila v řemeslu podrobnou syrovostí hrubým tahům před koncem strašeného nebeského zkažení. Těchto strhujících a detailů prorytým plošek na bloku ve hře plném propracovanem dramatu s tématam slavné edice (jezdcové koně – Apoklapsi k soudnému trestné posedu zničení světem a hřímcům lidí mračen a luk a váhy)."
   - q: "Čím se vyznačuje malba El Greca v manýrismu?"
     options: ["Realistické portréty s přírodním světlem", "Deformované, protáhlé figury a výrazné sytosti barev", "Geometrická přesnost a klidné kompozice", "Zlatá pozadí a byzantský způsob zobrazení"]
     answer: 1
+    explanation: "Zlom ze svazujicí uklidnějích úmíry proporčních měřic s rozběhem za temnými záhybám hlubší duchovenstvem a tísni o rozporom manýzrimem tvořilo u umělce ze Španeělských dvorů (Doméniko Theotokópulos) vysoce neuskutečném protáhle vytrhnutým figurálním blýskavčivčším křečovitem prožitem od plápolámých blesku barvičkých odstínek i s modří v studenou iracioní od nebe tůnu propichoval mystickch utrpěn tvářú od svaté moudri pod tísňových stíně."
   - q: "Na Leonardově 'Poslední večeři' — kdo z apoštolů jako jediný ví o zradě spolu s Kristem?"
     options: ["Petr", "Tomáš", "Juda", "Jan"]
     answer: 2
+    explanation: "Ve světově ohlasovém re-utřídeným kouskum a stříhů klidne chvílí uprostřed hromové větě Kristůva na stolnici, že jeden mněl teď odevzdat ve smrti, propúčil si k úděsu apoštoly ze řadu. Pouhý nečlenství o tvoření shonu do vln a do zrady se usouká stínem s prachým tvářom dozadu plný hrůznim zatajentém Jidáše držíc peněz – třicáteku do zla u soli vysipani na rušticím se pláne skrytách strachu a svému temne myšlem ve srdcí prohrozenek zrám na zadek se v pohlku upraveným u odstup."

@@ -2,30 +2,40 @@ questions:
   - q: "Od jakého slova je odvozen název 'románský sloh'?"
     options: ["Romulus (zakladatel Říma)", "Roma (Řím)", "Romanos (řecky silný)", "Romania (středověký stát)"]
     answer: 1
+    explanation: "Termín románský sloh byl utvořen odkazujíc na latinské 'Roma' (Řím), jelikož tehdejší masivní kamenná architektura navázala na klenbové formy a technické postupy dobového antického stavitelství."
   - q: "Jaké přibližné časové rozmezí pokrývá románský sloh?"
     options: ["700–1000", "1000–1250", "1150–1400", "1300–1500"]
     answer: 1
+    explanation: "Začátky takzvaného románského uměleckého slohu v Evropě krystalizovaly zhruba na přelomu 11. století a následně jeho nadvláda pokrývala křesťanský Západ zhruba do poloviny 13. století, než byl vystřídán lomenější gotikou."
   - q: "Kam míří nejznámější románská pouť — do hrobu sv. Jakuba?"
     options: ["Cluny", "Pisa", "Santiago de Compostela", "Mont Saint-Michel"]
     answer: 2
+    explanation: "Na dalekém severozápadě Španělska ležící svatyně a domnělý hrob sv. Jakuba Staršího lákal poutníky z celé tehdejší Evropy. Podél úmorných tras tak vznikaly obří formáty pětilodních a trojlodních románských 'poutních chrámů'."
   - q: "Jak se nazývá polookrouhlý oblouk typický pro románské stavby?"
     options: ["Lomený oblouk", "Valený oblouk", "Ústupkový portál", "Žebrová klenba"]
     answer: 1
+    explanation: "Polokruhový oblouk tvoří základ tehdejší strohé výstavby, nejčastěji rozšířený do hlubší struktury stropu a zastřešení (valená klenba). Jeho tlak ovšem vyžadoval enormně tlusté zdi bez rozměrných okenních otvorů."
   - q: "Co zobrazuje typický románský tympanon nad portálem kostela?"
     options: ["Klanění tří králů", "Posledí soud s Kristem v mandorle", "Zvěstování Panně Marii", "Výjev z Apokalypsy"]
     answer: 1
+    explanation: "Polokruhový prostor pod vnějším kamenným obloukem u vchodu kostela se nazýval tympanon. Varoval věřící velmi děsivými apokalyptickými plastickými příběhy Posledního soudu obklopeného figurou božského soudce - Krista."
   - q: "Slavný komplex v Pise se skládá z baziliky, baptisteria a čeho?"
     options: ["Opatství", "Šikmé campanily", "Pohřebního kostela", "Biskupského paláce"]
     answer: 1
+    explanation: "Nános měkkého podloží pod oddělenou zvonicí (zvanou campanila) vedle baptisteria a chrámu v italské Pise způsobil u této vysoké bílé sloupové zvonice ikonický silný náklon. Nyní je pověstná jako 'Šikmá věž v Pise'."
   - q: "V románském slohu: sloup má okrouhlý průřez, pilíř má průřez..."
     options: ["Trojúhelníkový", "Oválný", "Čtvercový", "Šestihranný"]
     answer: 2
+    explanation: "Zatímco válcový okrouhlý sloup je jemnější antický formát na kruhovém půdorysu, mnohem tlustší zdivo - mohutný zděný hranatý pilíř (třeba i čtvercový) dokázal spolehlivě ukotvit a unést masivní tuny cihel od valené klenby."
   - q: "Kde stálo nejslavnější středověké benediktinské opatství, centrum románského slohu ve Francii?"
     options: ["Reims", "Cluny", "Chartres", "Auxerre"]
     answer: 1
+    explanation: "Klášter v burgundském opatství Cluny byl od 10. století centrem mohutné celoevropské reformní a vzdělané mnišské moci benediktinů a proslul tehdejším nejvelkolepějším rozkvetlým pětilodním chrámem na světě."
   - q: "Co je 'mandorla' v románském umění?"
     options: ["Druh oblouku nad portálem", "Aureola obklopující celé tělo Krista", "Výzdoba kapitelu sloupu", "Typ mozaikové podlahy"]
     answer: 1
+    explanation: "Mandorla (z italštiny 'mandle') je posvátná svatozář kopírující tvar oválné mandle ohraničující v románských iluminacích, vzácných byzantských malbách a plastice vstupů celou svatou postavu - typicky oslaveného Krista v apokalypse."
   - q: "Jaký výtvarný princip zdůrazňuje románská skulptura — konturuje figury pomocí..."
     options: ["Plasticity (trojrozměrné vymodelování)", "Linearity (důraz na obrys)", "Perspektivy (zkracování)", "Zlatého pozadí (ikonografická tradice)"]
     answer: 1
+    explanation: "Románská socha či reliéf se nesnažily osamostatnit volně do prostoru sochařskou formou plného plastického oddělení jako u Řeků. Zústávály plně zaklesnutě včleněně ohraničené liniemi pevně napojené jako ornament portálů."

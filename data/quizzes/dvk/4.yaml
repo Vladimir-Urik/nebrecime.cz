@@ -2,30 +2,40 @@ questions:
   - q: "Který řecký chrámový řád má nejjednodušší sloupy bez ornamentu na hlavici?"
     options: ["Iónský", "Korintský", "Dórský", "Kompozitní"]
     answer: 2
+    explanation: "Nejstarší a zavalitý dórský řád si nepotrpěl na křehké ozdoby. Sloup seděl pevně bez jakékoli patky se surovými jednoduchými geometrickými tvary v oblázněném hlavicovém kameni."
   - q: "Na jakém kopci v Athénách stojí Parthenón?"
     options: ["Olympu", "Akropoli", "Parnasu", "Hymetu"]
     answer: 1
+    explanation: "Posvátný vysoký vrch a symbol antických měst střežil Akropoli chrámovou čtvrť ovinutou hradbou, ze které dórské a mramorové klenby velkolepého Parthenónu vyhlížely shůry bohyni míru a moudrosti."
   - q: "Kdo vytvořil slavnou sochu Diskobola (házejícího diskem)?"
     options: ["Feidias", "Praxiteles", "Myrón", "Lysippos"]
     answer: 2
+    explanation: "Geniální starověký tvůrce Myrón poskládal dynamický ideál sportovce v soše Diskobola zachycující neopakovatelný vjem vrcholného vypětí před ohromnou rotací mramorového svalu v hodu na atletickém stadionu."
   - q: "Který řád má hlavice sloupů zdobené volutami (spirálami)?"
     options: ["Dórský", "Iónský", "Korintský", "Toskánský"]
     answer: 1
+    explanation: "Iónský, celkově jemnější antický formát si jako rozeznávací znamení udržel spirálovité volutové zatočení připomínající tvarem rohované rohy stáda a nasedající na pevné patkové žebroví spodku obložení sloupů."
   - q: "Jak se nazývají stojící mužské archaické sochy s charakteristickým 'archaickým úsměvem'?"
     options: ["Koré", "Kurós", "Atlant", "Hermés"]
     answer: 1
+    explanation: "Raná nahá zobrazení svalnatých vítězů (Kurós) i obrostlých dívek (Kore) se ve strnulém, stráznivém úchopu nehybné mramorové konvence rozeznávají jedině zvláštním polousmálým koutkovým 'archaickým úsměvem' na rtech tváře."
   - q: "Z jakého materiálu byla obří socha Athény uvnitř Parthenónu?"
     options: ["Mramor", "Bronz", "Zlato a slonovina", "Terakota"]
     answer: 2
+    explanation: "Sochaři Feidiovi stálo za to vynaložit k uctění pocty bohyně obrovskou námahu a v technice chryselefantiny pokryl pevnou dřevěnou kostru gigantického mementa tenkými slonovinovými plátky u kůže tváří z čistým blýskavým drahým zlatem podél roušek rouch i výzbroje."
   - q: "Co je to 'kontrapost' v řeckém sochařství?"
     options: ["Symetrické strnulé postavení", "Uvolněné postavení s váhou přesunutou na jednu nohu", "Sedící postava boha", "Skupina soubojících vojáků"]
     answer: 1
+    explanation: "Skvělým pozorováním lidského svalstva dospěli tvůrci k přirozenému překlápení beder stání člověka ze zatížení napjaté nohy na povolovanou zvedlou osu kroku. Tím rozehráli postavy k iluzi kráčení a elegantního živého rozhýbání ztvrdlých pozic bloků kamene."
   - q: "Který sochař klasického období vytvořil sochu Hermés s malým Dionýsem?"
     options: ["Myrón", "Feidias", "Skopás", "Praxiteles"]
     answer: 3
+    explanation: "Zručností oplývající Praxiteles byl znám svými vláčnými svaly i v oblych a dojemných pohledech postav (boha malující úctu). Bývá pro styl odlišením často dáván do srovnání se straším silovým sportovním vnímáním."
   - q: "Jak se nazývají řecké malované nádoby s černými figurami na červeném pozadí?"
     options: ["Červenofigurové", "Černofigurové", "Bílé lekythos", "Amfory geometrického stylu"]
     answer: 1
+    explanation: "Díky pálení ve vácuu, siluety z keramiky načernerné zbyly tvrdit po obrysum s rysem a zjevilly silnou a epickou černočernu mýtickou postavu z čeveného páléného lesklého jilu."
   - q: "Který řád má hlavice sloupů bohatě zdobené akantovými listy?"
     options: ["Dórský", "Iónský", "Korintský", "Toskánský"]
     answer: 2
+    explanation: "Korintský sloup patří s jemnou sochařskou výzdobou k nejvyšším vrcholů v kráse ze skály vytočené kalichových košíků jež prý prorustají řezbovaní tvařem posvátného bodkovaného vzorku středomořského listu akantu do klenutí antiky."

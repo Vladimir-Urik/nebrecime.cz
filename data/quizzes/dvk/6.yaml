@@ -2,30 +2,40 @@ questions:
   - q: "Který edikt z roku 313 legalizoval křesťanství v Římské říši?"
     options: ["Edikt milánský", "Edikt thessalonický", "Edikt nikájský", "Edikt konstantinopolský"]
     answer: 0
+    explanation: "Edikt milánský, vydaný císařem Konstantinem Velikým a Liciniem, zaručil křesťanům (i dalším vyznáním) svobodu náboženství a ukončil jejich pronásledování."
   - q: "Co symbolizoval ryb (ichthys) v raně křesťanském umění?"
     options: ["Křest vodou", "Ježíš Kristus, Syn Boží", "Večeře Páně", "Vzkříšení"]
     answer: 1
+    explanation: "Řecké slovo pro rybu, ICHTHYS, používali raní křesťané jako tajný akronym: Iésús CHrístos Theú Yhios Sótér (Ježíš Kristus Boží Syn Spasitel)."
   - q: "Který evangelista je zobrazován se symbolem orla?"
     options: ["Marek", "Lukáš", "Matouš", "Jan"]
     answer: 3
+    explanation: "Symboly čtyř evangelistů pocházejí z biblických vizí. Orel představuje evangelistu Jana, lev Marka, býk Lukáše a anděl (člověk) Matouše."
   - q: "Jak se nazývá část chrámu nad oltářem vyhrazená kněžím?"
     options: ["Transept", "Baptisterium", "Presbyterium", "Martyrium"]
     answer: 2
+    explanation: "Presbyterium (kněžiště) je vyvýšený prostor kolem hlavního oltáře vyhrazený kněžím pro výkon bohoslužeb, obvykle oddělený od lodi chrámu."
   - q: "Proč se v raně křesťanském umění zobrazovaly velké oči?"
     options: ["Byl to vliv egyptského umění", "Velké oči = velká duše", "Zobrazovaly vševidoucnost Boha", "Byl to technický limit mozaiky"]
     answer: 1
+    explanation: "Zaměření na spiritualitu a potlačení tělesnosti vedlo k symbolickému zobrazení široce rozevřených očí, které představovaly vnitřní zrak a bránu do duše."
   - q: "Co jsou 'oranti' v raně křesťanské ikonografii?"
     options: ["Poutníci směřující do Jeruzaléma", "Figury s rozpaženýma rukama v modlitební pozici", "Andělé strážní nad hrobem", "Mučedníci zobrazení ve zlatém nimbu"]
     answer: 1
+    explanation: "Orant je zobrazení modlící se postavy se zdviženýma a rozpaženýma rukama. V křesťanství tento motiv často symbolizuje duši v posmrtném míru v ráji."
   - q: "Jaká písmena symbolizuje Kristus jako 'začátek a konec'?"
     options: ["Alfa a Beta", "Alfa a Omega", "Chi a Rho", "Iota a Eta"]
     answer: 1
+    explanation: "Alfa a Omega jsou první a poslední písmena řecké abecedy. Ve Zjevení sv. Jana jimi Bůh označuje sám sebe jako počátek i konec všeho."
   - q: "Kde se nachází Hagia Sophia, nejvýznamnější byzantský chrám?"
     options: ["Řím", "Athény", "Istanbul", "Ravenna"]
     answer: 2
+    explanation: "Hagia Sophia (Chrám Boží Moudrosti) v Istanbulu, vybudovaná za císaře Justiniána, je absolutním vrcholem byzantské architektury posknytnutým lidstvu s ojedinělou hlavní kupolí."
   - q: "Proč byzantské umění preferovalo mozaiku před malbou?"
     options: ["Mozaika byla levnější než freska", "Mozaika se považovala za trvalejší a odolnější materiál", "Malba byla zakázána církví", "Mozaika se lépe hodila do klima Blízkého východu"]
     answer: 1
+    explanation: "Mozaika se pro výzdobu byzantských chrámů upřednostňovala díky své trvanlivosti, stálobarevnosti a schopnosti zlatých kostiček magicky odrážet dopadající světlo."
   - q: "Jak se nazývá aureola (svatozář) obklopující celé tělo v byzantském umění?"
     options: ["Nimbus", "Mandorla", "Tympanum", "Apsida"]
     answer: 1
+    explanation: "Zatímco svatozář (nimbus) obklopuje pouze hlavu světce, mandorla (tvar ohraničené mandle) ozařuje celou postavu – obvykle samotného Krista nebo Pannu Marii."

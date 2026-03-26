@@ -2,30 +2,40 @@ questions:
   - q: "Jaké jsou tři hlavní konstrukční znaky gotické katedrály?"
     options: ["Valený oblouk, rotunda, apsida", "Lomený oblouk, opěrný systém, žebrové klenby", "Westwerk, ambit, falc", "Mandorla, nimbus, oranti"]
     answer: 1
+    explanation: "Gotickou stavbu naprosto určuje revoluční inženýrský objev a nasazení lomeného oblouku s nižším svislým bočním pnutím, lehkých křížových žebrových sítí pod střechou chrámu a vnějšímu pilířově opěrnému systému odvádějícím z vnitřních prosklaných zdiv tíhu."
   - q: "Kde byl postaven první gotický kostel s vitrážemi a rozetou (12. stol.)?"
     options: ["Notre-Dame de Paris", "Reims", "Chartres", "Saint-Denis"]
     answer: 3
+    explanation: "V roce 1144 se benediktinský královy opat Suger nedaleko Paříže zasloužil při masivním prosvětlení kostela opatského kláštera Saint-Denis o průkopový zrod prvotní gotiky a přinesl Francii oslňující sílu a moc do kamenných klennutí nad božskými okny."
   - q: "V kterém gotickém chrámu byli korunováni francouzští králové?"
     options: ["Sainte-Chapelle", "Notre-Dame de Paris", "Reims", "Chartres"]
     answer: 2
+    explanation: "Na prastarém rituálním i duchovní místě na východě Francii posvátná monumentální Katedrála Notre-Dame v Remeši se stala oficiálním klenotem a dlouhodobě užívaným divadlem korunovačních a korunovačních tradic řad generací francouzských monarchů a dauphinů."
   - q: "Co charakterizuje cisterciácký gotický styl na rozdíl od katedrálního?"
     options: ["Bohatá polychromie a vitráže", "Strohá jednoduchost, zákaz barev a věží", "Maximální výška a světlost", "Velké rozetové okno na průčelí"]
     answer: 1
+    explanation: "Bílí mniši řádu cisterciáků se zavázali k tvrdému chudému a pracovitému odříkání od veškerých marností. Z hlediska svého statutu absolutně přísně zapověděli umělecké zdobení drahým zlatem, vyřazovali nádherná olovnatá barevná vitrážní skla i bohatou figurální plastiku a stavěli skromněji odříkavým čistým liniím bez vybudování katedrálních vysokých zvonickových věží nad svá těla chrámů na venkově."
   - q: "Kdo je autorem nejstarších sochařských portrétů v Čechách a dostavby katedrály sv. Víta?"
     options: ["Matyáš z Arrasu", "Mistr Třeboňský", "Petr Parléř", "Mistr Vyšebrodský"]
     answer: 2
+    explanation: "Hutě Karla IV. z něho učinily mistra pražské scény – švábský rodák a virtózní architekt i sochař z dílny Gmündů, Petr Parléř, vložil ke zdobným částem horního triforia v Praze zcela zprostředkovaně realistické a vzácné podobizny Karla IV. své vlastní osoby mistra."
   - q: "Jak se nazývají svitky s textem v rukou světců na gotických obrazech?"
     options: ["Nimby", "Fylatéria", "Mandorly", "Aureoly"]
     answer: 1
+    explanation: "Ve způsobech knižních iluminátorů, jako předchůdci divadelních citací a dnešních komiksových bublin, svatí v nebi a promlouvající postavy obrazu vepisovali posvátná latinská sdělení a heslíčka o spasení formou letících podložených stočeného prázdného listu pergamenu tzv. křivolakého fylaktéria do stěn a maleb deskových chrámů."
   - q: "Co vyjadřuje 'hieratická perspektiva' v gotickém malířství?"
     options: ["Vše je namalováno stejně ostře", "Důležitější postavy jsou zobrazeny větší", "Obrazy mají zlaté pozadí", "Krajina je zobrazena z ptačí perspektivy"]
     answer: 1
+    explanation: "Obrázky vůbec nectily přirozené a racionální vzdálenecké zmenšování ve stohování scény, nýbrž silně zdůrazňovaly na významnost - Svatí, Bůh a Matka Boží na trůnách narůstala oproti malým nedůležitě pokrčeným prosebníkům z řad objednavatelů jako velicí bohorovní divní obři pro výukách středověkého myšlení lidem kolem oltáře."
   - q: "Proč gotické malby používaly zlaté pozadí?"
     options: ["Bylo to nejlevnější dostupné barvivo", "Zlato nekoroduje — symbolizuje věčnost a bohatství", "Byl to odkaz na antickou tradici", "Zlaté pozadí bylo povinné dle církevních předpisů"]
     answer: 1
+    explanation: "Aplikovalo k odnímání materiální dimenze skutečna od posvátnosti diváků na dílo, aby se zamlčelo veškerá lidská malichernost času. Pootřená čistá nanesená a lístková zlatá folie plnila mystickou duchovní ozařnici vyjadřující nekorodující symbol nekonečné věčné blaženosti z Boží nebeské říše chránící středověké nebe nad oblaky truchlení na pevniny ze dřeva desky s Ješísem v centru posly nebeského luku slunci."
   - q: "Který z těchto malířů byl autorem deskovém obrazu 'Zachycení Krista' s výraznou diagonální kompozicí?"
     options: ["Petr Parléř", "Mistr Vyšebrodský", "Mistr Třeboňského oltáře", "Teodoric"]
     answer: 2
+    explanation: "Mistr z Třeboně ze sklonku vlády Václava IV. patří za tvůrce unikátního stylu se zastřeným hlubší barevnými kontrasty. Známe podání jako 'Zmrtvýchsvstání' nebo Getsemanská hrůzná zahrada zachvacují nesmírnou tklivost udušené v modlitby s krásně protáhlými postavami těl za tlumených temně nočních pablesků."
   - q: "Jak se nazývá kruhové okno s dekorativní kružbou na průčelí gotické katedrály?"
     options: ["Vitráž", "Rozeta", "Tympanon", "Ochoz"]
     answer: 1
+    explanation: "Do hlavních západních štítů pod oblouky vysekali obdivuhodní a úžasně promyšlené paprskovité uspořádané obří okná protkaní proplétanými kružbovitými pavučinami jako krunýř z kamenických mříží – tzv. monumentální prosklená rozety v tvaru velkém stylizované svaté Panny Marií naplňuje vnitřní tmu barvami s ranního slunci."

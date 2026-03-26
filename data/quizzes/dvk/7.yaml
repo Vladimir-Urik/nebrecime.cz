@@ -2,30 +2,40 @@ questions:
   - q: "Který rok se považuje za datum korunovace Karla Velikého císařem?"
     options: ["768", "800", "843", "962"]
     answer: 1
+    explanation: "V roce 800 byl franský král Karel Veliký papežem v Římě korunován na římského císaře, což symbolicky obnovilo slávu antického impéria na Západě."
   - q: "Jak se nazývá výrazná dvěta věžová fasáda franckých klášterních kostelů?"
     options: ["Westwerk", "Transept", "Apsida", "Atrium"]
     answer: 0
+    explanation: "Westwerk ('západní dílo') je masivní stavební útvar na západním průčelí karolínských a otonských chrámů, obvykle s bočními věžemi a velkou centrální tribunou pro panovníka."
   - q: "Který text je nejznámějším příkladem irsko-skotského iluminátorství?"
     options: ["Codex Vyšehradský", "Glagolice", "Kniha z Kellsu", "Bible Václava IV."]
     answer: 2
+    explanation: "Kniha z Kellsu je úchvatně iluminovaný irský evangeliář z počátku 9. století, proslulý svými nesmírně propracovanými keltskými a geometrickými ornamenty."
   - q: "V kterém roce přijeli Konstantin a Metoděj na Velkou Moravu?"
     options: ["833", "863", "885", "906"]
     answer: 1
+    explanation: "Byzantská mise bratrů Konstantina a Metoděje přinesla na Velkou Moravu v roce 863, na žádost knížete Rastislava, křesťanství v domácím srozumitelném slovanském jazyce."
   - q: "Jak se nazývá okrouhlá stavba s apsidami typická pro Velkou Moravu?"
     options: ["Bazilika", "Rotunda", "Martyrium", "Falc"]
     answer: 1
+    explanation: "Rotunda je menší středověká sakrální kostelní stavba s kruhovým půdorysem. Velkomoravské a přemyslovské rotundy navíc mívaly na východě připojenu půlkruhovou apsidu s oltářem."
   - q: "Kde bylo vybudováno první benediktinské opatství (r. 529)?"
     options: ["Cluny", "Monte Cassino", "Canterbury", "Saint-Denis"]
     answer: 1
+    explanation: "Kolem roku 529 sv. Benedikt založil v ruinách antického chrámu na kopci Monte Cassino v Itálii první a nejdůležitější klášter mateřského mnišského benediktinského řádu."
   - q: "Jak se nazývalo opevněné císařské sídlo Karla Velikého?"
     options: ["Falc", "Hrad", "Westwerk", "Ambit"]
     answer: 0
+    explanation: "Falc pochází z latinského slova 'palatium' (palác) a označuje raně středověké opevněné panovnické sídlo budované k občasnému pobytu cestujícího vládce s dvorem."
   - q: "Jaké je charakteristické zdobení irsko-skotského umění?"
     options: ["Zlaté pozadí a ikony světců", "Pletence a spirály", "Perspektivní krajiny", "Realistické portréty"]
     answer: 1
+    explanation: "Insulární (ostrovní) umění se opírá o proplétající se keltské abstraktní motivy, spletité uzly, nekonečné linky, pletence, spirály a stylizované zvířecí ornamenty vložené do pergamenu."
   - q: "V Mikulčicích byly nalezeny příklady jakého druhu stavby z Velké Moravy?"
     options: ["Románské baziliky", "Irské kříže", "Rotundy", "Gotické katedrály"]
     answer: 2
+    explanation: "Při důkladných archeologických vykopávkách skrývalo mocné slovanské hradiště v Mikulčicích na Moravě pozůstatky knížecího paláce a dvanácti jednolodních i kruhových kamenných kaplí (rotund)."
   - q: "Které písmo vytvořili Konstantin a Metoděj pro slovanský jazyk?"
     options: ["Cyrilice", "Hlaholice", "Latinku", "Runové písmo"]
     answer: 1
+    explanation: "Pro úspěch své historické mise a vytvoření prvních slovanských překladů bible vynalezl sv. Cyril (Konstantin) hlaholici, unikátní písmo dokonale zachycující slovanské hlásky našich předků."

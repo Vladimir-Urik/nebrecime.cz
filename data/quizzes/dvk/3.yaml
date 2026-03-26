@@ -2,30 +2,40 @@ questions:
   - q: "Jak se nazývají stupňovité chrámové věže Mezopotámie?"
     options: ["Pyramidy", "Obelisky", "Zikkuraty", "Mastapy"]
     answer: 2
+    explanation: "Zikkurato je kolosální klínovitá chrámová věž na obdélníkovém základě se stupňovitými terasami tvořená vypálenými cihlami. Na jejím nejvyšším patře pak stála božská svatyně."
   - q: "Jaká civilizace jako první vyvinula písmo v Mezopotámii?"
     options: ["Babylónci", "Asyřané", "Sumerové", "Peršané"]
     answer: 2
+    explanation: "Sumerové žijící v úrodném povodí Eufratu a Tigridu vytvořili zhruba na přelomu čtvrtého tisíciletí úžasný obrázkový komunikační a evidenční zápis, který se následně vyvinul ve slavné klínové písmo."
   - q: "Jak se nazývá mezopotámské písmo vytvářené klínovitými vrypy do hliněných tabulek?"
     options: ["Hieroglyfy", "Klínové písmo", "Démotické písmo", "Fénická abeceda"]
     answer: 1
+    explanation: "Klínové písmo používalo otisk seříznutého rákosového stébla do čerstvé vlhké hliněné placky k záznamům slabičných hláskových symbolů, jež se následně vypálily jako trvalé knihy."
   - q: "Slavná Ištařina brána patřila ke kterému starověkému městu?"
     options: ["Niniwa", "Ur", "Babylon", "Lagaš"]
     answer: 2
+    explanation: "Monumentální vstupní tepna Novobabylonské říše, poskládaná z nádherných nebesky modrých glazovaných cihel s plastickými mozaiki dračích a býčích strážců."
   - q: "Na jakém ostrově se rozkládala Mínojská civilizace?"
     options: ["Sicílie", "Kypr", "Kréta", "Rhodos"]
     answer: 2
+    explanation: "Příznivé klimatické i obchodní podloží na středomořském ostrově Kréta dalo neomezený prostor pro mírovou a zručnou palácovou kulturu dobyvatele Mínóa."
   - q: "Co je typické pro mínojské umění?"
     options: ["Strohé geometrické vzory", "Živé zobrazení přírody, zvířat a pohybu", "Gigantické sochy vládců", "Temné podzemní kompozice"]
     answer: 1
+    explanation: "Narozdíl od despotických soch válečníků z východu vyznávala palácová kultura Mínojců pestré pojetí dynamických tanců, živelnou oslavu vodního hmyzu, vln a rostlin v jasných pastelových tónech."
   - q: "Jak se nazývá slavný mínojský palác na Krétě?"
     options: ["Mykény", "Knóssos", "Tiryns", "Olympie"]
     answer: 1
+    explanation: "Velkolepý kaskádovitý knósský labyrint spleťovitých barevných svatyní byl sídlem mýtického rodu a zdrojem zrození strašlivého Mínotaura a pověstí s ním spojených."
   - q: "Jaké zvíře hrálo klíčovou roli v mínojském náboženství a umění?"
     options: ["Kůň", "Krokodýl", "Orel", "Býk"]
     answer: 3
+    explanation: "Motivy posvátného robustního krétského býka se opakovaly jak na vázách a pečetidlech, tak i u slavných gymnastických náboženských rituálů přeskoků cvičenců plných napětí a kultových symbolů."
   - q: "Čím se vyznačuje mykénská architektura na rozdíl od mínojské?"
     options: ["Otevřenými paláci bez opevnění", "Masivními cyklopskými hradbami", "Jemnými freskami bez pevností", "Dřevěnými stavbami"]
     answer: 1
+    explanation: "Přesídlivší a militantní řečtí Achájové z pevninských Mykén dbali na strategickou defenzívu a obklopovali své masivní paláce obrovitými hradbami ukovanými z kyklopských neotesaných megalitů."
   - q: "Zlatá pohřební maska nalezená v Mykénách je označována jako 'Maska ...'?"
     options: ["Dia", "Apollóna", "Agamemnóna", "Achilla"]
     answer: 2
+    explanation: "Slavná vytepaná tvář objevitele Schliemanna z mykénských zemních šachtových hrobů zapsala navždy pojmenování homérského hrdiny, i přestože skutečný vladař Agamemnon by masku do kronik nosil až dávno po něm."

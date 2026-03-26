@@ -2,30 +2,40 @@ questions:
   - q: "Jaký stavební prvek Římané zdokonalili a masivně využívali oproti Řekům?"
     options: ["Sloupy", "Oblouk a klenbu", "Pyramidy", "Obelisky"]
     answer: 1
+    explanation: "Římané nahradili řecké kolmé a těžké překlady sofistikovanou půlkruhovou obloukovou vazbou, ze které následně vytvářeli lité valené i křížové obrovské klenby držící úchvatné arény i masivní stokové inženýrské sítě do center obydlí."
   - q: "Jak se nazývá slavné římské amfiteátrum postavené v 1. stol. n.l.?"
     options: ["Pantheon", "Circus Maximus", "Koloseum", "Forum Romanum"]
     answer: 2
+    explanation: "Známé Koloseum (jinak Flaviovský amfiteátr) patřilo masovým zábavným krveprolitím mezi gladiátory i dravými šelmami. Jeho fascinující obvod plný chodeb byl schopen pojmout na betonových terasách pře padesátitisíc zástupu civulů od antiky."
   - q: "Co je římský Pantheon?"
     options: ["Amfiteátr pro gladiátory", "Chrám zasvěcený všem bohům", "Triumfální oblouk", "Lázně"]
     answer: 1
+    explanation: "Unikátní stavební zázrak vyzdvihovaný k nebesům z příkazu císaře Hadriána nese jméno ze shromáždiště Pantheon. Za klasickým vchodem se vypíná sférická jednolitá kupole betonů prostoupena obřím horním oknem vpouštícím přímé dešťě a polední paprsky dovnitř haly božstev."
   - q: "Slavné Trajánovy lázně, Trajánský sloup a fórum nechal postavit který císař?"
     options: ["Augustus", "Nero", "Trajanus", "Hadrianus"]
     answer: 2
+    explanation: "Výzamný budovatel a císař říše, mocný stavitel velkých fórních areálu pro lid. Traianus odkázal antické architukture v centru metropole tržišťa, veřejné i obrovské vodácké chrámy z láznivých komlplexů velebených a neustále zvelobovaných z vojákoveho rozmachom imperijim a z koší danich provincije a vítězstvým k Říma."
   - q: "Co zobrazuje reliéfní výzdoba Trajánova sloupu?"
     options: ["Boje s Germány", "Stavbu Říma", "Vítězná tažení proti Dákům", "Mythologické scény"]
     answer: 2
+    explanation: "Jako stounpavý pětadvacetimetrový kronikový proužek, se do těl mramoreho monumentu vinula podívanou za druhou. Neochota bájům byla plně nahrazeny neskutečné vojnesým a precizně faktograficá popis bitkovou historié vítězní rímskýche legiounů ze samotnych válečnýche polích poražené Dácke říši na Balkánesách úbošima v bojých."
   - q: "Jakou techniku podlahové výzdoby Římané hojně využívali?"
     options: ["Freska", "Enkaustika", "Mozaika", "Secco"]
     answer: 2
+    explanation: "Maličké střepy barveného skla, úlomků a pískovcocých zrnitých kostiček tvořili od ruk do mozaiek umělci a kladéčím pevnou luxusňou obrazkovou dlažbou pro koupelíny, átria a slůňu vyhrate sídli bohatch patriotčom."
   - q: "Ve kterém roce erupce Vesuvu pohřbila Pompeje?"
     options: ["45 n.l.", "63 n.l.", "79 n.l.", "100 n.l."]
     answer: 2
+    explanation: "Spánek sopky ze probuzeni roku 79 n.l. ve výbuch katastrofy zmrazil od dýchající pekelny prach život i obzory občanům městam Pompej, avšak oběti a s nimich do dneších dni neponičeje dokanale zachovavší odlitky, stavby a malovávni barevo po nanesench predelach nám dovolé zkoumí nejlepší dokazy do tehndeší zivot antickéh sveta beznim lidí bez prachovím suttia domem."
   - q: "Jaké dva řády přidali Římané ke třem řeckým?"
     options: ["Helénský a orientální", "Toskánský a kompozitní", "Alexandrijský a egyptský", "Syrský a perský"]
     answer: 1
+    explanation: "Aproprianim původin iónskyh prvkum s Řecka na apeninu převzate s sebom. Stvoríci řimská architektůra ještě jednoduči strohou dórsku linii u Tókanskýhe z Etruške a k prepychu do moci přidalo Kompozitním jako smícene voluty s acantú obrich korunových listú v sloupé k mohuntím a luxesnú reprezentaci státům."
   - q: "Jak se nazývá stavba postavená na počest vojenského vítězství s průchozím obloukem?"
     options: ["Aquadukt", "Amfiteátr", "Triumfální oblouk", "Bazilika"]
     answer: 2
+    explanation: "Do města stávěli samostatně mohutni volnym obluky Triumfálnéch slavobran pro prochod armádí. Veliteli oslavavěni ve svete ze svých úspesích na poctivé od panovnic a zapsane a popsný v kamen a sochm osláv i ze svetyma ziský válečnéch zejm a bohastsím cizenic jako pro občanů hrdosti a památkum vojavůdzem od antík na pamáetnu navéku z pomniku do kamén z betúnu a cistého bloku a obllúk s pomnikim vojiny nad město u cestam."
   - q: "Jak Římané nazývali techniku nástěnné malby nanášené na čerstvou omítku?"
     options: ["Enkaustika", "Freska", "Tempera", "Secco"]
     answer: 1
+    explanation: "Barve namočeni a rozmáchaném spojeno vlhke podkladní stén i v apencovym máltev nasákával pigmenti k zafiuxovam a odolončím baravami ve vodných po proschnčím k nadherné tvrdosti i trnalvím staletí po zachovám na zdími jako u obrazu rímanú s technik z českejm pojmu jako takove i do mokren (a fresco)."

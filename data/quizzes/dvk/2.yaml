@@ -2,30 +2,40 @@ questions:
   - q: "Jak se nazývají egyptské hieroglyfické texty pohřbívané s mumií?"
     options: ["Epos o Gilgamešovi", "Kniha mrtvých", "Papyrus Anastasi", "Kánon krásy"]
     answer: 1
+    explanation: "Kniha mrtvých je posvátná sbírka náboženských zaklínadel a magických modliteb, která měla zesnulému bezpečně pomoci na těžké cestě podsvětím až do blaženého zásvětí."
   - q: "Který faraon nechal postavit největší pyramidu v Gíze?"
     options: ["Chefrén", "Menkaure", "Ramses II.", "Cheops (Chufu)"]
     answer: 3
+    explanation: "Nejmohutnější z kamenných pyramid si nechal postavit faraon Cheops (Chufu). Se svou původní výškou 146 metrů se zapsala do seznamu původních divů světa."
   - q: "Co charakterizuje egyptský 'zákon čelnosti' (hieratická zkratka) v malbě?"
     options: ["Realistická perspektiva", "Hlava z profilu, tělo zepředu", "Tmavé pozadí", "Pouze siluety"]
     answer: 1
+    explanation: "Současné vyobrazení figury ze dvou úhlů. Hrudník s rameny a oko směřovalo frontálně k divákovi, avšak tvář, ruce a postoj nohou stály strnule z bočního profilu."
   - q: "Kdo nechal postavit Velkou sfingu v Gíze?"
     options: ["Cheops", "Ramses II.", "Chefrén", "Thutmose III."]
     answer: 2
+    explanation: "Gigantickou strážkyni pyramid s mohutným tělem ležícího lva a lidskou tváří pravděpodobně nechal do vápencové skály vytesat sám faraon Rachef (Chefrén)."
   - q: "Jak se nazývají nádoby na uchovávání vnitřních orgánů mumie?"
     options: ["Amfory", "Kanopy", "Urnae", "Sarkofágy"]
     answer: 1
+    explanation: "Vyňaté vnitřní orgány (játra, plíce, žaludek i střeva) se po balzamování uložily z úctou do čtveřice speciálních pečetěných hliněných nebo kamenných váz (tzv. kanop)."
   - q: "Která egyptská královna je zobrazena v proslulé bustě uložené v Berlíně?"
     options: ["Kleopatra", "Hatšepsut", "Nefertari", "Nefertiti"]
     answer: 3
+    explanation: "Mimořádně zachovalá busta královny Nefertiti (manželky Achnatona) představuje celosvětově uznávaný ikonický symbol antického pojetí ženské krásy a vznešenosti."
   - q: "Kde se nachází Údolí králů s pohřebními komorami faraonů?"
     options: ["U Alexandrie", "U Káhiry", "U Luxoru", "U Asuánu"]
     answer: 2
+    explanation: "Nachází se v hornatém terénu západních Théb u dnešního Luxoru. Koncem Nové říše sem faraoni přesouvali své skryté podzemní hrobky, aby se uchránili před stálým vyrabováním."
   - q: "Který faraon je znám náboženskou reformou zavádějící monoteistický kult Atona?"
     options: ["Ramses II.", "Tutanchamon", "Achnaton", "Thutmose III."]
     answer: 2
+    explanation: "Amenhotep IV. zavrhl polyteistický klérus v zemi, vyhlásil uctívání jediného božstva zosobněného slunečním kotoučem – Atona, a přesunul centrum i své jméno na Achnaton."
   - q: "Jaký materiál Egypťané používali jako podložku pro psaní?"
     options: ["Pergamen", "Papyrus", "Hliněné tabulky", "Kůže"]
     answer: 1
+    explanation: "Z překřížených, lisovaných a sušených vláken bahenní rostliny šáchoru tvořili pevný papyrový papír formovaný do dlouhých svitků ideálních pro psaní znaků."
   - q: "Co je egyptský obelisk symbolicky spojen?"
     options: ["S podsvětím", "Se slunečním kultem", "S Nilem", "S válečnými vítězstvími"]
     answer: 1
+    explanation: "Vysoký kamenný monolit zužující se do špičky je abstraktním paprskem uctívajícím sluneční svit a moc. Tyto sloupy se odvěky vztyčovaly před vchody do slunečních chrámů."
