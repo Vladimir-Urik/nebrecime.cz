@@ -5,5 +5,12 @@ uglyURLs = true
 
 [markup]
   [markup.goldmark]
-    [markup.goldmark.renderer]
+  [markup.goldmark.renderer]
       unsafe = true
+
+enableRobotsTXT = true
+
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5

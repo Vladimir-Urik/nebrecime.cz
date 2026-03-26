@@ -2,7 +2,7 @@
 {{ $quiz := index $sectionQuizzes .File.ContentBaseName }}
 {{ with $quiz }}
 {{ $total := len .questions }}
-<div class="quiz" id="quiz-root">
+<div class="quiz" id="quiz-root" data-quiz-id="{{ $.File.ContentBaseName }}">
 	<div class="quiz-header">
 		<div class="quiz-header-left">
 			<h2 class="quiz-title">Kvíz</h2>
@@ -24,14 +24,23 @@
 				<button class="quiz-opt" type="button" data-idx="{{ $j }}">{{ $opt }}</button>
 				{{ end }}
 			</div>
-			<p class="quiz-feedback" aria-live="polite"></p>
+			<div class="quiz-feedback-wrap" hidden>
+				<p class="quiz-feedback" aria-live="polite"></p>
+				{{ if $q.explanation }}
+				<p class="quiz-explanation">{{ $q.explanation }}</p>
+				{{ end }}
+				<button class="quiz-next btn-primary" type="button">Další otázka <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 256 256"><path d="M181.66,133.66l-80,80a8,8,0,0,1-11.32-11.32L164.69,128,90.34,53.66a8,8,0,0,1,11.32-11.32l80,80A8,8,0,0,1,181.66,133.66Z"></path></svg></button>
+			</div>
 		</div>
 		{{ end }}
 	</div>
 
 	<div class="quiz-result" hidden>
 		<p class="quiz-score-text"></p>
-		<button class="quiz-reset" type="button">Zkusit znovu</button>
+		<div class="quiz-result-actions">
+			<button class="quiz-reset" type="button">Zkusit znovu</button>
+			<button class="quiz-share" type="button">Sdílet výsledek</button>
+		</div>
 	</div>
 </div>
 {{ end }}
