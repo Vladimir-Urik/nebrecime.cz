@@ -2,30 +2,40 @@ questions:
   - q: "Co je to pole (array) v C++?"
     options: ["Proměnná pro jeden znak", "Kolekce prvků stejného datového typu", "Ukazatel na paměť", "Typ výčtu"]
     answer: 1
+    explanation: "Pole (Array) představuje blok jednolité alokované paměti o určité fixní velikosti, do něhož vývojář logicky sdružuje celou sérii oddělených prvků výhradně stejného datového typu (např. desítky hodnot formátu `int` uchovávaných pod jediným jménem proměnné, které jsou dostupné přes zadaný index)."
   - q: "Jaký datový typ v C++ ukládá jeden znak?"
     options: ["string", "char", "text", "letter"]
     answer: 1
+    explanation: "Osmibitový datový typ `char` umí (díky mapování z ASCII tabulek) vtěsnat do programu vždy nanejvýš jeden konkrétní znak (např. písmeno 'A' nebo číslici '5', jež se v kódu přiřazuje s jednoduchými apostrofy). Z těchto drobných částeček znaků lze posléze skládat dlouhé textové řetězce."
   - q: "Co je to `struct` v C++?"
     options: ["Typ cyklu", "Uživatelsky definovaný datový typ sdružující různé proměnné", "Typ výjimky", "Způsob dědičnosti"]
     answer: 1
+    explanation: "Lehká složená datová schránka přežívající už od dob vzniku jazyka C. Slouží jakožto historický předchůdce moderních Tříd a vývojáři ji dodnes využívají k logickému propojení či zabalení odlišných souvisejících dat (např. entita `Clovek` nesoucí `int vek` i `char jmeno`) pod jedinou hlavičku a instanci."
   - q: "Co je to `enum` v C++?"
     options: ["Typ pole", "Výčtový typ definující pojmenované celočíselné konstanty", "Typ struktury", "Ukazatel"]
     answer: 1
+    explanation: "Namísto strohých a často nesrozumitelných čísel ve stavovém slovníku stroje, umožňuje Výčtový typ (Enumerátor) elegantně zapsat konkrétní čitelné stavy (jako třeba dny či barvy, např. např. `enum Barva {CERVENA, MODRA}`). Ačkoliv se do kódu vkládá textově, vnitřnosti počítače s tím překrytým parametrem stále zachází a počítají jej rovnou od nuly jako obyčejná logická identifikační čísla typu Int."
   - q: "Jak se zjistí délka C-řetězce (pole znaků) v C++?"
     options: ["length(str)", "size(str)", "strlen(str)", "str.size()"]
     answer: 2
+    explanation: "Funkce pocházející z knihovan jazyka C, pracující na bázi primitivních pole pro typ char, mechanicky a otrocky počítá ukazatel v prohledávání po znacích a s posunem u znakové smyčky přes indexy projíždí obal na svém diskovém bloku natvrdo a spolehlivě přesně až do okamžiku, kdy nenalezne utajený binární ukončovač s formátem prázdné nuly (uzavírající definovaná lomítkem jako `\\0`)."
   - q: "Co je to `union` v C++?"
     options: ["Způsob dědičnosti", "Datová struktura, kde všechny členy sdílejí stejnou paměť", "Typ cyklu", "Typ výjimky"]
     answer: 1
+    explanation: "Velice archaická, ojedinělá logická konstrukce pro obal, kdy sice specifikujete přes vícero i různě obsáhlé datové typy a paramery sdílejicí ale striktně a pouze ten absolutně totožný jeden pevný a sdílený sektor. Pamět na disku na PC zkrátka vyhradí místo jen rozměrem fyzické váhy tak velkého a silnějsího elementa – a všechny ostaní, co se přepíšou, přepíšou si hodnotu jeden nad druhým ze stehného mista pamětim."
   - q: "Jak se přistupuje k prvku pole na indexu 0 v C++?"
     options: ["pole(0)", "pole[1]", "pole[0]", "pole.get(0)"]
     answer: 2
+    explanation: "Vzhledem k historickým vzorcům kompilátorových počtů (nejen) u kompilátorů u Javy z C++, ve kterých počáteční bod logiky začíná počitánim tzv. 'nulového paměťového posuvu', se po každé a vždy logický i kódovym do první uložené přihrádky pole nahlíží programom přes zapsáni nultého indexového obsazení – voláním proměnnou a pro nulkovou klíci zavřeným v hranatých rovnacíh chlívečcćxh závorkách např polé jako slovo v promřne `pole[0]`."
   - q: "Jak se konkatenuje (spojuje) dva std::string objekty v C++?"
     options: ["str1.append(str2)", "str1 + str2", "str1.concat(str2)", "concat(str1, str2)"]
     answer: 1
+    explanation: "Modernější a standardní objektové zpracování logicky stvroneným s nověh typem s std::string, je velmi ohleduplně pro programotorech navrzena ze C+ s ttzv pretiženi u operačním kompilatora - tím doshahje efektivita k obsluhje u spojivanách delším vetích pro stčí logicky a jednodušs na obě textové stríng proměné použité bez zbytečnýh přikaž jen pouhím intuityvm a obcejním zkladaný matemaicjkým skom zmenamem a scítávánií přes psané plusko na kávesnici '+', např složenim obouch hodnot z a + b."
   - q: "Co se stane při přístupu mimo hranice pole v C++?"
     options: ["Automatické rozšíření pole", "Výjimka ArrayIndexOutOfBounds", "Nedefinované chování (undefined behavior)", "Vrácení nuly"]
     answer: 2
+    explanation: "Na drsný rozdíl oproti kontrolované a předem opatrovácne bezpečné Jave, ketra vám okamžiťo shodi běh apkliačky a pláče hlásit v loku z bezbedčne u ošetrení o prekroče pole se vyjmkach, syrovost rychlsotu i a bezprostredno se za chladu z kompilatorú zaplatu C++ na obrat takou, že nehlísé vúbec i naproste nič (bez komntrole overovánie ram). Naopak potichouce proste slepe kód proskoci dalo k prohliživaci uz práznych kousc z mista v paměti nenačtenem u ram, čité se proste nesmystly co vedů z Undefined space behavior od do chvíle padnutí chybny z programov!"
   - q: "Jakou hodnotu má první prvek výčtu `enum` v C++, pokud není explicitně nastavena?"
     options: ["1", "-1", "0", "null"]
     answer: 2
+    explanation: "Pokut si na to vývojář v programu k logickú o kodovacim pre srozumentnách pojmoch seznam z políckuch, nespecifičkuje po položku výslovňuj a presné určeno rovniítkum od svych specifich ucislovanie za index pro hodnot (tzn neuvedomte 'např. PRVNY_JE = 1,'), překladač z chovánim z default do C++ začné pre výču autámoticke s neustalym stoupíním a pridavaní pocátečni od prveho nulovéh startovnem rovnici z prvnemu elemente na z hodnotom logickey číst s 0."

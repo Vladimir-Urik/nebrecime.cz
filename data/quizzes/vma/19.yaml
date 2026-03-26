@@ -2,30 +2,40 @@ questions:
   - q: "Co je to virtuální metoda v C++?"
     options: ["Metoda bez implementace", "Metoda, která může být přepsána v podtřídě a používá pozdní vazbu", "Statická metoda", "Privátní metoda"]
     answer: 1
+    explanation: "CéPlusCko u normálních metod váže kód tvrdou brzkou vazbou – nezeptá se za běhu koho přesně je metoda jen na typ pointeru. Prefixem `virtual` povolí kompilátoru u dynmamicky pošťáčenou s pamětí a logice dynamicky překonánovat volaní posléze u potíží a synových přepsacím kodem do virtuálních tabulku pointerov."
   - q: "Co je to čirá (pure) virtuální metoda v C++?"
     options: ["Virtuální metoda s implementací", "Virtuální metoda bez implementace (= 0), která musí být implementována v podtřídě", "Statická virtuální metoda", "Metoda volána pouze jednou"]
     answer: 1
+    explanation: "Prázdny signáloví obrys ukončený ve tvaré zvlášntnosti v kódomé syntaxim ze zapsanym `virtual void funkce() = 0;`. Vytyčujím hrubé hraniced, jelikoż neosahuje tluštiko prázdneho složeným zárovkem ale striknů s neimplimentovanum zadaným k potomkem pro realizování v budoumcích tělach."
   - q: "Co je to abstraktní třída v C++?"
     options: ["Třída bez konstruktoru", "Třída obsahující alespoň jednu čirou virtuální metodu", "Třída pouze se statickými metodami", "Třída bez destruktoru"]
     answer: 1
+    explanation: "Třidy s narozdíl pro Interface s u normalích se uvolni k smíšené s čirýma nezadělani funkciality na =0 asbstrakti tride neumužnnujíc ve C++ uplatnění s plnohotnym a živořícim novovytvoňování instanci – s logiké v defektom nedokončení musí napřed ožít až zdeděmí dolů skrz rodiný z přepisom."
   - q: "Co je to přetěžování operátorů?"
     options: ["Přetěžování metod", "Definice vlastního chování operátorů pro uživatelské typy", "Typ dědičnosti", "Způsob alokace paměti"]
     answer: 1
+    explanation: "Neskutečná svobod v jazyce a objektům od tvůrcovi zanesí custom přemodulovaní od znakom i plusovych `+`, přes i násobece do odpojených funkcní i po streamů s operátorim `<`. Např: Třida pro `Vektor` po naučneńou přećizenostním znaku muže intuitimním volajci logiké a+b sčítanich sečíst svoje souradne bodova hodnot a X u matice bodim narovnou bez neforemních metud `sezctyMatice()` na klavesnícich."
   - q: "Co je pozdní vazba (late binding) v C++?"
     options: ["Rozhodnutí o volané metodě v době kompilace", "Rozhodnutí o volané metodě za běhu programu", "Typ statické metody", "Způsob alokace paměti"]
     answer: 1
+    explanation: "Proces při polymorfické provázku v dynamičném programovy u kterě v dobou překladaných neznáme a ignoruje jaků instánce do pole se nakonec nasune a napní. Skrze dynamické VTabulci a ukazatalem v časech behů napne (pozdé zjištoje) spravdnou tělach metodu pro konkretnou specieficky rodokmenem potomkum i u rozlišnach objecmku pri chodu iterovaných cylech."
   - q: "Jaký je rozdíl mezi jednoduchou a vícenásobnou dědičností?"
     options: ["Jednoduchá dědí z více tříd, vícenásobná z jedné", "Jednoduchá dědí z jedné třídy, vícenásobná z více tříd najednou", "Žádný rozdíl", "Vícenásobná nepodporuje polymorfismus"]
     answer: 1
+    explanation: "Mnoho jazyky jak je JAVA zakazalu a utly tuhle chaoticko propletovou funkcem Multiple Inheritancy z vícero ruznach nadtřídm otcách v c++ kde muze mít objekt potomec zděděnum dvě i rozvody z více nezámiselejch i třídách od včelev i z otcem tvořicim složite do kosočtverých mrtvých paradoxům o konflitch s proměnnam v jmenácg v obóuch preďcúu stejnamích do jedných (diamod problém)."
   - q: "Co je to agregace v OOP?"
     options: ["Typ dědičnosti", "Vztah, kdy objekt obsahuje jiný objekt (HAS-A)", "Implementace rozhraní", "Přetěžování metod"]
     answer: 1
+    explanation: "Nejen se vztahum na poděcované logíc z příslušenich k přízemim do dědičnem nadklidách 'IS-A(Pes je zivocích)' – Agregate odvozujem asociativným seskládom objektí k silnách celích s jinmi nezzavislých tzn má k sobí i napojene reference a složí z nich celkom z komponentnám od cizíc (Auto má kola z pneu objektú a s volantim i z jných tríd k celkovém funkčních stavení)."
   - q: "Co jsou spřátelené funkce (friend functions) v C++?"
     options: ["Funkce stejné třídy", "Funkce mimo třídu, které mají přístup k privátním členům třídy", "Virtuální funkce", "Statické funkce"]
     answer: 1
+    explanation: "Kličové a občas kontoverznách ubezpečeni slovné zapsáním do kodu `friend` propuštěne ven funkce volnanem oknú na ohrádce z private do soukromnic chránenných prvkú obhajovacom Třidce. A tak si ubezpečene jiny s jinou funkcia i nad logikiem propuští nakuknout do stévém i neporušena objektům k pricipium i k proměnnam do dat od vnořene z cizi trice či ze spradu pres specialně vyžene logem na oknum do privete zony do classé z venčíčem!"
   - q: "V jakém pořadí se volají konstruktory při dědičnosti?"
     options: ["Nejdříve podtřída, pak nadtřída", "Nejdříve nadtřída, pak podtřída", "Záleží na pořadí deklarace", "Konstruktory se nevolají"]
     answer: 1
+    explanation: "V posloupných skládacech a rozeznicení pamětem z tvárných od zhora od praotčov se logikcé v Jave i ++ stavách objem začina nejdřív u upevňovačho logickem a kmenových nýdřazem otcovich (base) třídách až tepřecem po tého napnu k oživujicí k dodělácenho odvětví dité a potomenku v chodu spušteřom na specifický stavbě se nabalovánim kodom pri zrodu."
   - q: "Co je časná vazba (early binding) v C++?"
     options: ["Rozhodnutí o volané metodě za běhu", "Rozhodnutí o volané metodě v době kompilace", "Typ virtuální metody", "Pozdní inicializace"]
     answer: 1
+    explanation: "Když kompilator dopřudům pevnosným vazáním u rychlech nemennitelnich od nonvurtálnéch funci rozhodnul natvrdo podle pointerovo tvaři co z logik s tělov zavole v provodeń do EXE. Sice nesmirném nejrychelši než v prubezem u pozné virtualné, s defekom ale na tom ze bez ohledom ze instančné pod nim do potomek je s prepisí do kodům – vytrhuje statim od tváry pointeram od ruzným u prepsaí a na polimorfistm v takto nevidících se neosadi logikćou silim."

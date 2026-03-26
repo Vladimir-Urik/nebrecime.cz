@@ -2,30 +2,40 @@ questions:
   - q: "Jaká je funkce procesoru (CPU)?"
     options: ["Ukládání dat na disk", "Zobrazování obrazu na monitoru", "Provádění výpočtů a řízení ostatních komponent", "Napájení počítače"]
     answer: 2
+    explanation: "Procesor neboli CPU (Central Processing Unit) představuje opravdový hlavní mozek počítače. Spočívá v matematickém vyřizování všech logických zadání, sbírání dat a rychlém vysílání nezbytných řídících povelů k funkcím do dalších integrovaných dílů v oživeném mateřském systému."
   - q: "Co je to RAM?"
     options: ["Pevný disk pro trvalé ukládání dat", "Operační paměť pro dočasné ukládání dat běžících programů", "Grafická karta", "Základní deska"]
     answer: 1
+    explanation: "RAM (Random Access Memory) slouží po dobu běhu systému pro načtení okamžitě přístupných informací spuštěným programům k neomezenému čtení dat procesoru. Je však těkavá – jakmile odpojíte dodávku elektrického napájení, veškerá neuložená dočasná paměť se ztrácí."
   - q: "Co je to northbridge?"
     options: ["Typ síťového kabelu", "Čip základní desky propojující CPU s RAM a GPU", "Typ pevného disku", "Napájecí zdroj"]
     answer: 1
+    explanation: "Severní můstek hrál u designu základních desek roli důležité křižovatky k bleskově rychlé domluvě pro přenosy extrémně využívané operační paměti a rychlých dat drahé grafické soustavy na hlavní jednotku procesoru (na rozdíl od vedlejších pomalejších linek 'jižního' oddílu desek)."
   - q: "Co je grafická karta (GPU)?"
     options: ["Komponenta pro zpracování zvuku", "Komponenta pro ukládání dat", "Komponenta zodpovědná za generování obrazu", "Síťová karta"]
     answer: 2
+    explanation: "Tato specializovaná výpočetní komponenta (GPU) znatelně přebírá zatížení matematické hrubé síly určené k neustálým kalkulacím miliard grafických mnohoúhelníků, barev i světel do monitorového zobrazení video a 3D modelu formujících dnešní nejnáročnější počítačové renderování zábavní sféry."
   - q: "Co je to USB flash disk?"
     options: ["Typ pevného disku", "Přenosné paměťové médium připojované přes USB", "Optická paměť", "Typ RAM"]
     answer: 1
+    explanation: "Položil a upevnil se u oblíbenosti kompaktnosti do miniaturních stacionárních EEPROM obvodů coby přenosná jednotka v drobném i skladném neporuchovém bloku – díky které se obejdete bez plotnových obřích systémů a spolehlivě za zálohu do kabelu USB se spojí trvalá data od jednoho po další stolní počítače u domovních sestav."
   - q: "Jaká zkratka označuje pevný disk s pohyblivými magnetickými plotnami?"
     options: ["SSD", "HDD", "RAM", "ROM"]
     answer: 1
+    explanation: "Zkratka HDD je pevný tradiční Hard Disk Drive, uchovávající a navzájem formátující své informace v miniaturních a na sobě blízko nadřazených plotnových vodorovných deskách pro zachování zapsaného magneticky skrze obíhající motor po rameni pohyblivého mikroskopického mechanismu."
   - q: "Co je to monitor?"
     options: ["Vstupní zařízení pro zadávání textu", "Výstupní zařízení zobrazující obraz", "Komponenta pro zpracování dat", "Typ tiskárny"]
     answer: 1
+    explanation: "Jako stěžejní bod komunikační odezvy vůči svému provozovateli tvoří počítač pro vizualizaci svého kódu z GPU matice barev do optického obrazového hmatatelného osvitu naprášených LED displevových stěn obsažených do moderního rozložení formátovaném od zobrazujících výstupů – počítačových LCD monitorách."
   - q: "Jaký standard slouží k propojení komponent v počítači (základní deska, disky)?"
     options: ["USB", "HDMI", "SATA", "Bluetooth"]
     answer: 2
+    explanation: "Zásadním standardem z počátků datového formátování mezi pevnám uložiště a ústředí čipsetem na základních deskách se plošně stal tenký interní datový kabel a vysokorychlostního formátu rozhraní Serial ATA pro HDD diskové schrány od formátu např SATA 3 s velkovým 6Gbs oboustraném průpustem u skříních pécé a ssd modulech."
   - q: "Co je to tiskárna?"
     options: ["Vstupní zařízení", "Výstupní zařízení převádějící digitální data na fyzický tisk", "Typ paměti", "Síťové zařízení"]
     answer: 1
+    explanation: "Převádí virtuální zpracováné textové a na obrazovce svitící obrázkové plochu i formátdově do permanentního zafixovaného reálného světa nanesením stříkaného i tryskajícího mikroskopického kapaleníčkového barevného CMYK inkoustovým stínomem nad papíry (či napékánim prachů o laserových formátu z těl laser tiskáren uvnitž papírnictvo dokumentům z pc)."
   - q: "Co je to optická paměť?"
     options: ["Paměť pracující s magnetickým záznamem", "Paměť čtená laserem (CD, DVD, Blu-ray)", "Typ flash paměti", "Operační paměť"]
     answer: 1
+    explanation: "Informace v pamětech rotujících okruhům plovoucích hladkých disků oživa pod čtečím a čtecí stoupavá a prohlubeň s vyfrézovaných díruch ve plíšku do spirále povrchu ne pod napěti ale přesně pro ostřeno čítací i zápisi přes vysoce upěrený z optiky zacíleńým propalovavání přes minidruhu s pohlčeným fotonem laaserovým lomu pro čteným obrovaná dat k celym CD DVD s médium BD opticiým nosici z mechanikom úkolem k uschovani bitum uvnitř do plastiku i filmy."

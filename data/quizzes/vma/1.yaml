@@ -2,30 +2,40 @@ questions:
   - q: "V jakém roce vznikla experimentální síť ARPANET?"
     options: ["1962", "1969", "1972", "1983"]
     answer: 1
+    explanation: "Na podzim roku 1969 odeslali vědci ve zkušební síti americké armády (ARPANET) úspěšně první zprávu mezi univerzitami, čímž de facto položili stavební kámen pro to, z čeho se v budoucnu zrodil internet."
   - q: "Co je to phishing?"
     options: ["Typ počítačového viru", "Podvodná technika k získání citlivých údajů", "Způsob šifrování dat", "Protokol pro přenos souborů"]
     answer: 1
+    explanation: "Phishing je klamavá technika, při které se útočník pomocí podvodných e-mailů nebo falešných webových stránek vydává za důvěryhodnou instituci s cílem vylákat z oběti přístupová hesla k účtům nebo údaje k platební kartě."
   - q: "Co znamená zkratka DNS?"
     options: ["Data Network System", "Domain Name System", "Digital Network Service", "Dynamic Network Security"]
     answer: 1
+    explanation: "Domain Name System (DNS) funguje v celosvětovém internetu jako obrovský telefonní seznam. Překládá lidmi zapamatovatelná doménová jména (např. seznam.cz) na číselné IP adresy počítačových serverů v pozadí."
   - q: "Jaký protokol se používá pro odesílání e-mailů?"
     options: ["POP3", "IMAP", "SMTP", "FTP"]
     answer: 2
+    explanation: "Simple Mail Transfer Protocol (SMTP) je vyhrazen čistě a primárně pro samotné odeslání zprávy. Pro pohodlné přijímání, správu a čtení elektronické pošty slouží protokoly POP3 nebo mnohem modernější rodina protokolů IMAP."
   - q: "Co je to spam?"
     options: ["Šifrovaná zpráva", "Nevyžádaná reklamní pošta", "Typ počítačového viru", "Protokol pro přenos dat"]
     answer: 1
+    explanation: "Spam je nevyžádaná hromadná elektronická pošta, která je pomocí automatizovaných sítí rozesílána zdarma milionům adresátů najednou, nejčastěji za účelem šíření obtěžující nekalé komerční reklamy či podvodu."
   - q: "Kdo vynalezl první e-mailový program v roce 1972?"
     options: ["Tim Berners-Lee", "Bill Gates", "Ray Tomlinson", "Marc Andreessen"]
     answer: 2
+    explanation: "Počítačový vědec Ray Tomlinson se navždy zapsal do historie tím, že do prostředí sítě ARPANET sepsal úplně první fungující program pro zasílání pošty a na klávesnici zavedl legendární symbol zavináče (@)."
   - q: "Co je to netiketa?"
     options: ["Typ síťového protokolu", "Antivirový program", "Souhrn pravidel slušného chování na Internetu", "Způsob šifrování e-mailů"]
     answer: 2
+    explanation: "Slovo netiketa (neboli internetová etiketa) představuje nepsaná, komunitou sdílená pravidla slušného digitálního chování, mezi něž patří ohleduplnost, absence vulgárních nadávek, nepoužívání caps locku (tzv. křičení) apod."
   - q: "Jaký typ komunikace probíhá v reálném čase (chat, Skype)?"
     options: ["Asynchronní komunikace", "Synchronní komunikace", "Jednosměrná komunikace", "Offline komunikace"]
     answer: 1
+    explanation: "Při synchronní komunikaci spolu oba uživatelé komunikují na dálku současně v přímém přenosu (např. telefonní hovor). U asynchronní komunikace (např. zaslání e-mailu) se na odpověď obvykle čeká."
   - q: "Co je kyberšikana?"
     options: ["Typ počítačového viru", "Agresivní poškozování uživatelů prostřednictvím elektronických médií", "Způsob hackování sítí", "Nelegální stahování souborů"]
     answer: 1
+    explanation: "Kyberšikanou označujeme systematické a úmyslné šikanování, zesměšňování nebo agresivní vyhrožování obětem prostřednictvím digitálních technologií (sociální chaty, falešné profily – mnohdy z bezpečné anonymity)."
   - q: "Kdo vyvinul první webový prohlížeč Mosaic v roce 1993?"
     options: ["Bill Gates", "Steve Jobs", "Tim Berners-Lee", "Marc Andreessen"]
     answer: 3
+    explanation: "V roce 1993 vytvořil vysokoškolský student Marc Andreessen přelomový webový aplikaci, prohlížeč NCSA Mosaic. Ten poprvé integroval zobrazení barevných obrázků a tím vizuálně strhl na stranu internetu celý svět."

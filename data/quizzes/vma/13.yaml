@@ -2,30 +2,40 @@ questions:
   - q: "Jaké klíčové slovo se v Javě používá pro dědičnost?"
     options: ["inherits", "extends", "implements", "super"]
     answer: 1
+    explanation: "Ke konstruování logického rodokmenu, kdy podtřída rošiřuje chování nadtřídy, zapisuje v Javě vývojář do definice klíčové a spojující slibové slovo `extends` za mateřskou podstatu rozšiřujicího bloku (např. `class Pes extends Zvire`)."
   - q: "Co je to polymorfismus?"
     options: ["Schopnost třídy mít více konstruktorů", "Schopnost objektu nabývat různých forem a reagovat různě na stejnou zprávu", "Způsob přístupu k privátním proměnným", "Typ výjimky"]
     answer: 1
+    explanation: "Mnohotvárnost vycházející ze síly dědičnosti, díky níž kompilátor pro centrální rodičovskou funkci typu „VzdejZvyk()“ u odlišných proměnných dětí (Pes, Kočka) inteligentně zavolá buď přepsaný kód jejich „štěkání“ anebo „mňoukání“ pod touž hlavičkou volání."
   - q: "Co je to rozhraní (interface) v Javě?"
     options: ["Třída s privátními metodami", "Kontrakt definující sadu metod, které musí implementující třída poskytnout", "Typ dědičnosti", "Statická třída"]
     answer: 1
+    explanation: "Průzračný smluvní kontrakt a zcela obnažený nevypreparovaný soupis metod, jehož prázdné funkce figurují jako nařízení: Každá třída, která ze mě skrze interface slib čerpá identitu, se striktně zavazuje k tomu, že veškerá svá rozhraní ve vlastním kódu povinně obslouží plným funkčním tělem."
   - q: "Jaké klíčové slovo se používá pro implementaci rozhraní?"
     options: ["extends", "inherits", "implements", "uses"]
     answer: 2
+    explanation: "Pro smluvní vzetí slibovaných podpisů funkcí z Interface bloku do naší aktuální formy třídy se do záhlaví kódu napíšete deklaraci přes kódově slibující slovo pro implementaci – např. slibovací vazbu pod `implements NejakyInterface`."
   - q: "Co je abstraktní třída v Javě?"
     options: ["Třída bez jakýchkoliv metod", "Třída, která nemůže být přímo instanciována a může obsahovat abstraktní metody", "Třída pouze se statickými metodami", "Rozhraní s implementací"]
     answer: 1
+    explanation: "Zanechává si chování normální ucelené třídy včetně vyřešených kódů, ale vnesením prázdných abstraktních metod se její forma úmyslně zakáže plně seskládat (přes `new`), dokud se aspoň jeden oddaný potomek nerozhodne a neodpracuje do plné logiky ony zbylé abstraktní prázdné části."
   - q: "Jak se v Javě volá konstruktor nadtřídy?"
     options: ["parent()", "super()", "base()", "this()"]
     answer: 1
+    explanation: "Během paměťového oživování odvozeného instančního potomka je z logiky u programování ihned neustále poviností zaktivovat prvně stavení nadtřídního základu svého mateřského rodu. Povel se vykoná zavoláním obsluhy dat zevnitř dítěte skrze kódové slůvko `super()`, patřicí prarodiči v hierarchii."
   - q: "Co dělá klíčové slovo `final` u třídy v Javě?"
     options: ["Třída nemůže mít konstruktor", "Třída nemůže být zděděna", "Třída musí být implementována", "Třída je abstraktní"]
     answer: 1
+    explanation: "U proměných klíčové slovo `final` vytváří navždy neoblomné konstanty. Jeho konzolové dosazení přímo před psanou deklaraci celé strukturované Třídy však zajistí zřetelné totální uzamčení rodokmenů, čímž už navždy absolutně znemožní případným dědicům kód přebírat rozšířovaním skrze funkci `extends`."
   - q: "Co je to přepisování metod (overriding)?"
     options: ["Definice metody se stejným názvem v té samé třídě", "Redefinice metody z nadtřídy v podtřídě", "Volání privátní metody", "Přetěžování konstruktoru"]
     answer: 1
+    explanation: "Úkon v němž si podtřída dovedně přepíše tu již původní, zděděnou implementaci starého rodiče. Vyžaduje pro úspěch striktní zachování původního formátovacího jména i shodného počtu vstupních argumentům (pro kompilér s typickým zobrazení navrhované verifikátkové značku anotace `@Override` nad kódem)."
   - q: "Co je balíček (package) v Javě?"
     options: ["Typ výjimky", "Mechanismus pro organizaci tříd do logických skupin", "Typ datového typu", "Způsob kompilace"]
     answer: 1
+    explanation: "Důležitá hierarchická a stromová vizuální organizace projektů třídících obsáhlejší vývoj pomocí složek pro oddělení kontextu prací (namespace). Tím pádem předejdete konfliktům přes logické zamezení i když sdílíte stejné obsažné jméno souboru u několika stovek class souborů pro Javu přes celý projekt."
   - q: "Jaká třída je nadtřídou všech tříd v Javě?"
     options: ["Base", "Root", "Object", "Main"]
     answer: 2
+    explanation: "Z vnitřní nezvrátitelné a posvátné základní stavební kostry interpretovaného jádra uvnitř virtuálních strojů Javy potajmu naprosto všechny uživatelem nově vypisované Třídy dědí skrytě i od počátku prapůvodního základu kmenovou nadtřídu s označením `java.lang.Object` s vlastnostmi jako jsou `toString`."

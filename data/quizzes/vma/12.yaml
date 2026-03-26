@@ -2,30 +2,40 @@ questions:
   - q: "Co je to třída v objektovém programování?"
     options: ["Proměnná uchovávající číslo", "Šablona/předpis pro vytváření objektů", "Typ cyklu", "Databázová tabulka"]
     answer: 1
+    explanation: "Jakožto klíčový stavební pilíř objektově orientovaného programování reprezentuje třída (Class) jakýsi abstraktní návrhový nákres či šablonu, podle níž se následně v praxi oživují a vytvářejí jednotlivé reálné objekty – instance."
   - q: "Co je to konstruktor v Javě?"
     options: ["Metoda vracející hodnotu", "Speciální metoda volaná při vytvoření objektu", "Statická proměnná", "Typ výjimky"]
     answer: 1
+    explanation: "Speciální počáteční procedura nesoucí striktně zcela shodný název, jako se jmenuje samotná třída. Jakmile v programu zazní slovo `new`, spustí se její kód, dosadí vnitřním proměnným výchozí data a vytesá připravený objekt pro reálné použití na svět."
   - q: "Co znamená klíčové slovo `static` v Javě?"
     options: ["Metoda nebo proměnná patří třídě, ne instanci", "Metoda nemůže být přepsána", "Proměnná je neměnná", "Metoda je přístupná pouze v dané třídě"]
     answer: 0
+    explanation: "Přilepením slova `static` k deklaraci vlastnosti takzvaně odtrhnete daný prvek od jednotlivých vytvářených kopií objektů a pevně ho přišijete jako centrální a nesdílený majetek výhradně do rukou samotné kmenové třídy (např. `Math.PI` nebo `Math.pow()`)."
   - q: "Co je to přetěžování metod (overloading) v Javě?"
     options: ["Přepsání metody v podtřídě", "Definice více metod se stejným názvem, ale různými parametry", "Volání metody z jiné třídy", "Skrytí metody před jinými třídami"]
     answer: 1
+    explanation: "Jde o techniku úspory názvů, při níž do třídy napíšete procedury shodně se jmenující, leč s diametrálně jiným podpisem vstupních parametrů. Java dle typu či počtu proměnných (např. jeden Int nebo tři Stringy) nakonec přirozeně odliší, který kód chtěl pisatel zpracovat."
   - q: "Na co odkazuje klíčové slovo `this` v Javě?"
     options: ["Na nadřazenou třídu", "Na aktuální instanci objektu", "Na statickou proměnnou", "Na návratovou hodnotu metody"]
     answer: 1
+    explanation: "V nepřehledném interním chaosu argumentů třídy pomáhá ukazatel s klíčovým prefixem `this.` jasně nasměrovat paměť interpretu k faktu, že má kód těď použít či přepsat proměnnou náležící specificky pouze oné instanci (objektu), na které se právě nachází."
   - q: "Jaký návratový typ má metoda, která nevrací žádnou hodnotu?"
     options: ["null", "empty", "void", "none"]
     answer: 2
+    explanation: "Pokud se na vývojářsky prováděném bloku funkce v jejím závěru neočekává odevzdání matematického propisu s výslednými daty pro další operace (odpálí Return z ničeho), tak se poctivě píše slib do anglického `void` (prázdný) a kód se bez datových návratů ukončí."
   - q: "Co je instance třídy?"
     options: ["Kopie zdrojového kódu třídy", "Konkrétní objekt vytvořený podle šablony třídy", "Statická metoda třídy", "Podtřída"]
     answer: 1
+    explanation: "Vzniklá, nakódováním oživená a datově odlišená hmotná fyzická věc uvnitř RAM neboli takzvaná instance (např. konkrétní modré auto s SPZ), vzešlá formou z výroby abstraktní neviditelné definující formy – takzvané zdrojové Třídy s nákresem vozu."
   - q: "Jak se v Javě vytvoří nový objekt třídy `Auto`?"
     options: ["Auto a = Auto()", "Auto a = create Auto()", "Auto a = new Auto()", "new Auto a = Auto()"]
     answer: 2
+    explanation: "Při alokování paměťových sil k zrodu objektu od výrobního nákresu \"Auto\", vývojář pomocí přiřazování volajíc operátorem příkaz slova `new` vybudí provedení prvního konstruktového sjednocení `Auto()`, propisující výstup dat na novou proměnnou a."
   - q: "Co je to zapouzdření (encapsulation)?"
     options: ["Dědění vlastností z nadtřídy", "Skrytí vnitřního stavu objektu a přístup přes metody", "Přetěžování metod", "Polymorfismus"]
     answer: 1
+    explanation: "Moudré izolování a střežení křehkých proměnných kmenových dat v bloku patřícím pod samotný objekt před omylem nešetrného vnějšího veřejně programovaného chování, s připuštěním ovládat ukrytá pole pouze exkluzivně za bariérou s předdefinovanými `get` a `set` metodami."
   - q: "Jaký modifikátor přístupu omezuje přístup pouze na danou třídu?"
     options: ["public", "protected", "private", "internal"]
     answer: 2
+    explanation: "Tuhý soukromý zámek přístupu klauzule `private` zamkne dané proměnné a prvky za silnou zídku třídy, zabraňujíce komukoliv sahat, nahlížet nebo zasahovat do takových ukrytých stavových mechanismů přímo – a to absolutně z jakéhokoli vnějšího cizího dokumentu či dokonce i z potomků u dědění."

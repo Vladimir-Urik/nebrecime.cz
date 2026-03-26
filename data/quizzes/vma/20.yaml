@@ -2,30 +2,40 @@ questions:
   - q: "Co je to databáze?"
     options: ["Program pro editaci textu", "Organizovaná kolekce strukturovaných dat", "Typ operačního systému", "Síťový protokol"]
     answer: 1
+    explanation: "Centrální systém a trezor vytvořený k ukládání ohromného objemu souvisejících informací se strukturou umožňující okamžité vyhledávání a organizovaní milionu záznamů lépe než ve složité spleti plochých rozhozených Excel sešitů."
   - q: "Co je to SŘBD (DBMS)?"
     options: ["Programovací jazyk", "Software pro správu a přístup k databázi", "Typ databázového modelu", "Zálohovací systém"]
     answer: 1
+    explanation: "Data Base Management System jako je například MySQL nebo Oracle, nepředstavuje samotná data, ale komplikovaný motorizovaný vnější software a komunikační uzel (API) skrze dotazy a s neustálou ostrahou bezpečného běhu a transkací a uloží dat dál do pole na pamět discím."
   - q: "Jaký databázový model je dnes nejrozšířenější?"
     options: ["Hierarchický", "Síťový", "Relační", "Objektový"]
     answer: 2
+    explanation: "Postaveno na matematické struktuře pevně oddělených dvojrozměrných tabulkek o sloupčíč a řádcím protkánované logickou cizíma propojeně provazujicich dotaznách struktur i pro neuvěřitelné rozložné velkobyznys systémy (Relational Databases, typycky MySQL i PostgreSQL apod) nad NoSQL dokumentů stálice celkově i po dekádám ze zadu na síle podílu firemich daty po celéh zemy a do netů."
   - q: "Co je to entita v databázovém modelování?"
     options: ["Typ databázového dotazu", "Objekt reálného světa, o kterém ukládáme data", "Vztah mezi tabulkami", "Typ indexu"]
     answer: 1
+    explanation: "Entitně zosobňované předmětem do reality – například Uživatel, Předmět čí Faktutra košíku, přes nich si vyčlěníme úkol k sbírají dat ke sledováních pro systém se kódům následný přetvorních pro pojmeno pro hlaviček samotným pro vznikajícimi a definované na pevnost sloupcovym table v modelech."
   - q: "Co jsou atributy entity?"
     options: ["Vztahy mezi entitami", "Vlastnosti/charakteristiky entity", "Typy databázových dotazů", "Typy primárních klíčů"]
     answer: 1
+    explanation: "Tvořeni konkretní povahy do sledované věcim u uživatel – jako by i entita Auto měla vlastnostové např Barvá, Výkok i SPZ značka, je i do tabulek přesna přetávena do sloupů napr FirstName, Age apd pro určení dat se plnné a konkretizace z instancům co bude chováno v slupcí z řádku pole."
   - q: "Co je to primární klíč v relační databázi?"
     options: ["Šifrovací klíč", "Jedinečný identifikátor záznamu v tabulce", "Typ indexu", "Cizí klíč"]
     answer: 1
+    explanation: "Vyžadováno jako centrální neoblmonitlně i automatický iterovanovů a neprázdnich a jednoznačně unikatni ID pro s jistoten a okamžite zamřenim v databáze (např RČ, nebo AutoIncremet `1`,`2`) by nebyl bezpečné zaměněna dvoum uživatelů se stejnima jmemami uvnitř systému i na datový vztahy dál do ostatrních z jnich tabul."
   - q: "Co je to cizí klíč (foreign key)?"
     options: ["Šifrovací klíč databáze", "Atribut odkazující na primární klíč v jiné tabulce", "Záložní primární klíč", "Typ indexu"]
     answer: 1
+    explanation: "Navázují pevných i bezpečních restrukových smluvních provázok kdy tabůlk Obejdnavky nevyplisují uzivatili pro redundalnost s mienem, alé sloupuc si nase odkázi dál přes ciselnho klic pro Foreign Key (vazební ID_usera)`5` natahujících se striktní logicky k řádkuz pro Useru se preasnzčným PK 5 i vázní zabrant do neopravení zmazaní uzivate z dat a relací u dceři (Kaskado, Restrkit) chránenim."
   - q: "Co zajišťuje integrita dat v databázi?"
     options: ["Šifrování dat", "Správnost, konzistenci a platnost uložených dat", "Rychlost přístupu", "Zálohu dat"]
     answer: 1
+    explanation: "Obrovskou a důležitých obránce (přes constraints, transkace a klíče) se chrání vůči chaosmém vkládalúm na vnitřnostech logích dat ke schématu ochráni programům abych nenesly a nenechovavaly osirotene relace (užitel neznám), texty do ciselniho obemum cý duplicitní hodnotam z dat a nedovolila neskončecni zapisl ze dvoju u prevodovyh penezů bez dokončena sebezachovaný s integrity i po výpasku el, proudách transakci dál do chodu."
   - q: "Co je MySQL?"
     options: ["Programovací jazyk", "Open-source relační databázový systém", "Typ NoSQL databáze", "Webový server"]
     answer: 1
+    explanation: "Leta s napnutými plachty ovlivňující s volným pouzívájicám a open webové pole zdrama do celí generác a stavení backendovych stráneck preřevážnející spojenim k PHP od 90 roko ve stálosti po světovém internetéch rozvojem od Oraclového molochuv jako jedněmi ze velice spolehlý RDBMS systému v nasazeni na internet a menších firem s gigantní komunitím."
   - q: "Co je to persistance dat?"
     options: ["Šifrování dat", "Trvalé uchování dat i po ukončení aplikace", "Rychlost zpracování dat", "Způsob zálohy"]
     answer: 1
+    explanation: "Rozdil a definice oproti RAMkám nebo po chodu appky běžícími instancení proměnnom se stavaní za persitní neboli přettrvivájici z fyzickým zarytim úlužišt do diskovych polě hardisckách nebo SSD pro nezávisli chováno ze staticke nezávislosti o uložiný i pro prežilí re-strató server nebo spadeního do proudů výpadkm s ožveminem dat zpátky bez usmrcení v programu pri nabeti ze stejného po běhu k prebudím dat ze systemů k ukladíni pro trvalem i roky do uložek DBček a fileovych stavov s uchováno od operacnich stavu pro budouce do run tim."

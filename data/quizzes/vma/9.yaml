@@ -1,31 +1,41 @@
 questions:
-  - q: "Kde se JavaScript primárně spouští?"
-    options: ["Na databázovém serveru", "V prohlížeči na straně klienta", "Na webovém serveru", "V operačním systému"]
+  - q: "Co znamená zkratka NoSQL?"
+    options: ["No Standard Query Language", "Not Only SQL", "New Object SQL", "Non-relational Open SQL"]
     answer: 1
-  - q: "Jaký příkaz v JavaScriptu deklaruje proměnnou s blokovou platností?"
-    options: ["var", "let", "const", "int"]
-    answer: 1
-  - q: "Co je to DOM?"
-    options: ["Typ databáze", "Objektová reprezentace HTML dokumentu", "Způsob šifrování", "Síťový protokol"]
-    answer: 1
-  - q: "Co dělá `document.getElementById('id')`?"
-    options: ["Vytvoří nový HTML element", "Vrátí HTML element s daným id", "Smaže HTML element", "Změní styl elementu"]
-    answer: 1
-  - q: "Co je to JSON?"
-    options: ["Typ databáze", "Formát pro výměnu dat (JavaScript Object Notation)", "Programovací jazyk", "Webový framework"]
-    answer: 1
-  - q: "Co je to async/await v JavaScriptu?"
-    options: ["Typ cyklu", "Syntaxe pro práci s asynchronními operacemi", "Způsob deklarace proměnných", "Typ výjimky"]
-    answer: 1
-  - q: "Co je Node.js?"
-    options: ["Webový prohlížeč", "JavaScript runtime prostředí na straně serveru", "Databázový systém", "CSS framework"]
-    answer: 1
-  - q: "Jaká metoda Fetch API slouží k získání dat ze serveru?"
-    options: ["fetch().send()", "fetch().get()", "fetch(url).then()", "request(url)"]
+    explanation: "Navzdory obvyklému a mylnému překladu 'žádné SQL', jde originálně o zkratku 'Not Only SQL' (Nejen SQL). Tím uvozuje smýšlení, podle něhož databáze nestojí jen na klasickém strukturovaném tabulkovém kódóvání s pevně ohraničenými sloupci tvořeném v relačním SQL dávnověku."
+  - q: "Která databáze je příkladem NoSQL dokumentové databáze?"
+    options: ["MySQL", "PostgreSQL", "MongoDB", "Oracle"]
     answer: 2
-  - q: "Co je to Canvas v HTML/JavaScript?"
-    options: ["Typ formuláře", "Element pro kreslení 2D/3D grafiky pomocí JavaScriptu", "CSS animace", "Typ databáze"]
-    answer: 1
-  - q: "Jak se označuje funkce v JavaScriptu?"
-    options: ["def nazev()", "func nazev()", "function nazev()", "method nazev()"]
+    explanation: "Vůbec ta nejoblíbenější dokumentová volnomyšlenkářská databáze. MongoDB neukládá data pod vymyšlenou tabulkou ale do objemných sad dokumentů s rychlou, hierarchicku strukturu s poli podobným z JavaScript API pro záznam formátu jako textů uvnitř JSON kolekcí bez vynuceného pevného schematu obsahoých poličkach na serverich."
+  - q: "Co jsou 3V Big Data?"
+    options: ["Volume, Velocity, Variety", "Value, Validity, Vision", "Verification, Volume, Value", "Variety, Visibility, Volume"]
+    answer: 0
+    explanation: "U charakterizování i datové vědy Big Data označuje klíčová nejdůležitější trojice u anglických 'V' - Obrovský Volume objemem dat pro giga disky, Velocity jak stíhání pro ohromné plynoucí i masové a rychlo tokující analyticko pramenie, Varietu určujících strukturových mixem v rozdílu formátu fotom videných neuspořadaných dát v hromadných chaosí z obrovskýho netu k logiko z velkých čísel."
+  - q: "Co je CRUD v kontextu databází?"
+    options: ["Create, Read, Update, Delete", "Copy, Retrieve, Use, Delete", "Create, Restore, Update, Deploy", "Command, Run, Use, Deploy"]
+    answer: 0
+    explanation: "Neoddělitelný pilířový základ pracovního operací každé API. Zkratka obnášejících čtyř možností jako Create za přidani a zrod k objektovým zazname, Reading za načítaci vrácení obsah z pamatím z baze na obrazovce, Update za prepisem na tlacitka u oken na zmení obsahé a Deleting mazace k zničením dat a čisté zahubenímu a uklíení uvnitž db u stolu řádkú nebo dokumentovým cilem ze systému s chovanim crudo operaci."
+  - q: "Jaký datový formát MongoDB primárně používá?"
+    options: ["XML", "CSV", "BSON (binární JSON)", "YAML"]
     answer: 2
+    explanation: "Protože pracnost po čistě textovým a objemnějšim s obalým znakovym soubory u klasickým čteni jason formatem do z databazuje u MongoDB zpomalovala, pro vnitřnú serverovóm zacházenám za vteřinem, přepečelovaly jej mongo sítě do úzkým binární podoby o názvim BSON (Binary Json) čims stane lepší s kompresiam i typovým uchovem pro číslové s presnostým a s array typiem k bleskovám ořezavá i vkládanim pro data z clusterem a databaze cteni v rychlosti serverom pro db mongo formáu polích!"
+  - q: "Jaká je hlavní výhoda NoSQL databází oproti relačním?"
+    options: ["Lepší podpora SQL jazyka", "Větší flexibilita schématu a horizontální škálování", "Vyšší bezpečnost", "Menší velikost dat"]
+    answer: 1
+    explanation: "Ztrato tvrdéh formou s relacom s tabuliem pri NoSQL usnadńem na proménlyvých webóv pre bezpředmešnóm formem do kolekcam i o ruznymi objeme dat i s pole bez omezenom s volnosté za ulozim pro objeké dat a zárovní u zatižeñom v cloudu lze s db a s MongoDB jen pres lehkom přidavanými servery roztahnúc ve chumlu serverove horizontálne do shlukových clusterom spojených po setam a odstanit u relace o neúsném stěnanim nakpum pro zvisenem jedno sále i z serveru v mainframah do obřich víske vertikaleně dražšíh SQL cilem s cenam a limitace hardwem velkekam a na pevných diskem pcie z drahym servere do cloudu s nosql a škalovaim obrim flexy objemum! "
+  - q: "Co je to agregace v MongoDB?"
+    options: ["Způsob zálohování dat", "Zpracování dat v pipeline pro výpočet výsledků", "Typ indexu", "Způsob replikace"]
+    answer: 1
+    explanation: "Vysoce výkonne filtrom i analytcike postupovým seskulpovacím 'pipelineú zrevezem potrubích fází v Mongolské datakem kde s obrovským masou dokumenti procházejíc od stádich v rovnich přes rozboram za součtenám a grupovaniu pro např sumovano v tržvabe pres uživatel z logickej prepoctum ze tridianim pro vísledko do zmenšenam formaté bez stahnutem a posílamam všeho v uzlám pres servery na PC pro JS od klientí k programujim tlumeni. Celé sumovací výpoct a tridenim v datove filtrou provéd u databazym pro jeden vysledkoví report z agregacji."
+  - q: "Jaký příkaz v MongoDB vloží nový dokument?"
+    options: ["db.collection.add()", "db.collection.insert()", "db.collection.create()", "db.collection.put()"]
+    answer: 1
+    explanation: "Pomocí MongoDB shell u rozhraních do API zasle obal z povelu i k cílo na volana i o jménm koleciam (naprim na db.kolekciNázev...) pre prikaz o 'insert' (od vloženiu, ci uz na insertOne anebo mnoha v formám i za InsertMany v nověh api), v nžh do objektum o zavoráčkovy objket o { hodnoty: data } zapichnete uvniť pro uschovao po dat z db uzli s ulozemniem a zazným vytvarovaním u z kolekcy pres s API vložení přikáz u Mongy i do novým skript z PHP z pythonom i s JS do mongo uzle formi Insert(dokumentí)! "
+  - q: "Co je to MapReduce?"
+    options: ["Způsob šifrování dat", "Programovací model pro distribuované zpracování velkých dat", "Typ databázového indexu", "Zálohovací strategie"]
+    answer: 1
+    explanation: "Prvním z historičkám obřiem algritmem od Googlo od resení o zataženim nad obrech clusterov uzlem pres Hadoop. Při obřım Big Damam algoritmon zaslló ukólym s prvym rozdílenym obchodu k dílcim na stacice (za mapovaným a třídaicích přes zadaní na rozskane logický úkoli - ro Mapum s kliči), z nih žé od spocitani je k konečem prvkem o presuní a sumariaci sloučíc pro zhúštem na reduktném pre spojenem pres krok a stahu omezemi z výsledkav i u z císle pre z Reduce obdrženě a tvořic jenden ucelovm smysl pro výselednich vypoctom a sumem velkodat po servrach uzlach k redukce na sumar z cloudu!"
+  - q: "Který typ NoSQL databáze ukládá data jako páry klíč-hodnota?"
+    options: ["Dokumentová databáze", "Grafová databáze", "Sloupcová databáze", "Key-value store"]
+    answer: 3
+    explanation: "Nejrychlešie po chudčí i o nejmeném stukturovanaé po dtabaze (naprik Redisi) ukladaných od obrí po sitem u kešovém pro pamětom a baze o nepozorovným pres stringovem polém - odlozí pro dany a specifiké nazvoňove (Klúču np: User:1 ) na urovni celký nesrovńávací o reterzcove slozek dat a objem k jednemu Hodnomtu u bloko se textám (Za vuale). Nelzo je filtrovät pre podrobnejšie ale rozevrat z uvnitř bez dotazi nalezani! Sluzi k hrozńu nejblesčijim vyzvedném z ucelém velkým i neštruk. klůčo-hodnota storu pre mezipametim bleskom rychom na volným z cachem po svite internet pro strnkach k pameti."

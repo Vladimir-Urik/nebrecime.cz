@@ -2,30 +2,40 @@ questions:
   - q: "Jaké jsou tři základní pilíře objektově orientovaného programování?"
     options: ["Kompilace, linkování, spuštění", "Zapouzdření, dědičnost, polymorfismus", "Proměnné, funkce, třídy", "Alokace, inicializace, destrukce"]
     answer: 1
+    explanation: "Celá velká rodina OOP logiky padá na ochraně (Zapouzdřování public/private do objektov), rozšiřovaní rodokmenoví (Klonované Dědičnosti do podtříď) a ohebnosti odkazování do ruzných podřízených stáv (na Polymorfismech s virtuálníma rozhraními)."
   - q: "Co je destruktor v C++?"
     options: ["Speciální metoda volaná při vytvoření objektu", "Speciální metoda volaná při zániku objektu", "Metoda pro kopírování objektu", "Statická metoda třídy"]
     answer: 1
+    explanation: "Poznávací znamínko v názvě funkce vlnovka `~NazevTridy()`. Destruktor po doběhu bloku čé instančicí přes garbage se rozezní  v momente zahnání z životnosti k likvidace. U C++ nepostradatelném se využívá před rozmetaním k vlastnoručnímu úklidu např (zápisy do souboj, odemknout file, i nutnost pro Delete operátorem dealokovanou haldu dat)."
   - q: "Jak se v C++ deklaruje třída?"
     options: ["struct MojeTrida {}", "object MojeTrida {}", "class MojeTrida {}", "type MojeTrida {}"]
     answer: 2
+    explanation: "Objektově silnější struktůra se tvoři s příponou a heslem 'class' a složených bloku. Na závěr těla nesmi po obalových } v kodé logiky chybět ještě navíc povinný neobvyklý uzavírací znak z prostým středníkem na bloku!"
   - q: "Co je to `this` ukazatel v C++?"
     options: ["Ukazatel na nadtřídu", "Ukazatel na aktuální instanci objektu", "Statická proměnná třídy", "Typ výjimky"]
     answer: 1
+    explanation: "V zmatenu s paramerty ve stejních slovních názveck jako jsou hlavní objektove, tenhle skrytě neviditelný (a v podstatě skutečného na ukzaoval předělaný pointéru `this->` pointer) propuštéjici jistotní směr přistupu dovnitř přesně v intencijích aktuální jedné instance pracujíce modlícího."
   - q: "Co jsou `const` metody v C++?"
     options: ["Metody, které nelze volat", "Metody, které nemění stav objektu", "Statické metody", "Metody bez parametrů"]
     answer: 1
+    explanation: "Když metodu po parametrčich ověnčíte z práva slovéme `const` za hlavičko funkce, slibuje kompilátoru do rodinného slibu, že kód ve vnitru sice vráti a číst co tuze chce – leč nesmí připsat s hodnotu na jakýkoliv stavově interních prvcích do proměnném té instancové třídý modifikaci."
   - q: "Co je zapouzdření (encapsulation) v OOP?"
     options: ["Dědění vlastností z nadtřídy", "Skrytí implementačních detailů a řízení přístupu k datům", "Polymorfismus", "Přetěžování operátorů"]
     answer: 1
+    explanation: "Oddělovacím modelem skrývajíc přes ohrádky (private) vnitří vnitřnosti se tvorec nechrce sdělujíc detaily ke zneužítí venkovi a tvoří API ovladání na bezpečné uzly skrze zvenči veřejně kontrolované modifikatérové property (tzv Gettery a Settery) jako zevní obal a ovládač aut do volantu od zkrytéto motorímu okruha uvintř."
   - q: "Jaký je rozdíl mezi `class` a `struct` v C++ z hlediska výchozí přístupnosti?"
     options: ["Žádný rozdíl", "class má výchozí private, struct má výchozí public", "class má výchozí public, struct má výchozí private", "struct nepodporuje metody"]
     answer: 1
+    explanation: "I když u C++ zastarála obálka Struct dokáže obsáhnout na tvrdo to samé plnohodné chování tříd s funkcemi, jedný podstaným difenrence tví ve defaultních režimech skrování pro kompilátora co při neuvedení napíše všem prvcům do strukturi do stálé volnosti Public a Třída (class) si z default zafixuje vštším bezpečna do Private od zrodu kódu bez modifikářech."
   - q: "Jak se přistupuje k členu objektu pomocí tečkové notace?"
     options: ["objekt->clen", "objekt::clen", "objekt.clen", "objekt[clen]"]
     answer: 2
+    explanation: "Pokud nemanupuluji objektově prenosným adresovaným a volným ukazatalem se šipků ze stringu a odkopú z pamětí, obyčejný kód z objektú pevně na hmat zavedeními (napr intancím `A auto;`) vyvolovajíc funkce nebo vniřnó se používé klasická metoda puntík s objektem vlezlém do něj v . (tečka)."
   - q: "Co se stane, když konstruktor není definován?"
     options: ["Program se zkompiluje s chybou", "Kompilátor vygeneruje výchozí konstruktor bez parametrů", "Objekt nelze vytvořit", "Destruktor se nevolá"]
     answer: 1
+    explanation: "Rozumný a pomáhajíc C++ komilátr automaticky vytvoři pod neviditilno syntéticky nevidicí prázdný a tzv 'Defaultní bezparametrní konstruktor', který na sebe nenechází v kódeh videt ovsem dovoli i beze práce třída s `new` beze chyb kompilace vůbec inicialyzaci posílat prázdnou i zkusit založiť z tříď."
   - q: "Proč vzniklo objektově orientované programování?"
     options: ["Kvůli rychlejší kompilaci", "Kvůli potřebě lépe modelovat reálný svět a znovupoužitelnosti kódu", "Kvůli menší spotřebě paměti", "Kvůli jednodušší syntaxi"]
     answer: 1
+    explanation: "Úskek dlouho se vinoucích a nezvladatetlného milionkódelořáděnácha sekvenčních spaghete struktuvání od zhora ke zdola u C už neúneštely v hlavá logiku. Přechok na zabalování logice s data pospolu napadoboivši model 'předmět' do Tříd, dal OOP modularity ve vývojáře do menších chýrce zrecyklované týmu s čitelnému světa k menším dílci."

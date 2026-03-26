@@ -2,30 +2,40 @@ questions:
   - q: "Co je to herní engine?"
     options: ["Typ herního ovladače", "Software poskytující nástroje pro vývoj her", "Grafická karta pro hraní her", "Online herní platforma"]
     answer: 1
+    explanation: "Herní engine je robustní softwarový nástroj (jádro), který vývojářům poskytuje již hotové funkce pro složité renderování grafiky, zpracování fyziky či napojení zvuků, aby nemuseli programovat hru a herní zákony od úplného základu."
   - q: "Kdo vyvinul herní engine Unity?"
     options: ["Epic Games", "Unity Technologies", "Valve", "Microsoft"]
     answer: 1
+    explanation: "Tento populární a flexibilní engine uvedlo po vývoji už v roce 2005 na trh k tvorbě her pro platformu Mac dánské studio nazývané tehdy Over the Edge Entertainment. O něco později studio změnilo svůj název na příhodné Unity Technologies."
   - q: "Jaký engine používá série her Fortnite a Unreal Tournament?"
     options: ["Unity", "Godot", "Unreal Engine", "Source Engine"]
     answer: 2
+    explanation: "Obě veleúspěšné herní značky pocházejí z dílny vývojářského giganta Epic Games, a proto k jejich běhu a grafice vývojáři zcela přirozeně využívají svůj vlastní mimořádně propracovaný nástroj Unreal Engine."
   - q: "Co je to VR (Virtual Reality)?"
     options: ["Typ grafické karty", "Počítačová simulace vytvářející virtuální 3D prostředí", "Online multiplayer platforma", "Herní ovladač"]
     answer: 1
+    explanation: "Virtuální realita je technologie zprostředkovávající svému nositeli pomocí speciálních prostorových náhlavních brýlí naprosto pohlcující zrakový 3D zážitek. Spolu se senzory pro pohyb dokonale vytváří iluzi z fyzického pobytu ve smyšleném digitálním světě."
   - q: "Co je to prefab v herním enginu Unity?"
     options: ["Typ herního ovladače", "Znovupoužitelný herní objekt s přednastavenými vlastnostmi", "Grafický shader", "Zvukový soubor"]
     answer: 1
+    explanation: "Prefab (zkratka slova 'prefabricated') označuje jako šablonu předem precizně poskládaný a nastavený herní objekt. Pokud originálním zdrojový prefab následně upravíte, změna se bleskově naváže a propíše i do všech kopií takového objektu rozmístěných ve vaší hře."
   - q: "Který herní žánr zahrnuje hry jako FIFA nebo NBA 2K?"
     options: ["RPG (Role-Playing Game)", "FPS (First-Person Shooter)", "Sports (sportovní hry)", "RTS (Real-Time Strategy)"]
     answer: 2
+    explanation: "Turnajové videohry v sériích jako jsou FIFA a NBA 2K spadají na police s odvětvím sportovních simulátorů. Jejich primárním úkolem pro fanouška je co do nejdůvěrněji a realisticky napodobit dynamiku, strategii a chování skutečného profesionálního zápasu fotbalu či basketbalu."
   - q: "Co je to headset Oculus Rift?"
     options: ["Herní klávesnice", "VR brýle pro virtuální realitu", "Herní mikrofon", "Typ herního ovladače"]
     answer: 1
+    explanation: "Systém Oculus Rift s masivní a kvalitně zvládnutou optikou odstartoval po legendární sbírce od lidí na Kickstarteru (2012) obrodu moderních komerčně úspěšných náhlavních brýlí pro masovou virtuální realitu, což brzy vyústilo i v mimořádnou miliardovou akvizici gigantem Facebook."
   - q: "Co je to asset v herním vývoji?"
     options: ["Chyba v kódu", "Herní resource (model, textura, zvuk, skript)", "Typ herního ovladače", "Síťový protokol pro online hry"]
     answer: 1
+    explanation: "V herním enginu rozumí slovo asset ('aktivum') libovolný samostatně funkční a dodaný digitální stavební surový kámen, který vkládáte k oživení vaší hry. Patří sem veškeré postavy ve 3D modelech, natáhnuté 2D textury, chytlavé zvukové efekty, případně i nezávislé nakoupené části zdrojového kódu (skripty)."
   - q: "Jaký je open-source herní engine napsaný v GDScriptu?"
     options: ["Unity", "Unreal Engine", "CryEngine", "Godot"]
     answer: 3
+    explanation: "Godot vyčnívá ve spleti herních platforem coby moderní, od poplatků naprosto svobodný a otevřený (open-source) oblíbený engine nezávislých tvůrců. K pohodlnému a rychlému zapojování hry do pohybu si vývojáři Godotu navíc stvořili přímo na míru kódovaný skriptovací jazyk GDScript (vizuálem inspirovanán jazykem Python)."
   - q: "Co je to FPS jako herní žánr?"
     options: ["Fantasy Playing Strategy", "First-Person Shooter (střílečka z pohledu první osoby)", "Fast Puzzle Simulation", "Future Platform Series"]
     answer: 1
+    explanation: "Pro střílečku nazývanou trefně 'First-Person Shooter' (FPS) platí nepřerušená vizuální optika – celou adrenalinovou hru v ní logicky vnímáte na obrazovce ze subjektivně posazené kamery očí, jakoby 'za hledím zbraně', přímo v roli samotného vašeho hlavního ovládaného hrdiny."

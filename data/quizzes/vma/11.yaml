@@ -2,30 +2,40 @@ questions:
   - q: "Jaký je primitivní datový typ v Javě pro celá čísla?"
     options: ["Integer", "int", "number", "whole"]
     answer: 1
+    explanation: "Vedle objemnějších typů `long` a menších `short` či `byte` představuje `int` (32bitový podepsaný celočíselný typ) absolutní základní stavební blok v paměti jazyka Java pro uchovávání čísel bez desetinných míst."
   - q: "Co je to boolean v Javě?"
     options: ["Typ pro čísla s desetinnou čárkou", "Typ pro znaky", "Typ pro pravdivostní hodnoty (true/false)", "Typ pro textové řetězce"]
     answer: 2
+    explanation: "Základní binární přepínačový typ proměnné schopný nést výhradně jen dva striktní stavy (pravda - true, nepravda - false). Slouží k vyhodnocování rozhodovacích podmínek a ke kontrole stavů v programových cyklech."
   - q: "Jaký příkaz v Javě slouží k výběru z více možností podle hodnoty proměnné?"
     options: ["if-else", "switch", "for", "while"]
     answer: 1
+    explanation: "Na rozdíl od dlouhých a nepřehledných, po sobě jdoucích `if` žebříčků, klíčové slovo `switch` elegantně a rychle zjišťuje shodu vstupní proměnné v definovaných případech bloku `case` a následně provede odpovídající kód dané větve."
   - q: "Co dělá příkaz `break` v Javě?"
     options: ["Ukončí celý program", "Přeruší aktuální cyklus nebo switch", "Přeskočí na začátek cyklu", "Způsobí výjimku"]
     answer: 1
+    explanation: "Uvnitř cyklů (jako je `for`) či v rozhodovacím bloku `switch` funguje příkaz `break` jako tvrdá stopka – nekompromisně a okamžitě vyhodí interpret kódu ven ze smyčky bez ohledu na splnění původní ukončující podmínky."
   - q: "Jaký cyklus v Javě se vždy provede alespoň jednou?"
     options: ["for", "while", "do-while", "for-each"]
     answer: 2
+    explanation: "Zatímco běžný cyklus `while` se při počáteční nepravdě nemusí spustit ani jednou, inverzní konstrukce `do { } while();` nejprve vykoná hlavní tělo kódu, a teprve na samotném dně bloku se programu ptá, zda má oprávnění pokračovat dál."
   - q: "Co je to přetypování (casting) v Javě?"
     options: ["Změna jména proměnné", "Konverze hodnoty z jednoho datového typu na jiný", "Deklarace nové proměnné", "Kopírování objektu"]
     answer: 1
+    explanation: "Pokud převádíte z velkého na malé do užší paměťové schránky (např. z formátu double do int pomocí zápisu `(int) 3.14`), nutíte kompilátor k explicitnímu převodu a uříznutí informací tak, abyste získali kompatibilní datový typ."
   - q: "Jaký datový typ v Javě uchovává textové řetězce?"
     options: ["char", "text", "String", "varchar"]
     answer: 2
+    explanation: "`String` s velkým písmenem nereprezentuje v Javě nějaký malý primitivní typ (jako `char`). Jedná se o silnou plnohodnotnou pole objektově založenou třídu, tvořící uvnitř paměti dlouhé věty v uvozovkách (`\"text\"`)."
   - q: "Co je výsledkem `10 % 3` v Javě?"
     options: ["3", "1", "0", "3.33"]
     answer: 1
+    explanation: "Operátor modulo `%` nevydává samotný výsledek dělení, ale pouze zbytkovou hodnotu po podílu dvou celých částek. Po odebrání třech celistvých přesných trojek (což je 9) zůstává z původní desítky logický zbytek v hodnotě 1."
   - q: "Jaký operátor v Javě porovnává dvě hodnoty na rovnost?"
     options: ["=", "==", "===", "equals"]
     answer: 1
+    explanation: "Klasické dvojité rovnítko prověří shodu logických či primitivních typů uložených uvnitř proměnných. Pro složité odkazové objekty nebo pro přesné porovnávání textů typu `String` by se ovšem vždy měla volat bezpečná metoda `.equals()`."
   - q: "Co dělá příkaz `continue` v cyklu?"
     options: ["Ukončí cyklus", "Přeskočí zbytek aktuální iterace a přejde na další", "Restartuje cyklus od začátku", "Způsobí výjimku"]
     answer: 1
+    explanation: "Na rozdíl od vražedného `break` skokem ven, tento odlehčený bratr `continue` pouze předčasně zahodí zbytek kódu v aktuálním právě prováděném jednom kole (iteraci) a rovnou cyklus restartuje pro další nové kolo s navýšeným indexem k opakování."

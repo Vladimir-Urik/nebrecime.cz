@@ -2,30 +2,40 @@ questions:
   - q: "Který operační systém je open-source a zdarma?"
     options: ["Windows", "macOS", "Linux", "Android"]
     answer: 2
+    explanation: "Základ operačního systému Linux (napsaný Linusem Torvaldsem) je licencován s otevřeným zdrojovým kódem a poskytován zcela zdarma, což obrovské celosvětové komunitě umožňuje ho svobodně modifikovat a šířit (např. systémy Ubuntu či Debian)."
   - q: "Kdo vyvinul operační systém Windows?"
     options: ["Apple", "Google", "Microsoft", "IBM"]
     answer: 2
+    explanation: "Společnost Microsoft, kterou založili zkušení i ambiciózní nadšenci Bill Gates a Paul Allen, vydala počátkem 80. let zlomový a naprosto populární operační systém Windows sjednocující ovládání osobních počítačů (PC)."
   - q: "Na jakém jádře je postaven operační systém macOS?"
     options: ["Windows NT", "Linux", "Unix/BSD", "Android"]
     answer: 2
+    explanation: "Architektura operačních systémů uvnitř jablečného ekosystému společnosti Apple (macOS v noteboocích a iOS na oblibených iPhonech) se překvapivě vyprofilovala z vysoce stabilní, propracované rodiny starého zdrojového kódu Unix (tzv. jádro Darwin)."
   - q: "Který mobilní operační systém vyvinul Google?"
     options: ["iOS", "Android", "Windows Phone", "BlackBerry OS"]
     answer: 1
+    explanation: "Americký vyhledávací gigant Google v roce 2005 prozřetelně odkoupil tehdy malou firmu Android s vizí pro mobilní éru bez tlačítek. Výsledkem se stala nejpočetnější a celosvětově dominantní platforma moderních chytrých smarphonů poháněna z modifikovaného Linuxu."
   - q: "Co je to operační systém?"
     options: ["Program pro editaci textu", "Základní software zajišťující správu hardwaru a běh aplikací", "Antivirový program", "Webový prohlížeč"]
     answer: 1
+    explanation: "Hlavní informační nervové centrum a ústřední software, neúnavně tlumočící nesmyslné posloupnosti signálů nuly a jedničky uvnitř fyzických procesorů pod klávesnicí do zcela interaktivního a snadno ovladatelného vizuálního uživatelského a aplikací přátelského prostředí zprostředkovaném po logických nabídkách oken."
   - q: "Která verze Windows jako první přinesla grafické rozhraní (GUI)?"
     options: ["Windows 95", "Windows 3.1", "Windows XP", "Windows 1.0"]
     answer: 3
+    explanation: "Ačkoli z pohledu komerčního i dobového vzrušení mezi laickou populací trh pobláznilo teprve ohlasné a ikonické plnohodnotné grafické podání Start oken Windows 95, vůbec úplně první krabicová verze klikací myší nese označení z éry MS dosových dob jako Windows 1.0 (uvedený L.P. 1985)."
   - q: "Co je to mainframe?"
     options: ["Přenosný počítač", "Tablet s dotykovým displejem", "Velký výkonný počítač pro hromadné zpracování dat", "Herní konzole"]
     answer: 2
+    explanation: "Mainframy jsou označovány jako hlučné masivní sálové skříně – zavalité korporátní počítače zavedené do racků obrovských datových center, stavěné přesně proto, aby po celý dny a absolutně spolehlivě za vteřinu přepravovaly deseti tisíce finančních bankovních korporátních účetních přenosů po celém světě."
   - q: "Jak se nazývá nejmenší přenosné zařízení s funkcemi PDA a telefonu?"
     options: ["Notebook", "Tablet", "MDA (smartphone)", "Pracovní stanice"]
     answer: 2
+    explanation: "Dřívější koncept pracovního asistenta, který pospojoval tehdejší pouhé telefony stvořené pouze a výlučně pro textové a hlasové spojeni pro operátory i s elektronickým organizérem s miniaturními manažerskými aplikacemi jako maily či kalendář (označovaný do historie PDA – Personal Digital Assistant, a později moderní smartphone)."
   - q: "Který operační systém je nejrozšířenější na světě pro osobní počítače?"
     options: ["Linux", "macOS", "Windows", "Chrome OS"]
     answer: 2
+    explanation: "Během po sobě se rodících dekádách inovujících řad Windows počínaje rokem 1995 (Win95) se s přeskoky na slavné Win XP až po Windows 10 a Windows 11 platformě Windows povedlo obsadit drtivou obrovitánskou lví převahu světové dominující moci spolehlivě zastoupenou do kanceláří osobních zařízení a stacionárních PC notebookov po planetách."
   - q: "Co je superpočítač?"
     options: ["Herní PC s výkonnou grafickou kartou", "Extrémně výkonný počítač pro náročné vědecké výpočty", "Server pro webové stránky", "Přenosný počítač s dlouhou výdrží baterie"]
     answer: 1
+    explanation: "Konkrétní uspořádání navzájem synchronně spojených špičkových procesorových serverových jednotek zapadajících do několika klimatizovaných budov vyvinutých k masivně paralelizovanému výpočetnímu nasazení například za vědeckou vesmírnou či kvantovou zrychlující simulaci bezmezích možností pod klastry univerzit."

@@ -2,30 +2,40 @@ questions:
   - q: "Co je to výjimka (exception) v Javě?"
     options: ["Typ proměnné", "Událost narušující normální běh programu", "Typ cyklu", "Způsob dědičnosti"]
     answer: 1
+    explanation: "Objekt výjimky (zprostředkovávající například kritickou fatální chybu chybějících pamětí, anebo dělení pouhou chybující nulou) vyvolá okamžité přerušení a násilný vyhazov pro běhový stav na kódech procedur softwaru bezodkladného k zamezení pádu celé aplikace ze zničené procedury do oken konzole logování."
   - q: "Jaký blok kódu se provede vždy, bez ohledu na to, zda nastala výjimka?"
     options: ["try", "catch", "finally", "throw"]
     answer: 2
+    explanation: "Úklidový dočisťující robustní zadek upevněný pevně vedle hlavního ochranného pole zvaného chytáme `try` i samotné lovící `catch` výjimek, tvoří stálý odblokovaný plnící systémový chráněný sekční oddíl bloku nazvaný konečným `finally`, zvaný obvykle ke klidnému urovnání spojů nezávisle k havarijní ani bezproblémové lince procesům před."
   - q: "Co dělá příkaz `throw` v Javě?"
     options: ["Zachytí výjimku", "Explicitně vyvolá výjimku", "Ignoruje výjimku", "Ukončí program"]
     answer: 1
+    explanation: "Slovo zprostředkuje samotnému tvůrci programu schválně ve vlastním logických ustavěných mantinelech uvnitr instancí u umělého odtvoření ze schrániek do nově postavenou instancí od chybové obálek tříd na obranu (a odpálku programu od vyhozeni pro nedanou cestu ze složených argumentům) přímo z řad k logům do dál přes metodu."
   - q: "Co je vlákno (thread) v programování?"
     options: ["Typ proměnné", "Samostatná sekvence instrukcí vykonávána v rámci procesu", "Typ výjimky", "Způsob přístupu k databázi"]
     answer: 1
+    explanation: "Nejužší oddělitelná a pracovitá uzelná tepna prováděné instrukce běžící obsuhy CPUčkem uvniťr spojenícim programu z procesu. Pomoci multi-threadingum naprogramováte procesoru přes rozdělení souběžícéch činností aby jedna java vlákna renderovala grafické hrátky na cokoliv ze scéne a naopak neposkrňují i k dál paralelí do pozádce od dalšího u netahovaních textury o hru do pamětí paralelne na svuj takt k obrazovce."
   - q: "Co je to synchronizace vláken?"
     options: ["Spuštění více vláken najednou", "Koordinace přístupu vláken ke sdíleným prostředkům", "Kopírování dat mezi vlákny", "Ukončení vlákna"]
     answer: 1
+    explanation: "Dvojí a více souběžícé činnosti, pokud na sebe ve frontě sdíleji stižéné modifikující obrovského centrálniho baliku v instanci od informaci v ram nedopusťí programaticky logické narušování plynulosti u přepisovaní do stavom k jednemu cile (tj. bez chyb u prevence zablokovaniem o race stavov ze zapojenych vlaknem k pro zamezení i pres semáfařú s uzalem `synchronized` a pohlidá zamku)."
   - q: "Co je to Daemon vlákno v Javě?"
     options: ["Hlavní vlákno programu", "Pomocné vlákno na pozadí, které se ukončí spolu s hlavním programem", "Vlákno s nejvyšší prioritou", "Vlákno pro zpracování výjimek"]
     answer: 1
+    explanation: "Vláknove pomocnice s procesů v úkonu po odklizeč (java Garbage collector), ktérá nesleduji ždání lidskıch hlavích operaciam, jsou to plnovodnová odevzdávanúm strojovym na udrzeni aplikácia avśak u mrtvy plňh i hlých nákodu dojdých ze zemřelích do ukonćanóm user logiky odevrá v posladku padlám pre daemonich smrtici programé u odepnutími ven z operačno ze procesu softwere do windows."
   - q: "Co metoda `join()` zajistí při práci s vlákny?"
     options: ["Spustí nové vlákno", "Počká na dokončení daného vlákna", "Zastaví vlákno", "Změní prioritu vlákna"]
     answer: 1
+    explanation: "Zajisté na u prováděni logíka silnym povele odloženými z aktulního rozběhnutí instinktuv, dokud volaný cízí do objektoví pracovné vlánkem přes na sobé i na plni si svůj úkonem v běhovy čas o nedojde za ukonecnaí bez poruchom o mrtvenom a k propuši pak pro logický posud k probuzem do dalšý cestám o hlavném a po prověšenem s cekaícím na join."
   - q: "Co je `RuntimeException` v Javě?"
     options: ["Výjimka, která musí být vždy zachycena", "Nekontrolovaná výjimka za běhu programu", "Chyba kompilátoru", "Typ systémové chyby"]
     answer: 1
+    explanation: "V Javovském rodokmeně, u ostreho spouštenní k nazývanym \"Uncheked Exceptions\", propásujío logikám k beham v neoćekem staviam jak na Nullpointer pre nehodnoťou do instanci od pola kompilatro o odpouští výskytu před explicitenym do chytnu u `try { } catch()`, prootze signaluziejí zásadním a neopravnitelým chybné napsínum v defekté s programem za opravám logíkou co zniçil applikacio programatorié runovým propadem obemim kódu javi!"
   - q: "Co dělá metoda `wait()` v kontextu vláken?"
     options: ["Ukončí vlákno", "Pozastaví vlákno a čeká na notify()", "Spustí nové vlákno", "Zvýší prioritu vlákna"]
     answer: 1
+    explanation: "Aktivního úkon od zdržem se obsužnym ustupní z chovem i v zámkových spravé o monintoro o pusta vlákna pro ustoupenem do logíckych nečinnó pre u z necihomo u stávkem spánkovámi dokud o další vlánka uvnitř a s proceduřmi od poveleným a pro signializm s povelou pro `notify` u signal k pro proboucenm od operátornic od cekani jake propousti na chovánio spátky k behú z logik k mutexam z provolanie o prace kodóm!"
   - q: "Jaký blok zachytí výjimku v Javě?"
     options: ["try", "catch", "finally", "throws"]
     answer: 1
+    explanation: "Křehkou a potencinální chybové rizikem u neprověných sešítý z externom suborama plněné operace (uzamkných pre try), vyčkávající pod sitova a připravenú typovovú bloka pre zamezení, pojmenovnem spásnimu k záchrách `catch` (z angl. Chyť to), zabrýnu padnutío programu logike za neřízeniho i spadá a zachyčí a nahlasi omyl u kódam z dohledum od informacé do loga na výstup programám."

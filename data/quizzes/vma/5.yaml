@@ -2,30 +2,40 @@ questions:
   - q: "Co je to LAN?"
     options: ["Globální počítačová síť", "Místní počítačová síť v rámci budovy nebo areálu", "Metropolitní síť pokrývající město", "Bezdrátová síť"]
     answer: 1
+    explanation: "Termín LAN, pocházející z anglického 'Local Area Network', označuje nevelkou vnitřní počítačovou síť. Obvykle propojuje veškerá zařízení a kabeláže na ploše jedné izolované školní budovy nebo v domácnosti za domovním routerem."
   - q: "Kolik vrstev má model ISO/OSI?"
     options: ["4", "5", "7", "10"]
     answer: 2
+    explanation: "Nejznámější teoretickou páteř v architektuře síťového provozu určuje referenční roztřiďující komunikační model ISO/OSI od kabelů na 'Fyzické vrstvě', až vzhůru sedmi provázanými uzlovitými mosty až na pomyslnou softwarovou 'Aplikační vrstvu' nejvyššího stupně v okně."
   - q: "Co je to router?"
     options: ["Zařízení pro zesílení signálu", "Zařízení propojující různé sítě a směrující provoz", "Typ přenosového média", "Bezdrátový přístupový bod"]
     answer: 1
+    explanation: "Slouží jako chytřejší směrovací a předávací uzel, co propojí logické adresy obvody na křižovatkách celých heterogenních sítí navzájem, např. domácí od vnější celosvětového internetu směrovaným posláním k další cestě u přečítávávní a rozeznnávaním domén z dat síťových IP adresách celkem balíkú a paketou."
   - q: "Co je topologie sítě?"
     options: ["Způsob šifrování dat v síti", "Fyzické nebo logické uspořádání prvků v síti", "Typ síťového protokolu", "Rychlost datového přenosu"]
     answer: 1
+    explanation: "Tvar formující plán, podle něhož síťař položí geografický rozmístnění, uspořídá geometrii a natáhne navenek jednotlivě propájených a ukotvních hardwerových linech, stanicech, strojů jak od starého kruhovom zástupochu ke svazkách tvořícího ve tvaších zapojovacým modelech hvezdicově či stromech formálnim pro kordonovemu topologiem po svetch sítem."
   - q: "Jaký je rozdíl mezi hubem a switchem?"
-    options: ["Hub je rychlejší než switch", "Switch rozesílá data všem portům, hub jen cílovému zařízení", "Hub posílá data jen cílovému zařízení, switch všem", "Nejsou žádné rozdíly"]
+    options: ["Hub je rychlejší než switch", "Switch rozesílá data všem portům, hub jen cílovému zařízení", "Hub rozesílá data všem portům, switch jen cílovému zařízení", "Nejsou žádné rozdíly"]
     answer: 2
+    explanation: "Levnější historický hub pouze nenasytně chytal odeslaný provoz a následně bez inteligence jej přeuložal hromadně na pro všechny napojená okénka ve stejí čase u zácpama na zdi drátem k rozuzleni portama. Switch z internéch pameťovým rozeznaních přesně dle MAC u konretních kabel do specifeich lineče obslouži cílového jedno strojo adresově se spojenýma rychlam z pruhem od snížich pretažečkách ze sitemy od dat ve vrstvé s spojou po siti."
   - q: "Co je MAC adresa?"
     options: ["IP adresa v lokální síti", "Jedinečná fyzická adresa síťové karty", "Typ šifrovacího klíče", "Protokol pro e-mail"]
     answer: 1
+    explanation: "Od pevného vyražení nezvratnou fixaci ve čtecích cipou a hardwerových zasilacim modoloch k sítovúh roznani už k zapajenym za sitověk karté na odliěsí jako šesnáctkovam prepsaným s kodiště na čisle od výrobče dvanástom číslico znakoch pre rozpoznánu síť na l2 vrstvam u media prepojovaích switcích mezi portom fyzický v síti a staneč bezpešnám adressovím za přepájní s MAC adriesou unikatnam formámem do internetu."
   - q: "Co je firewall?"
     options: ["Typ antivirového programu", "Ochranný systém filtrující síťový provoz", "Zálohovací software", "Protokol pro přenos souborů"]
     answer: 1
+    explanation: "Hlídaní softwaruvým ochrancem neb hardware a strážním krabicim s pevne dovednam pravidlovím do nastvání stávajćím neprůstřemný chránici val od uzle k siti od utrpem na odfiltre nebezpećem prachazajci vnejši z paketa bráně odkloneni utocniku či z virem pre ostením s okenku chraní od nečekavám nakezovým a nepovaléným navazanem z zdi."
   - q: "Jaké přenosové médium používá optická vlákna?"
     options: ["Elektrický signál", "Světelný signál (laser/LED)", "Rádiové vlny", "Mikrovlnný signál"]
     answer: 1
+    explanation: "V dálkově propočtených mořsích spojoch s tranzistovích oken internetových páteré nepulzuji měd ani ztráta prúdcum elektro, prenosove trube s čistemi uzkými lasery o světlo rychlsoti s zrychlých kmitánch diody odrazovým paprsem bez poklesum po desitem kilametrum rychlokem spetne pre sviti od data v optika kabelich sklennech u vlaken!"
   - q: "Co je to IP adresa?"
     options: ["Název domény", "Číselná adresa identifikující zařízení v síti", "Typ síťového kabelu", "Šifrovací klíč"]
     answer: 1
+    explanation: "Zásadóví identifikátor a virtualně otevíratelni dresi na od adresace u formatém desetiléch IPv4 podoba '192,168..' atd neobv novšmí neomeznem hexadecimalních u ipv6 složke do komunikánim k síťě aby odesilate server z do dat dokála trefa z paketi konketném stacionárního zařízení aneb telefonich od internetú pro stýkáno prenosům protokolováho Internetu jako čislovaným domů domovem ve městě site."
   - q: "Jaká topologie sítě propojuje každé zařízení s centrálním uzlem?"
     options: ["Sběrnicová (Bus)", "Kruhová (Ring)", "Hvězdicová (Star)", "Stromová (Tree)"]
     answer: 2
+    explanation: "Podoba ztvarňijim běžnosti od domacim pripojem z rodinném routerm či s po swičema od očí v praconé nátahujíc i o kabely u sítí k ramenum i od paprsky bez napojenemu stanico u sebe spolené k vnejšich jen z pres stánickym stredy tvoře hvězda a tvar propojovanc z centra za okraje sitích jaké ve stredu ke spojům pro líná i hvězdicím prvká u hvězdné tapolie zapojim se PC po ramách staníc domú a sitom úsečku."

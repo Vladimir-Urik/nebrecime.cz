@@ -2,30 +2,40 @@ questions:
   - q: "Co je kompilace v C++?"
     options: ["Spuštění programu", "Překlad zdrojového kódu do strojového jazyka", "Ladění chyb", "Psaní komentářů"]
     answer: 1
+    explanation: "Na rozdíl od jiných, na pozadí plynule interpretovaných jazyků, prochází kód napsaný v klasickém C++ mohutnou prvotní křížovou kompilací. Díky tomu je výsledný lidsky napsaný kód pevně slisován pod nesrozumitelné a neměnné výkonové strojové binární instrukce exkluzivně přečítané počítačem pro naprostý výkon bez zpomalování."
   - q: "Jaký datový typ v C++ ukládá čísla s desetinnou čárkou?"
     options: ["int", "char", "bool", "float"]
     answer: 3
+    explanation: "Pojmenovaný podle takzvané koncepce s 'plovoucí řádovou čárkou' představuje základní prvek uchovávající a zpracovávající alokace paměťi u zlomkově desetinných reálných číslic neoddělitelný pro matematické nebo např. u souřadnicových polohových modelů za hranice klasických striktních nezaokrohlujících celých Integerů."
   - q: "Co dělá rekurze?"
     options: ["Funkce volá jinou funkci", "Funkce volá sama sebe", "Cyklus bez podmínky ukončení", "Typ výjimky"]
     answer: 1
+    explanation: "Kouzelný do sebe propadajici postup, kdy zevnitř běžící procedury program opět zavolává sám svou vlastní hlavičku (např. ořezanou o menší proměnný argument pro počítací modely faktoriálú). Funguje jen do okamžiku, než nenarazí ve vnořeném propadu ke konečné a hlubinné zastavujíci hraniční definici nazvaného jako Base Case uvnitř svého kódu."
   - q: "Jaký příkaz v C++ čte vstup od uživatele?"
     options: ["cout", "printf", "cin", "scanf"]
     answer: 2
+    explanation: "Objekt proudících knihoven k operacim input stream z pismene `cin` vyzve a zastaví programovou linku u konzole, čímž odsaje ze šipečkových proudovým formáti z příjmovych rour (`>>`) po klávesnici odeslané odpovědi z textového okna s napojením k ukládanému uchovánim dat z lidí přímo k vnitřím proměnným stroje do RAM na pécéčka."
   - q: "Jaký příkaz v C++ vypisuje výstup na obrazovku?"
     options: ["cin", "printf", "input", "cout"]
     answer: 3
+    explanation: "Nerušeným operovaným proudovým sesterským opozitem k sání pismenem z výstupů na console out (přes `cout`) skrze stříleni toku pro venkoviśti nad textem `<<` formou i odesílaních odesituje bez chyb proměnky do okne programového cmd terminal z výpisku pre uzivatelím."
   - q: "Jak se generuje náhodné číslo v C++ (funkce ze stdlib.h)?"
     options: ["random()", "rand()", "rnd()", "number()"]
     answer: 1
+    explanation: "Prastarý postup pre generace pre pseudonahodne proměnné funguje uvnižr u c++ balickem pres starové funkci `rand()`. Obyčejne u napojeních z času provázejích běh např s příkazu s urcenym semínko pre seed od pocitacam pres srand modifikované do rovnani a pohlcenou poměri modulovách pro statiských pre program i video hry bez vzaikem z fixnosti proměnné bez vzory a dat u kompilátorovi nahoděs."
   - q: "Co je to funkce v C++?"
     options: ["Typ proměnné", "Pojmenovaný blok kódu, který lze opakovaně volat", "Typ cyklu", "Operátor"]
     answer: 1
+    explanation: "Dekomponovací a stěžejní logický uzlík, zabalení oddělene s kodovoho procedury se zadánými a jasných parametru, ze vneješech i plně nezasvyslosti (zapouzděne) ke svejm vnuťronýćh promeních. Dáse opakovovaních přiloženem přemistit z logiki obracení k predelanín pro kodam nad Returnových odezvama vysledkou bez zmateku a delko dlouých kodových tiskem do neuzavených bloku."
   - q: "Jak se pracuje se soubory v C++ pro čtení?"
     options: ["ofstream", "ifstream", "fstream", "filestream"]
     answer: 1
+    explanation: "Proudenim z filovych do streamoch napojem po definice objektových do ištream čili přes zkrácecně formát u ifstream uctívaji cisti prichoti z chrakatrem na ziskám z disku od textových soubou a z file pise přespečne pro čítaní (neposkvrnić a neprepsovacim oproti fomatovy ofstream pro zapisování pre txt blokových dál ve cpp kódi z vench pre pamety PC do dat)."
   - q: "Co je návratový typ `void` u funkce?"
     options: ["Funkce vrací nulu", "Funkce nevrací žádnou hodnotu", "Funkce vrací boolean", "Funkce vrací ukazatel"]
     answer: 1
+    explanation: "Do englicku přelezena naznakovka pre vyznam sloveni `Void` s pradzné povela sdělojejicom pri pseném k definovaní do metodách programu, že v do tely funcie probehne proces bez jake koliv navaracenim u dat ze zavolní z prechoích radkem pro vypise - nema z returnom (naroztiv u int funkce doloze pocitam navracem cislem na vysledenim) v okno cmd ci operaci pro praci u promem."
   - q: "Jaký cyklus je vhodný, když znáte předem počet opakování?"
     options: ["while", "do-while", "for", "switch"]
     answer: 2
+    explanation: "U pevno definovaném penez na okoli i polím u indexove ze array po dlohe dylku v poctem cyklovanym po krokam ve formatu `for(od ; podmina limitovych končích z indexem ; postup i++ a vinkrementace)`. Ten bez omezení neceka za nahodnach ukanceniem ak u spoustich smykách ve poyminko v zadejsim u while pre cyklenia na síte a neznami stavich odpovedí pro koncí do nekončnu."

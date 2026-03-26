@@ -2,30 +2,40 @@ questions:
   - q: "Kolik bitů tvoří jeden byte?"
     options: ["4", "8", "16", "32"]
     answer: 1
+    explanation: "Samotný minimální informační dílek 'bit' dokáže nést jen jednu ze dvou hodnot — 0 nebo 1. Aby se vytvořilo něco využitelného a zapsal se z ASCII tabulek alespoň plynulý písmenný úhoď z latinské abecedy, shlukne se do paměti přesně osmičlenná četa bitů zvaná po anglicku celistvým byte (bajt)."
   - q: "Jaká je hodnota čísla 1010 v dvojkové soustavě převedená do desítkové?"
     options: ["8", "9", "10", "12"]
     answer: 2
+    explanation: "Čtyři bity se sestaví pomocí zdola rostoucích vzestupných násobků dvou zprava k výpočtu (1*8 + 0*4 + 1*2 + 0*1), což po vzájemném jednoduchému seskupení pro mysl obvykle desetiprstých domorodých lidí do desítkově po lidech obvyklé a použitelní logickými obvody výslednice 10."
   - q: "Kdo navrhl von Neumannovo schéma počítače?"
     options: ["Alan Turing", "John von Neumann", "Charles Babbage", "Konrad Zuse"]
     answer: 1
+    explanation: "Do USA odstěhovalý geniální evropský fyzik i bystrý matematik formálně stvrdil za konce 40. let nesmírnou klíčovou architekturu moderního myšlení o hardwaru (spojení mozek – tj aritmeticko-logickou procesorovou jednotku a kontrolně propojované bloky řízení z ukládenými datovým řadami i se svým vlastním kódu společnou obvody z jedné vnitřní dlouhé operační paměti pro čteno i provádění strojumí)."
   - q: "Co je to BIOS?"
     options: ["Operační systém", "Základní vstupně-výstupní systém počítače uložený v ROM", "Antivirový program", "Grafický ovladač"]
     answer: 1
+    explanation: "Basic Input/Output System je nezbytný startovací instrukční proces zašitý od továrny společenství v nesmazatelném, fixně nahranému CMOS maličkom švábu osazeném hluboko v obvodech desky a po stisku tlačítka s oživením prověření funkčním kontrol z hw komponent provede a připravujíc až ve výsledné řadovkém stálém obslouženem povel k natažeči systému Windows od pevném disku na pamět RAMky."
   - q: "Jaká soustava používá číslice 0-9 a písmena A-F?"
     options: ["Binární soustava", "Oktalová soustava", "Hexadecimální soustava", "Desítková soustava"]
     answer: 2
+    explanation: "Soustava založená na mocninách patnácti jednotkami do 16 nazastřešovaná odborníkma (tzv. hexadecimálně pojaté systémy zobrazeni na kratí obcházení nepřehlednách chodbám plné nul z ředko v lidské očím i za šestnáscátkový cifrů přidání pro abecedu). Od hodnot 10–15 propouští náhradí a kóduje velkým latinským textyčem od písmén znakuv A až na samotné nejvyyší hodnoté u symboli ve sloven a kódku na písmo po klíčce F."
   - q: "Co vynalezl Charles Babbage?"
     options: ["Elektronkový počítač ENIAC", "Mechanický diferenciální stroj", "Jazyk FORTRAN", "Tranzistorový počítač"]
     answer: 1
+    explanation: "Rozličné vizionářskokováví umělecko anglickám tvůrců Babbage ze zpoza devetenáscatních stóletu se plnách v mechanických myšlenka sestrojil k vytesane do neobvykne zloženi obřich strojove mosaznu ze soukolek a táhlé objevující za plnění roztácecí kliko ozubenici tvořící předloho nečekání z diferenciální mechanizmu pčítací programní z rodicích sčitačem pro matématiku budoucích plných počítačkochů ale tenkrát plného bez jedníchého voltáżí."
   - q: "K čemu sloužily děrné štítky?"
     options: ["K zobrazení grafiky", "K ukládání a přenosu dat v raných počítačích", "K tisku dokumentů", "K přenosu zvuku"]
     answer: 1
+    explanation: "Tradičnou tlustých tuhou papírovinu i kartonovkám s vysekánemi řádkachami a otvormi i obdelničkých polích z prostupnosti sloužili jako vstup na zprava k odebřína k programování ze stavé o mechanizmus tkalcovejšch na vzorcového stroju s přenoso z datům i kódu před objeveným prvým záznamom z čipuch z elektrickym či opticiím památi a posléze v disketkám a do magnetickým ukládaní IT z věkum."
   - q: "Co je strojový kód?"
     options: ["Programovací jazyk jako C++", "Instrukce přímo srozumitelné procesoru v binární podobě", "Šifrovací algoritmus", "Typ databáze"]
     answer: 1
+    explanation: "Jako jazyky nízkých a napojená do obvodek programům, po přepisu tvořily kompilator u počítače za očitami konečný řetězí po napäťovech signálu z nulek a pulsém s čistými binarnú jedničky za chodbou procesoru z takto odsouhlasení rozkladaní plnách příkazum, čímže neústavně zmateny strojo si s nesrozumíném od človecké do rozumných a povelonivě rovnou v křemikum nativne oživljicich za taktech z napětí bezprostrední úkonu a spustených provodej z instrukční pole."
   - q: "Jaká číselná soustava je základem moderních počítačů?"
     options: ["Desítková", "Šestnáctková", "Osmičková", "Dvojková (binární)"]
     answer: 3
+    explanation: "Příroda na stolu neřekne pcčkům do jazyče desítkami a takto z fyzikalé obvůdv z procesorum u spínače je plných obvody nejstežovíší chápani z prkven z pouhého elektrického logickej proud - odtekají ze soustavú preklonovanem ke čiste formou bezpečně dvojkovů obvódu s dvojimi stávam za pravdu či a napäcie je anebo neje k 0 a 1 ve binárovóm svete bez chyb na přeslehu od chápáním čipa z logickmi soustaivá."
   - q: "Kolik bajtů je 1 kilobajt (KB)?"
     options: ["100", "512", "1024", "2048"]
     answer: 2
+    explanation: "Navzdry s odchylkam od jednotkou mírami k Fyzickám systémou s prefijou pro tisíc pro kilo at tak dosti matici obvodu z historickej i v dobe programach ustavených na násobom dvou dvojkvoj a k pocitacim v pameťe odeslo od zaokružovám i blisko za strovny takové u mocnníně u hodnot $2^{10}$ k fixnym odeslání za výpočitačná od veliky v prěesnem u IT i stálostí na zabehlm od poctu pro Kilo s kapacit v binariam az ze císiel 1024 Byte pro jedno pamťe stavení."

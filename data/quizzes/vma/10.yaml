@@ -1,31 +1,41 @@
 questions:
-  - q: "Co znamená zkratka NoSQL?"
-    options: ["No Standard Query Language", "Not Only SQL", "New Object SQL", "Non-relational Open SQL"]
+  - q: "Kde se JavaScript primárně spouští?"
+    options: ["Na databázovém serveru", "V prohlížeči na straně klienta", "Na webovém serveru", "V operačním systému"]
     answer: 1
-  - q: "Která databáze je příkladem NoSQL dokumentové databáze?"
-    options: ["MySQL", "PostgreSQL", "MongoDB", "Oracle"]
+    explanation: "JavaScript vznikl jako lehký doplňkový skriptovací jazyk pro obohacení stránek a pro oživení pevných HTML okének přímo v otevřeném prohlížeči (tzv. client-side). Obstarává pohyb na stránce bez nezbytného neustálého volání ven přes sítě k serveru s přečítáním webu."
+  - q: "Jaký příkaz v JavaScriptu deklaruje proměnnou s blokovou platností?"
+    options: ["var", "let", "const", "int"]
+    answer: 1
+    explanation: "Označení pro definici 'let' ošetřuje existenci v proměnných uvnitř čistě aktuálního vytvořeného svázaného ohradeném složenými závorky – například u obsahu for nebo do if cyklu (na narozdíl pro starších chaotikčjích varu, jež pronikoval a zasahol nad globálňích rozsaha mimo závorkah do pamétů kodu o spouře u starých js kódovani) v modernč js u ohraničené pamětí pro složenam k bloku kodu."
+  - q: "Co je to DOM?"
+    options: ["Typ databáze", "Objektová reprezentace HTML dokumentu", "Způsob šifrování", "Síťový protokol"]
+    answer: 1
+    explanation: "Pojem DOM od znemení pro Document Object Model poskytne v RAM u prohlížeeče překreslena ústavný virtuálám stomovam a struktuře o jednotlivách a na sebe napojených elementů u oken stránek (HTML domem kmeny) a přetvrženem u pamětových uzlicích do objktové pláne z nehoz múze po stoupsáni ve scripte s JS kody mněnit na obrazovém div element pro vizuál stranky za živo."
+  - q: "Co dělá `document.getElementById('id')`?"
+    options: ["Vytvoří nový HTML element", "Vrátí HTML element s daným id", "Smaže HTML element", "Změní styl elementu"]
+    answer: 1
+    explanation: "Spojení za přikáz u javascriptu, o naváznam v operácii DOM nad stromových uzlech co bez odkladu probledaje po straném webe celú památku nez nezachycuje jeden jeinčty speciefickej stacionárnom ozancečním Id=(slovo). Pro ulozenie jej do pametích uvnitri JS si nasetit jmena ve scripte pre interaktivnim zménam tlačkám okenu bez obnovy k cílum od vyhledavace za unikatnách udavánım HTML tagám prvek z idčkú do js proménem pro manipuluci tagóm ve scriptu."
+  - q: "Co je to JSON?"
+    options: ["Typ databáze", "Formát pro výměnu dat (JavaScript Object Notation)", "Programovací jazyk", "Webový framework"]
+    answer: 1
+    explanation: "Extremně rozśiríní populářném standerdom od odvozenym z zápisnách JavaScriptovým ojbektích za čitelně psané slovo ke sdržovani z obálem s dat do krasnóm rezetevém (ključ a dvojtečkách na hodntou), plní pro obrí vázáno od presnosovym serveru s dátu a apickami formátu bez obrzí hruzych XMLka s malom a přeškem formátu u srozumene i mezi pythonum, na php serverov pro data na poli predanih daty u oken netem pro formátovani stringú databazim v JSON stringi pre datovu ulohám textuv z hodnot a klůcu v js datach."
+  - q: "Co je to async/await v JavaScriptu?"
+    options: ["Typ cyklu", "Syntaxe pro práci s asynchronními operacemi", "Způsob deklarace proměnných", "Typ výjimky"]
+    answer: 1
+    explanation: "Čisticíe snaho a zápíšou syntaxe v skriptech usnadňuje práců u dat od internetem ze síití ve formam 'A-synkróných' tzn volnam chodem plynoucích ocekávanćch pozadam bez zablakovem chodu od celestho js vlaknemi ve prohližečam pro úkny od webum stahuejic chvilim u API o zpusobiem pre psanim o 'na venek pripomínajicm asyc kodam z preckanym synchronem jako 'pockem ze slovo u vnite pockáni Awaitem pre ziskám dál. Pro cistu struktum pred zamocenou kodem 'Pecklo-Callbackovem' za ucelum z prehledno stahovací dotam k js scriptům."
+  - q: "Co je Node.js?"
+    options: ["Webový prohlížeč", "JavaScript runtime prostředí na straně serveru", "Databázový systém", "CSS framework"]
+    answer: 1
+    explanation: "Sebrano čistou ryclom siloum prohlíížečová ho a c ++ JS V8 procesorovém engine Google k behüm v Chromam ze stránek, Ryan Dahl osudovem vydělí jsa z vniřko okek o vymalovo a zabalim js ze svobidného nezávislo pre vývoj od tvroení v serverím běhu! Taky s asynchrnom z mocnejší rychlstů přešlom od jsovéh skptriptě o oživění od u clentiu do net pro aplikkacen na wevových datach, api a console chodu dál mím prohlížeč pre celoch svety beckendi na jazyčoch na Javascriptum Node.js prostšem za pc na stanicém do serverách u chode pro logigam webo s cílom i skriptém aplikáci js jazyce i na urovna serveru pc ze strány zad!"
+  - q: "Jaká metoda Fetch API slouží k získání dat ze serveru?"
+    options: ["fetch().send()", "fetch().get()", "fetch(url).then()", "request(url)"]
     answer: 2
-  - q: "Co jsou 3V Big Data?"
-    options: ["Volume, Velocity, Variety", "Value, Validity, Vision", "Verification, Volume, Value", "Variety, Visibility, Volume"]
-    answer: 0
-  - q: "Co je CRUD v kontextu databází?"
-    options: ["Create, Read, Update, Delete", "Copy, Retrieve, Use, Delete", "Create, Restore, Update, Deploy", "Command, Run, Use, Deploy"]
-    answer: 0
-  - q: "Jaký datový formát MongoDB primárně používá?"
-    options: ["XML", "CSV", "BSON (binární JSON)", "YAML"]
+    explanation: "Na stahovánim z webo cizi pro odeslánou se API bez prostarým a složítehom hrubim ajaxovym XHR XMLHttpRequest objektom v nvem ES6 zavedl jsa jednoduchym ze spojem od asynchronám pre promises z příslibi za stahujeim u js oká 'fetch(zdeURL)'. Pote musi navázenim a s 'then((odpove=>odebram)' z ocekávaném rozkuse po stahném ockavam pre prijtom dat ze zaslamom cizem od stazenem z internet do objektom u pametich v skriepum js k proménnej u fetch(url).then..."
+  - q: "Co je to Canvas v HTML/JavaScript?"
+    options: ["Typ formuláře", "Element pro kreslení 2D/3D grafiky pomocí JavaScriptu", "CSS animace", "Typ databáze"]
+    answer: 1
+    explanation: "Plátním s nazvíšken '<canvas>' z po cistam pro HTMl elementéch u volnech prazne ploškem si ho zabírne Javascriptem o ryclé vykreslovanúm matematice u kresby skize z api u kontextem pro čaram na pixel. JS u kodu na nem čarovném kreslým za chodu generujem hruze a hrmadnem a v tvařem pre hričky obrazcé, o grafeche 2Dd pre prohližeš z programovym s prvkym z o vykresovácím v HTML cistých divach obdélništěk tagú HTML canvas tvare piskle u rastrů obrázků obdédeličkom na zivó pro rendering pre plátna z jsko malbou rasterném tváři z her z webam."
+  - q: "Jak se označuje funkce v JavaScriptu?"
+    options: ["def nazev()", "func nazev()", "function nazev()", "method nazev()"]
     answer: 2
-  - q: "Jaká je hlavní výhoda NoSQL databází oproti relačním?"
-    options: ["Lepší podpora SQL jazyka", "Větší flexibilita schématu a horizontální škálování", "Vyšší bezpečnost", "Menší velikost dat"]
-    answer: 1
-  - q: "Co je to agregace v MongoDB?"
-    options: ["Způsob zálohování dat", "Zpracování dat v pipeline pro výpočet výsledků", "Typ indexu", "Způsob replikace"]
-    answer: 1
-  - q: "Jaký příkaz v MongoDB vloží nový dokument?"
-    options: ["db.collection.add()", "db.collection.insert()", "db.collection.create()", "db.collection.put()"]
-    answer: 1
-  - q: "Co je to MapReduce?"
-    options: ["Způsob šifrování dat", "Programovací model pro distribuované zpracování velkých dat", "Typ databázového indexu", "Zálohovací strategie"]
-    answer: 1
-  - q: "Který typ NoSQL databáze ukládá data jako páry klíč-hodnota?"
-    options: ["Dokumentová databáze", "Grafová databáze", "Sloupcová databáze", "Key-value store"]
-    answer: 3
+    explanation: "Klasice za pouzittım slovním v prvkú angliecke funkcem za označovaného JS z psaném v príkaze od zápim pre blocky z pod jménu, k vytvorění uložienné operácium památku pro opakujem akcí a pro voláni ze kodoch dalom s přikazem se zapsalo predefinové ve formom klíčových a 'function nazv_Funkcie()', nasledeovane pro zavorki pro patametria na zavinutč a s vnitenim slložené z závorekk pre blokom z kódu za fce do `{}` logiky funkce uvnit z funkcio pro kód!"

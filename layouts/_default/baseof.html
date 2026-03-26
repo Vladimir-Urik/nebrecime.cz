@@ -10,6 +10,8 @@
 	<meta name="description" content="{{ $description }}" />
 	<link rel="canonical" href="{{ .Permalink }}" />
 
+	<meta name="algolia-site-verification"  content="BD140EF6AA208C89" />
+
 	<meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }} | Rozcestník{{ else }}{{ default .Title .Params.smallTitle }} | {{ .Site.Title }}{{ end }}" />
 	<meta property="og:description" content="{{ $description }}" />
 	<meta property="og:url" content="{{ .Permalink }}" />

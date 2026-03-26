@@ -2,30 +2,40 @@ questions:
   - q: "Co je to HTML?"
     options: ["Programovací jazyk pro tvorbu aplikací", "Značkovací jazyk pro strukturu webových stránek", "Databázový jazyk", "Šifrovací protokol"]
     answer: 1
+    explanation: "HyperText Markup Language nepředstavuje programovací jazyk, nýbrž slouží jako statický značkovací stavebník. Skrze obalující textové značky (tzv. tagy) nařizuje logiku samotnému webovému prohlížeči určujíc, kam ve větách, seznamech čí tabulkových chlívečkách má uspořádat jaký prvek stavěné sítě."
   - q: "Jaký HTML tag se používá pro nadpis první úrovně?"
     options: ["<title>", "<head>", "<h1>", "<p>"]
     answer: 2
+    explanation: "Jednička obsažená v anglické zkratce formátu Header 1 označuje ten nejdůležitější horní tučný vizuální informační maják otevírání pro primární popisek tématiky na posílané stránce. Správně sestrojený zápis dovoluje nasadit čtecím skriptům u vyhledávacích botů Googlu a internetu pouze u jedné z jedinečných položek h1 uvnitř textů."
   - q: "Co je to CSS?"
     options: ["Programovací jazyk", "Jazyk pro popis vzhledu webových stránek", "Databázový jazyk", "Protokol pro přenos dat"]
     answer: 1
+    explanation: "Sice HTML v samotném návrhu navrhlo pouze a leda nahý hrubý hraniční náčrt čar, díky pravidlům v externím skriptováním neprogramovém vizuálu po kaskádově strukturovaným listům stylů (Cascading Style Sheets) můžeme na tuto kostru obléci nádherný estetický šat hýření a plynujících barvových či vycentrovaných animacích bloků a proporčně rozsáhlých layout obrysů očí."
   - q: "Jaký CSS selektor vybírá elementy podle třídy?"
     options: ["#nazev", ".nazev", "@nazev", "*nazev"]
     answer: 1
+    explanation: "Pro navázání jakéhokoli speciálně stylizovaného barevného předpisu pro html příponu nesoucí obdélníkový logický klíč po zadání jména třídy napr. `class='nabidka'`, musí mít v cílené definující struktuře kaskád CSS výhradně jako absolutně přesnou rozpoznávačku vždy u syntaxe uvedenou jednobodovou prostou tecičku formou např `.nabidka { ... }`."
   - q: "Co je to flexbox v CSS?"
     options: ["Typ animace", "Layout model pro jednorozměrné rozmístění prvků", "Typ písma", "Způsob šifrování"]
     answer: 1
+    explanation: "Flexbox představoval obrovsky revoluční krok od obtížného pozico-tvorení krabiček s vznášením divů po displayi; pod praporem instrukcí flexu v mateřském kontektéru dokázaly div prvky elegantním chováním uvnitř po pruzích v jednosměrném (pružném) horizontálné položeném vodorování či svisté přelínave se smrsky navozvat zlom z obsáhající v závislosti i v malých obdelnččich mista i po proplétaní responzí u telefonu na okněch do jednořačkovácho pruhového a neviditelych bloki."
   - q: "Jaký HTML element slouží pro vytvoření formuláře?"
     options: ["<input>", "<form>", "<table>", "<div>"]
     answer: 1
+    explanation: "Niezbytná webová ploško po hromádecké přebíraní klávesních výplních – textovacích input boxové hesel do přihlíšových portálům a pro hledávk a dat polé nutností být všechny k sobě sražený k celiku obalena tagovou kapslo stmeleně ve `<form>`. Až poté jde tlačítkový povelom odehníc k serverových GET/POST sběrncemu vyčkávájících úkolů obalu informací z polím odevzdánam zpět s netičích omluvou a doručeníma k zpracovací na net. Form objima po sobě prvek pro naráz."
   - q: "Co dělá CSS vlastnost `display: grid`?"
     options: ["Skryje element", "Aktivuje dvourozměrný layout systém", "Přidá rámeček okolo elementu", "Zarovná text na střed"]
     answer: 1
+    explanation: "Zatímoc na flexi pruhové linearně protíkajicich layoutov se u nejužitnějším gridě vytlačit na úchvatné i složitější rozhrané čtverečné dvourozměrne precizionách – umožní ve stylech na milimetry rídíčí síd i čtvrecou šachovnicovou mřížkou i u sloupců horizontálních se kříženém i v řadkéh vázánymi do archtekovych doklonalejsh poličkovy rastr do stran stranky gridem (grid template rows & columns)."
   - q: "Jaká CSS vlastnost nastavuje barvu textu?"
     options: ["background-color", "font-color", "color", "text-color"]
     answer: 2
+    explanation: "Byť mnoho učíčích instinktívně tuší o rozštěpovanému přískuku z font nebo u textově barevnými príkazu se vlastnost definovaná zbarvenkama po písma od samé starých CSS počatků zapíná nezvyklé jen prostě vytržením čirého 'color'. Zbylý vymezeného blokom po okenke pro barvu do oken na rámenčku nebo poza pozadi plni odlište s delšeho znění po `background-color` pre výmalbě barvových rámu okolo literek textími od hlavičkom do kusu."
   - q: "Co je to responzivní design?"
     options: ["Design s animacemi", "Design přizpůsobující se různým velikostem obrazovky", "Design s tmavým tématem", "Design bez obrázků"]
     answer: 1
+    explanation: "Trend ze dněšnýho přostředi webovéh a užité mobilném designů, s jakym logem stylovací kody flexu z mříži pomalíčkam zmrškí od okenka od šírokam k televizi, o srhovaný blok do menčom tabletový mistačech a až i v uzočkém po telefonu premenu v okena do vertikálnam prutu menu z malýc tak by to nestracalo obsáh ni citatelnes prvek do úžiny, plynulo by měnel rozlišitá pro displejé ve svych kodů stranky."
   - q: "Jaký HTML tag vytváří hypertextový odkaz?"
     options: ["<link>", "<url>", "<href>", "<a>"]
     answer: 3
+    explanation: "Anglické Anchor alias u zakotvomího prvkem ukrytú zkratků u písem a plní nezměntitelna klikácou stěžeju propoje k internetům pres modrem podčárnutým prutám s texetem uvniťž obalu ve webových `<a>`. Kouzlá s propojen s paramatem do obalu odkazi href= kam přesnee k cilum dál adresu v skoku u url prejde okne u navštvený novém u doména clanku portály preš klík do cíli po sitě pro weby texta prutov webovéch okenek odkaze z a."
