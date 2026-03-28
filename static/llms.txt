@@ -1,0 +1,20 @@
+# Nebrecime.cz — Maturita bez zbytečnýho brečení a keců
+
+> Taháky a komplet materiály k maturitě. Čistý výpisky pro Češtinu, DVK (Dějiny výtvarné kultury) a VMA (IT a programování), včetně interaktivních kvízů a odkazů na stažení.
+
+## Core Content
+
+[Čeština](/cestina) – Vypracovaný podklady pro český jazyk (autor Dany Machy) a napojení na Google Drive.
+[DVK - Dějiny výtvarné kultury](/dvk) – 20 sfouknutých maturitních otázek od pravěku po 21. století. Součástí je chronologie, obrazový přílohy a QUIZ k většině témat.
+[VMA - Výpočetní technika](/vma) – 24 hard-skills otázek (od HW, přes sítě, weby v HTML/PHP/JS, až po Javu, C++, SQL a kryptologii). Včetně kvízů.
+[DVK Google Docs](#) – Komplet vypracovaný texty pro dějiny umění nasdílený v jednom dokumentu.
+
+## Resources
+
+[Užitečné odkazy](/uzitecne-odkazy) – Linky na externí zdroje, co bodnou. Výukový materiály (Vráblik), DVK weby (Web Gallery of Art) a teorie pro češtinu (imaturita.cz, studentmag.cz).
+[Soubory ke stažení](/soubory) – Přímý linky na stažení obrazových příloh k DVK a oborových otázek k VMA.
+
+## Optional
+
+[O projektu](/o-projektu) – Info o lidech, co za tím stojí (Tvůrce: Daniel Machalicek, Správce: Vladimír Urík).
+[GitHub](#) – Link na repozitář s kódem webu.
