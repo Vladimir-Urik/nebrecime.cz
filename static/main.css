@@ -584,6 +584,8 @@ footer > p + p  { margin-top: 0.25em; }
 footer > p.small { font-size: 0.78em; }
 footer > p > span { font-weight: 600; color: var(--accent); }
 
+.footer-hugo { display: inline-flex; align-items: center; gap: 4px; }
+
 /* ─── HOMEPAGE HEADINGS ─── */
 .heading-flex {
 	margin-top: 2.5em;
