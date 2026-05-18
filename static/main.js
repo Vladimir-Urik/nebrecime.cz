@@ -11,6 +11,35 @@ themeSwitcher.onclick = () => {
 	localStorage.setItem('theme', next);
 };
 
+// ── Contribute bubble ──
+const contributeBubble = document.getElementById('contribute-bubble');
+const contributeBtn    = document.getElementById('contribute-btn');
+const contributePanel  = document.getElementById('contribute-panel');
+const contributeClose  = document.getElementById('contribute-close');
+
+function openContribute() {
+	contributePanel.hidden = false;
+	contributeBubble.classList.add('open');
+}
+
+function closeContribute(persist) {
+	contributePanel.hidden = true;
+	contributeBubble.classList.remove('open');
+	if (persist) localStorage.setItem('contribute_dismissed', '1');
+}
+
+if (!localStorage.getItem('contribute_dismissed')) openContribute();
+
+contributeBtn.addEventListener('click', e => {
+	e.stopPropagation();
+	contributePanel.hidden ? openContribute() : closeContribute(false);
+});
+
+contributeClose.addEventListener('click', e => {
+	e.stopPropagation();
+	closeContribute(true);
+});
+
 // ── Scroll-up ──
 const updateScrollUp = () => {
 	scrollUp.classList.toggle('hidden', window.scrollY <= 200);
