@@ -1,6 +1,6 @@
 # nebrecime.cz
 
-Studijní web pro studenty školy CreativeHill.CZ. Poznámky z maturitních předmětů
+Studijní web pro studenty školy CreativeHill.CZ. Poznámky z maturitních předmětů 
 
 ## Struktura projektu
 
@@ -108,3 +108,4 @@ Kvíz se automaticky zobrazí na konci lekce a na homepage se u lekce ukáže ba
 - **Hugo** — statický generátor webu (`uglyURLs = true` zachovává URL formát `/dvk/1.html`)
 - **Swup.js** — SPA přechody mezi stránkami
 - **GitHub Actions** → **GitHub Pages** — automatický deploy při push
+Test
