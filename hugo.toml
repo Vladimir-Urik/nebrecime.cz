@@ -1,7 +1,10 @@
 baseURL = "https://nebrecime.cz/"
-languageCode = "cs"
+locale = "cs"
 title = "Maturita Formalita"
 uglyURLs = true
+
+[security]
+  allowContent = ["! ^text/org$"]
 
 [markup]
   [markup.goldmark]
